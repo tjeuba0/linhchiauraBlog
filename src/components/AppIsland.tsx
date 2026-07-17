@@ -1,149 +1,195 @@
 import { useCallback, useEffect, useRef, useState } from 'react';
 import { Heart, Sparkles } from 'lucide-react';
-import type { PostView } from '../lib/posts';
+import type { PostSummary } from '../lib/posts';
 
 type Tab = 'nhatky' | 'gioithieu' | 'hopthu';
+type SubmitState = 'idle' | 'sending' | 'error';
 
-type Reading = { size: number; bold: boolean; italic: boolean };
-
-const STORAGE_KEY = 'lc-reading';
-const READING_MIN = 13;
-const READING_MAX = 24;
-const DEFAULT_READING: Reading = { size: 15.5, bold: false, italic: false };
 const EMAIL_RE = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+const TURNSTILE_SITE_KEY = import.meta.env.PUBLIC_TURNSTILE_SITE_KEY?.trim() ?? '';
+const TAB_ORDER: Tab[] = ['nhatky', 'gioithieu', 'hopthu'];
+const TAB_HASH: Record<Tab, string> = {
+  nhatky: '#nhat-ky',
+  gioithieu: '#gioi-thieu',
+  hopthu: '#hop-thu',
+};
 
-const clampSize = (n: number) => Math.min(READING_MAX, Math.max(READING_MIN, n));
-
-interface Props {
-  posts: PostView[];
-  initialSlug?: string | null;
+interface TurnstileApi {
+  render(
+    element: HTMLElement,
+    options: {
+      sitekey: string;
+      theme: 'light';
+      size: 'flexible';
+      callback: (token: string) => void;
+      'expired-callback': () => void;
+      'error-callback': () => boolean;
+    },
+  ): string;
+  remove(widgetId: string): void;
+  reset(widgetId: string): void;
 }
 
-export default function AppIsland({ posts, initialSlug = null }: Props) {
+declare global {
+  interface Window {
+    turnstile?: TurnstileApi;
+  }
+}
+
+interface Props {
+  posts: PostSummary[];
+}
+
+function tabFromHash(hash: string): Tab {
+  const match = TAB_ORDER.find((key) => TAB_HASH[key] === hash);
+  return match ?? 'nhatky';
+}
+
+export default function AppIsland({ posts }: Props) {
   const [tab, setTab] = useState<Tab>('nhatky');
 
-  // --- Modal state (mirrored in a ref so window listeners never read stale values) ---
-  const [activeSlug, setActiveSlug] = useState<string | null>(initialSlug);
-  const activeSlugRef = useRef<string | null>(initialSlug);
-  const setActive = useCallback((slug: string | null) => {
-    activeSlugRef.current = slug;
-    setActiveSlug(slug);
-  }, []);
-  const activePost = activeSlug ? posts.find((p) => p.slug === activeSlug) ?? null : null;
-
-  // --- Reading preferences (persisted to localStorage) ---
-  const [reading, setReading] = useState<Reading>(DEFAULT_READING);
-  const readingRef = useRef<Reading>(DEFAULT_READING);
-  const setReadingPersist = useCallback((next: Reading) => {
-    readingRef.current = next;
-    setReading(next);
-    try {
-      localStorage.setItem(STORAGE_KEY, JSON.stringify(next));
-    } catch {
-      /* storage unavailable — keep in-memory only */
-    }
-  }, []);
-
   useEffect(() => {
-    try {
-      const raw = localStorage.getItem(STORAGE_KEY);
-      if (!raw) return;
-      const saved = JSON.parse(raw) as Partial<Reading>;
-      const next: Reading = {
-        size: typeof saved.size === 'number' ? clampSize(saved.size) : DEFAULT_READING.size,
-        bold: !!saved.bold,
-        italic: !!saved.italic,
-      };
-      readingRef.current = next;
-      setReading(next);
-    } catch {
-      /* ignore malformed storage */
-    }
-  }, []);
-
-  const decSize = () =>
-    setReadingPersist({ ...readingRef.current, size: clampSize(readingRef.current.size - 1) });
-  const incSize = () =>
-    setReadingPersist({ ...readingRef.current, size: clampSize(readingRef.current.size + 1) });
-  const toggleBold = () =>
-    setReadingPersist({ ...readingRef.current, bold: !readingRef.current.bold });
-  const toggleItalic = () =>
-    setReadingPersist({ ...readingRef.current, italic: !readingRef.current.italic });
-
-  // --- Open / close with deep-link URL sync ---
-  const openPost = useCallback(
-    (slug: string) => {
-      setActive(slug);
-      try {
-        window.history.pushState({ lcModal: slug }, '', `/bai/${slug}`);
-      } catch {
-        /* history unavailable — modal still opens */
-      }
-    },
-    [setActive],
-  );
-
-  const closePost = useCallback(() => {
-    if (activeSlugRef.current == null) return;
-    const state = window.history.state as { lcModal?: string } | null;
-    if (state && state.lcModal) {
-      window.history.back(); // popstate handler clears the modal
-    } else {
-      setActive(null);
-      try {
-        window.history.replaceState({}, '', '/');
-      } catch {
-        /* noop */
-      }
-    }
-  }, [setActive]);
-
-  useEffect(() => {
-    const onPop = () => {
-      const m = window.location.pathname.match(/^\/bai\/([^/]+)\/?$/);
-      setActive(m ? decodeURIComponent(m[1]) : null);
-    };
-    window.addEventListener('popstate', onPop);
-    return () => window.removeEventListener('popstate', onPop);
-  }, [setActive]);
-
-  useEffect(() => {
-    const onKey = (e: KeyboardEvent) => {
-      if (e.key === 'Escape') closePost();
-    };
-    document.addEventListener('keydown', onKey);
-    return () => document.removeEventListener('keydown', onKey);
-  }, [closePost]);
-
-  // Lock background scroll while the modal is open.
-  useEffect(() => {
-    if (activeSlug == null) return;
-    document.body.style.overflow = 'hidden';
+    const syncFromUrl = () => setTab(tabFromHash(window.location.hash));
+    syncFromUrl();
+    window.addEventListener('hashchange', syncFromUrl);
+    window.addEventListener('popstate', syncFromUrl);
     return () => {
-      document.body.style.overflow = '';
+      window.removeEventListener('hashchange', syncFromUrl);
+      window.removeEventListener('popstate', syncFromUrl);
     };
-  }, [activeSlug]);
+  }, []);
 
-  // --- Hộp Thư form ---
+  const selectTab = (next: Tab, pushHistory = true) => {
+    setTab(next);
+    if (!pushHistory || window.location.hash === TAB_HASH[next]) return;
+    window.history.pushState({ lcTab: next }, '', `${window.location.pathname}${TAB_HASH[next]}`);
+  };
+
+  const handleTabKeyDown = (event: React.KeyboardEvent<HTMLButtonElement>, current: Tab) => {
+    const currentIndex = TAB_ORDER.indexOf(current);
+    let nextIndex: number | null = null;
+
+    if (event.key === 'ArrowRight') nextIndex = (currentIndex + 1) % TAB_ORDER.length;
+    if (event.key === 'ArrowLeft') nextIndex = (currentIndex - 1 + TAB_ORDER.length) % TAB_ORDER.length;
+    if (event.key === 'Home') nextIndex = 0;
+    if (event.key === 'End') nextIndex = TAB_ORDER.length - 1;
+    if (nextIndex == null) return;
+
+    event.preventDefault();
+    const next = TAB_ORDER[nextIndex];
+    selectTab(next);
+    requestAnimationFrame(() => document.getElementById(`lc-tab-${next}`)?.focus());
+  };
+
   const [name, setName] = useState('');
   const [mail, setMail] = useState('');
   const [msg, setMsg] = useState('');
-  const [hp, setHp] = useState(''); // honeypot
+  const [hp, setHp] = useState('');
   const [sent, setSent] = useState(false);
+  const [submitState, setSubmitState] = useState<SubmitState>('idle');
+  const [submitError, setSubmitError] = useState('');
+  const [turnstileToken, setTurnstileToken] = useState('');
+  const turnstileHostRef = useRef<HTMLDivElement>(null);
+  const turnstileWidgetRef = useRef<string | null>(null);
+
+  const resetTurnstile = useCallback(() => {
+    setTurnstileToken('');
+    if (turnstileWidgetRef.current) window.turnstile?.reset(turnstileWidgetRef.current);
+  }, []);
+
+  useEffect(() => {
+    if (tab !== 'hopthu' || !TURNSTILE_SITE_KEY || !turnstileHostRef.current) return;
+
+    let cancelled = false;
+    const host = turnstileHostRef.current;
+
+    const renderWidget = () => {
+      if (cancelled || !window.turnstile || turnstileWidgetRef.current) return;
+      turnstileWidgetRef.current = window.turnstile.render(host, {
+        sitekey: TURNSTILE_SITE_KEY,
+        theme: 'light',
+        size: 'flexible',
+        callback: setTurnstileToken,
+        'expired-callback': () => setTurnstileToken(''),
+        'error-callback': () => {
+          setTurnstileToken('');
+          return true;
+        },
+      });
+    };
+
+    if (window.turnstile) {
+      renderWidget();
+    } else {
+      const existing = document.querySelector<HTMLScriptElement>('script[data-lc-turnstile]');
+      const script = existing ?? document.createElement('script');
+      script.addEventListener('load', renderWidget);
+      if (!existing) {
+        script.src = 'https://challenges.cloudflare.com/turnstile/v0/api.js?render=explicit';
+        script.async = true;
+        script.defer = true;
+        script.dataset.lcTurnstile = 'true';
+        document.head.appendChild(script);
+      }
+    }
+
+    return () => {
+      cancelled = true;
+      if (turnstileWidgetRef.current && window.turnstile) {
+        window.turnstile.remove(turnstileWidgetRef.current);
+      }
+      turnstileWidgetRef.current = null;
+      setTurnstileToken('');
+    };
+  }, [tab]);
 
   const mailInvalid = mail.trim() !== '' && !EMAIL_RE.test(mail.trim());
-  const canSend = name.trim() !== '' && msg.trim() !== '' && !mailInvalid;
+  const turnstileReady = !TURNSTILE_SITE_KEY || turnstileToken !== '';
+  const canSend =
+    name.trim() !== '' &&
+    msg.trim() !== '' &&
+    !mailInvalid &&
+    turnstileReady &&
+    submitState !== 'sending';
 
-  const handleSubmit = (e: React.FormEvent) => {
-    e.preventDefault();
+  const handleSubmit = async (event: React.SubmitEvent<HTMLFormElement>) => {
+    event.preventDefault();
     if (!canSend) return;
-    if (hp.trim() !== '') {
-      // Bot filled the hidden field — pretend success, don't process.
+
+    setSubmitState('sending');
+    setSubmitError('');
+
+    try {
+      const response = await fetch('/api/contact', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          name: name.trim(),
+          mail: mail.trim(),
+          msg: msg.trim(),
+          website: hp.trim(),
+          turnstileToken,
+        }),
+      });
+      const result = (await response.json().catch(() => null)) as
+        | { ok?: boolean; error?: { message?: string } }
+        | null;
+
+      if (!response.ok || !result?.ok) {
+        throw new Error(result?.error?.message || 'Không thể gửi lời nhắn lúc này.');
+      }
+
       setSent(true);
-      return;
+      setSubmitState('idle');
+    } catch (error) {
+      setSubmitState('error');
+      setSubmitError(
+        error instanceof Error
+          ? error.message
+          : 'Lời nhắn chưa gửi được. Bạn vui lòng thử lại sau nhé.',
+      );
+      resetTurnstile();
     }
-    // TODO: POST { name, mail, msg } to the private inbox endpoint (backend later).
-    setSent(true);
   };
 
   const resetForm = () => {
@@ -152,13 +198,22 @@ export default function AppIsland({ posts, initialSlug = null }: Props) {
     setMail('');
     setMsg('');
     setHp('');
+    setSubmitState('idle');
+    setSubmitError('');
+    resetTurnstile();
   };
 
   const tabBtn = (key: Tab, label: string) => (
     <button
+      id={`lc-tab-${key}`}
       type="button"
+      role="tab"
       className={`lc-tab${tab === key ? ' is-active' : ''}`}
-      onClick={() => setTab(key)}
+      aria-selected={tab === key}
+      aria-controls={`lc-panel-${key}`}
+      tabIndex={tab === key ? 0 : -1}
+      onClick={() => selectTab(key)}
+      onKeyDown={(event) => handleTabKeyDown(event, key)}
     >
       {label}
     </button>
@@ -166,115 +221,131 @@ export default function AppIsland({ posts, initialSlug = null }: Props) {
 
   return (
     <>
-      <div className="lc-tabs">
-        <div className="lc-tabs-inner">
+      <nav className="lc-tabs" aria-label="Nội dung chính">
+        <div className="lc-tabs-inner" role="tablist" aria-label="Chọn nội dung">
           {tabBtn('nhatky', 'Nhật Ký')}
           {tabBtn('gioithieu', 'Giới Thiệu')}
           {tabBtn('hopthu', 'Hộp Thư')}
         </div>
-      </div>
+      </nav>
 
       {tab === 'nhatky' && (
-        <div className="lc-section">
+        <section
+          id="lc-panel-nhatky"
+          className="lc-section"
+          role="tabpanel"
+          aria-labelledby="lc-tab-nhatky"
+        >
           <div className="lc-nk-head">
             <div>
               <h2 className="lc-h2">
-                <span>📖</span>
+                <span aria-hidden="true">📖</span>
                 <span>Nhật Ký Linhchiaura</span>
               </h2>
               <p className="lc-sub">Nơi lắng đọng những dòng suy ngẫm mộc mạc và chân thành.</p>
             </div>
-            <button type="button" className="lc-newpost">
-              <span>+</span>
-              <span>Viết bài mới</span>
-            </button>
           </div>
           <div className="lc-grid">
-            {posts.map((p) => (
-              <button
-                key={p.slug}
-                type="button"
-                className="lc-card"
-                onClick={() => openPost(p.slug)}
-              >
+            {posts.map((post) => (
+              <a key={post.slug} className="lc-card" href={`/bai/${post.slug}`}>
                 <div className="lc-card-top">
-                  <span className="lc-tag">{p.tag}</span>
-                  <span className="lc-mins">{p.mins}</span>
+                  <span className="lc-tag">{post.tag}</span>
+                  <span className="lc-mins">{post.mins}</span>
                 </div>
-                <div className="lc-card-title">{p.title}</div>
-                <div className="lc-card-excerpt">{p.excerpt}</div>
-                <div className="lc-card-more">Đọc tiếp →</div>
-              </button>
+                <h3 className="lc-card-title">{post.title}</h3>
+                <p className="lc-card-excerpt">{post.excerpt}</p>
+                <div className="lc-card-bottom">
+                  <time className="lc-card-date" dateTime={post.isoDate}>
+                    {post.date}
+                  </time>
+                  <span className="lc-card-more">Đọc tiếp →</span>
+                </div>
+              </a>
             ))}
           </div>
-        </div>
+        </section>
       )}
 
       {tab === 'gioithieu' && (
-        <div className="lc-section">
+        <section
+          id="lc-panel-gioithieu"
+          className="lc-section"
+          role="tabpanel"
+          aria-labelledby="lc-tab-gioithieu"
+        >
           <div className="lc-about-grid">
-            <div className="lc-about-card">
-              <div className="lc-blob lc-blob--green" />
-              <div className="lc-about-icon lc-about-icon--heart">
+            <article className="lc-about-card">
+              <div className="lc-blob lc-blob--green" aria-hidden="true" />
+              <div className="lc-about-icon lc-about-icon--heart" aria-hidden="true">
                 <Heart size={18} strokeWidth={2} />
               </div>
-              <h3 className="lc-about-title">Sở thích &amp; Đam mê</h3>
+              <h2 className="lc-about-title">Sở thích &amp; Đam mê</h2>
               <p className="lc-about-desc">
-                Chạy bộ &amp; leo núi, năng động, Sáng tạo nội dung số, Tâm lý học, Du lịch khám phá
-                &amp; Thiện nguyện.
+                Chạy bộ &amp; leo núi, sáng tạo nội dung số, tâm lý học, du lịch khám phá &amp; thiện
+                nguyện.
               </p>
-            </div>
-            <div className="lc-about-card">
-              <div className="lc-blob lc-blob--orange" />
-              <div className="lc-about-icon lc-about-icon--spark">
+            </article>
+            <article className="lc-about-card">
+              <div className="lc-blob lc-blob--orange" aria-hidden="true" />
+              <div className="lc-about-icon lc-about-icon--spark" aria-hidden="true">
                 <Sparkles size={18} strokeWidth={2} />
               </div>
-              <h3 className="lc-about-title">Phong cách sống</h3>
+              <h2 className="lc-about-title">Phong cách sống</h2>
               <p className="lc-about-desc">
-                Năng động, Hiện đại, Độc lập, Tinh tế và luôn tràn đầy tiếng cười, kết hợp sự mềm mại
+                Năng động, hiện đại, độc lập, tinh tế và luôn tràn đầy tiếng cười; kết hợp sự mềm mại
                 nữ tính với tinh thần tự tin bứt phá.
               </p>
-            </div>
-            <div className="lc-about-card">
-              <div className="lc-blob lc-blob--green" />
-              <div className="lc-about-icon lc-about-icon--quote">❞</div>
-              <h3 className="lc-about-title">Triết lý sống</h3>
+            </article>
+            <article className="lc-about-card">
+              <div className="lc-blob lc-blob--green" aria-hidden="true" />
+              <div className="lc-about-icon lc-about-icon--quote" aria-hidden="true">
+                ❞
+              </div>
+              <h2 className="lc-about-title">Triết lý sống</h2>
               <p className="lc-about-desc lc-about-desc--italic">
-                Sống rực rỡ và tỏa sáng theo cách riêng của bạn. Bằng tri thức - sự bình an - và tử
-                tế!
+                Sống rực rỡ và tỏa sáng theo cách riêng của bạn. Bằng tri thức, sự bình an và tử tế!
               </p>
+            </article>
+          </div>
+          <figure className="lc-banner">
+            <div className="lc-banner-mark" aria-hidden="true">
+              “
             </div>
-          </div>
-          <div className="lc-banner">
-            <div className="lc-banner-mark">“</div>
-            <p className="lc-banner-quote">
-              "Aut inveniam viam aut faciam – Hoặc tôi sẽ tìm thấy một con đường, hoặc tôi sẽ tự tạo
-              con đường cho chính tôi"
-            </p>
-          </div>
-        </div>
+            <blockquote className="lc-banner-quote">
+              Aut inveniam viam aut faciam – Hoặc tôi sẽ tìm thấy một con đường, hoặc tôi sẽ tự tạo
+              con đường cho chính tôi.
+            </blockquote>
+          </figure>
+        </section>
       )}
 
       {tab === 'hopthu' && (
-        <div className="lc-ht-wrap">
+        <section
+          id="lc-panel-hopthu"
+          className="lc-ht-wrap"
+          role="tabpanel"
+          aria-labelledby="lc-tab-hopthu"
+        >
           <div className="lc-ht-col">
             <div className="lc-ht-head">
               <h2 className="lc-h2 lc-h2--center">
-                <span>🕊</span>
+                <span aria-hidden="true">🕊</span>
                 <span>Gửi Lời Nhắn Cho Mình</span>
               </h2>
               <p className="lc-ht-sub">
-                Một câu tâm sự, một câu hỏi, hay chỉ đơn giản là lời chào dịu ngọt. Thư gửi riêng cho
-                mình thôi — không hiển thị công khai, và mình sẽ hồi âm sớm nhất có thể 🤍
+                Một câu tâm sự, một câu hỏi hay chỉ đơn giản là lời chào. Thư được gửi riêng cho mình
+                và không hiển thị công khai. Nếu muốn nhận hồi âm, bạn hãy để lại email nhé 🤍
               </p>
             </div>
             <div className="lc-form-card">
               {sent ? (
-                <div className="lc-thanks">
-                  <div className="lc-thanks-emoji">💌</div>
+                <div className="lc-thanks" role="status" aria-live="polite">
+                  <div className="lc-thanks-emoji" aria-hidden="true">
+                    💌
+                  </div>
                   <h3 className="lc-thanks-title">Đã gửi đi yêu thương!</h3>
                   <p className="lc-thanks-text">
-                    Cảm ơn bạn đã để lại đôi dòng dịu dàng. Mình sẽ đọc và hồi âm sớm nhất có thể 🤍
+                    Cảm ơn bạn đã để lại đôi dòng. Lời nhắn đã đến hộp thư của mình rồi nhé 🤍
                   </p>
                   <button type="button" className="lc-thanks-btn" onClick={resetForm}>
                     Viết thêm lời nhắn
@@ -283,139 +354,99 @@ export default function AppIsland({ posts, initialSlug = null }: Props) {
               ) : (
                 <form className="lc-form" onSubmit={handleSubmit} noValidate>
                   <div>
-                    <div className="lc-label">Tên của bạn *</div>
+                    <label className="lc-label" htmlFor="lc-contact-name">
+                      Tên của bạn <span aria-hidden="true">*</span>
+                    </label>
                     <input
+                      id="lc-contact-name"
                       className="lc-input"
+                      name="name"
                       value={name}
-                      onChange={(e) => setName(e.target.value)}
+                      onChange={(event) => setName(event.target.value)}
                       placeholder="Nhập tên đáng yêu của bạn..."
+                      autoComplete="name"
+                      maxLength={80}
+                      required
                     />
                   </div>
                   <div>
-                    <div className="lc-label">Gmail (không bắt buộc)</div>
+                    <label className="lc-label" htmlFor="lc-contact-email">
+                      Email <span className="lc-label-optional">(không bắt buộc)</span>
+                    </label>
                     <input
+                      id="lc-contact-email"
                       className="lc-input"
+                      name="email"
                       type="email"
+                      inputMode="email"
                       value={mail}
-                      onChange={(e) => setMail(e.target.value)}
-                      placeholder="ban@gmail.com — nếu muốn nhận hồi âm nè"
+                      onChange={(event) => setMail(event.target.value)}
+                      placeholder="ban@example.com — nếu muốn nhận hồi âm"
+                      autoComplete="email"
+                      maxLength={254}
+                      aria-invalid={mailInvalid}
+                      aria-describedby={mailInvalid ? 'lc-contact-email-error' : undefined}
                     />
                     {mailInvalid && (
-                      <div className="lc-field-error">
+                      <div id="lc-contact-email-error" className="lc-field-error" role="alert">
                         Email chưa đúng định dạng, bạn kiểm tra lại nhé.
                       </div>
                     )}
                   </div>
                   <div>
-                    <div className="lc-label">Lời nhắn gửi *</div>
+                    <label className="lc-label" htmlFor="lc-contact-message">
+                      Lời nhắn gửi <span aria-hidden="true">*</span>
+                    </label>
                     <textarea
+                      id="lc-contact-message"
                       className="lc-textarea"
-                      rows={4}
+                      name="message"
+                      rows={5}
                       value={msg}
-                      onChange={(e) => setMsg(e.target.value)}
+                      onChange={(event) => setMsg(event.target.value)}
                       placeholder="Hãy viết điều bạn đang nghĩ vào đây..."
+                      maxLength={5000}
+                      required
                     />
                   </div>
-                  <input
-                    className="lc-hp"
-                    type="text"
-                    name="website"
-                    tabIndex={-1}
-                    autoComplete="off"
-                    aria-hidden="true"
-                    value={hp}
-                    onChange={(e) => setHp(e.target.value)}
-                    placeholder="Để trống ô này"
-                  />
+                  <div className="lc-hp" aria-hidden="true">
+                    <input
+                      id="lc-contact-website"
+                      type="text"
+                      name="website"
+                      tabIndex={-1}
+                      autoComplete="off"
+                      aria-hidden="true"
+                      value={hp}
+                      onChange={(event) => setHp(event.target.value)}
+                    />
+                  </div>
+                  {TURNSTILE_SITE_KEY && (
+                    <div className="lc-turnstile-wrap">
+                      <div ref={turnstileHostRef} className="lc-turnstile" />
+                      {!turnstileReady && (
+                        <p className="lc-form-hint">Hoàn tất bước xác minh để gửi lời nhắn.</p>
+                      )}
+                    </div>
+                  )}
+                  {submitState === 'error' && (
+                    <div className="lc-submit-error" role="alert" aria-live="assertive">
+                      {submitError}
+                    </div>
+                  )}
                   <button
                     type="submit"
                     className={`lc-send${canSend ? ' is-ready' : ''}`}
                     disabled={!canSend}
+                    aria-busy={submitState === 'sending'}
                   >
-                    🕊 GỬI ĐI YÊU THƯƠNG
+                    {submitState === 'sending' ? 'ĐANG GỬI...' : '🕊 GỬI ĐI YÊU THƯƠNG'}
                   </button>
                 </form>
               )}
             </div>
           </div>
-        </div>
-      )}
-
-      {activePost && (
-        <div
-          className="lc-overlay"
-          onClick={closePost}
-          role="dialog"
-          aria-modal="true"
-          aria-label={activePost.title}
-        >
-          <div className="lc-modal" onClick={(e) => e.stopPropagation()}>
-            <div className="lc-modal-bar" />
-            <div className="lc-modal-head">
-              <div className="lc-modal-meta">
-                <span className="lc-tag">{activePost.tag}</span>
-                <span className="lc-modal-date">
-                  {activePost.date} · {activePost.mins}
-                </span>
-                <div className="lc-ctl-group">
-                  <button type="button" className="lc-ctl" onClick={decSize} aria-label="Giảm cỡ chữ">
-                    A−
-                  </button>
-                  <button
-                    type="button"
-                    className="lc-ctl lc-ctl--plus"
-                    onClick={incSize}
-                    aria-label="Tăng cỡ chữ"
-                  >
-                    A+
-                  </button>
-                  <button
-                    type="button"
-                    className={`lc-ctl-toggle${reading.bold ? ' is-active' : ''}`}
-                    onClick={toggleBold}
-                    aria-pressed={reading.bold}
-                  >
-                    Đậm
-                  </button>
-                  <button
-                    type="button"
-                    className={`lc-ctl-toggle lc-ctl-toggle--italic${
-                      reading.italic ? ' is-active' : ''
-                    }`}
-                    onClick={toggleItalic}
-                    aria-pressed={reading.italic}
-                  >
-                    Nghiêng
-                  </button>
-                  <button type="button" className="lc-close" onClick={closePost} aria-label="Đóng">
-                    ×
-                  </button>
-                </div>
-              </div>
-              <h1 className="lc-modal-title">{activePost.title}</h1>
-            </div>
-            <div className="lc-modal-body">
-              <div
-                className="lc-modal-body-inner"
-                style={{
-                  fontSize: `${reading.size}px`,
-                  fontWeight: reading.bold ? 600 : 400,
-                  fontStyle: reading.italic ? 'italic' : 'normal',
-                }}
-              >
-                {activePost.paragraphs.map((para, i) => (
-                  <p key={i}>{para}</p>
-                ))}
-              </div>
-            </div>
-            <div className="lc-modal-foot">
-              <span className="lc-modal-foot-note">Cảm ơn bạn đã ghé đọc trang nhật ký!</span>
-              <button type="button" className="lc-modal-foot-btn" onClick={closePost}>
-                Đóng lại
-              </button>
-            </div>
-          </div>
-        </div>
+        </section>
       )}
     </>
   );

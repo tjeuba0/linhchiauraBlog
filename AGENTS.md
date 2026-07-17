@@ -20,3 +20,7 @@ Consult these guides before working on related tasks:
 - [Adding or managing content](https://docs.astro.build/en/guides/content-collections/)
 - [Adding styles or using Tailwind](https://docs.astro.build/en/guides/styling/)
 - [Supporting multiple languages](https://docs.astro.build/en/guides/internationalization/)
+
+## Lessons Learned
+
+- [Deployment handoff]: Do NOT finish a large website implementation by describing only service configuration while leaving the local code delivery implicit → Instead, state clearly that the changes are uncommitted and give the full ordered handoff: review diff, commit, push, Cloudflare deploy, environment variables, and live verification; explain every newly introduced external service in plain language.

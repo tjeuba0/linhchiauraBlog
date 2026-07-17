@@ -1,31 +1,217 @@
 ---
+import { render } from 'astro:content';
 import BaseLayout from '../../layouts/BaseLayout.astro';
-import ProfileCard from '../../components/ProfileCard.astro';
 import SiteFooter from '../../components/SiteFooter.astro';
-import AppIsland from '../../components/AppIsland.tsx';
-import { getPosts } from '../../lib/posts';
+import {
+  formatVietnameseDate,
+  getSortedPostEntries,
+  toPostSummary,
+  type BlogEntry,
+  type PostSummary,
+} from '../../lib/posts';
+
+interface Props {
+  post: BlogEntry;
+  previousPost?: PostSummary;
+  nextPost?: PostSummary;
+}
 
 export async function getStaticPaths() {
-  const posts = await getPosts();
-  return posts.map((post) => ({
-    params: { slug: post.slug },
-    props: { posts, post },
+  const entries = await getSortedPostEntries();
+
+  return entries.map((post, index) => ({
+    params: { slug: post.id },
+    props: {
+      post,
+      // The collection is newest-first: the previous item is older and the
+      // next item is newer, matching a chronological reading sequence.
+      previousPost: entries[index + 1] ? toPostSummary(entries[index + 1]) : undefined,
+      nextPost: entries[index - 1] ? toPostSummary(entries[index - 1]) : undefined,
+    },
   }));
 }
 
-const { posts, post } = Astro.props;
+const { post, previousPost, nextPost } = Astro.props;
+const { Content } = await render(post);
+const publishedISO = post.data.date.toISOString();
+const displayDate = formatVietnameseDate(post.data.date);
 ---
 
 <BaseLayout
-  title={`${post.title} — Linhchiaura`}
-  description={post.excerpt}
-  canonical={`/bai/${post.slug}`}
+  title={`${post.data.title} — Linhchiaura`}
+  description={post.data.excerpt}
+  canonical={`/bai/${post.id}`}
+  ogType="article"
+  image="/cover.jpg"
+  imageAlt="Ảnh bìa Linhchiaura"
+  publishedTime={post.data.date}
 >
   <div class="lc-page">
-    <div class="lc-container">
-      <ProfileCard />
-      <AppIsland client:load posts={posts} initialSlug={post.slug} />
-    </div>
+    <header class="lc-article-site-header">
+      <div class="lc-article-site-header-inner">
+        <a class="lc-article-brand" href="/" aria-label="Về trang chủ Linhchiaura">
+          <span class="lc-article-brand-mark" aria-hidden="true">✦</span>
+          <span>Linhchiaura</span>
+        </a>
+        <a class="lc-article-back" href="/">← Về Nhật ký</a>
+      </div>
+    </header>
+
+    <main class="lc-article-main">
+      <article class="lc-article" data-reader>
+        <header class="lc-article-header">
+          <div class="lc-article-meta">
+            <span class="lc-tag">{post.data.tag}</span>
+            <span aria-hidden="true">•</span>
+            <time datetime={publishedISO}>{displayDate}</time>
+            <span aria-hidden="true">•</span>
+            <span>{post.data.readingMinutes} phút đọc</span>
+          </div>
+
+          <h1 class="lc-article-title">{post.data.title}</h1>
+          <p class="lc-article-lead">{post.data.excerpt}</p>
+
+          <div
+            class="lc-reader-toolbar"
+            role="toolbar"
+            aria-label="Tùy chỉnh cách hiển thị bài viết"
+            data-reader-toolbar
+          >
+            <span class="lc-reader-toolbar-label">Cỡ chữ</span>
+            <button
+              class="lc-reader-control"
+              type="button"
+              data-reader-action="decrease"
+              aria-label="Giảm cỡ chữ"
+            >A−</button>
+            <output class="lc-reader-size" data-reader-size aria-live="polite">17px</output>
+            <button
+              class="lc-reader-control"
+              type="button"
+              data-reader-action="increase"
+              aria-label="Tăng cỡ chữ"
+            >A+</button>
+            <button
+              class="lc-reader-toggle"
+              type="button"
+              data-reader-action="bold"
+              aria-pressed="false"
+            >Đậm</button>
+            <button
+              class="lc-reader-toggle lc-reader-toggle--italic"
+              type="button"
+              data-reader-action="italic"
+              aria-pressed="false"
+            >Nghiêng</button>
+          </div>
+        </header>
+
+        <div class="lc-article-content" data-reader-content>
+          <Content />
+        </div>
+
+        <footer class="lc-article-footer">
+          <p>Chúc bạn luôn dịu dàng với chính mình. 🤍</p>
+          <a href="/#hop-thu">Gửi lời nhắn cho mình →</a>
+        </footer>
+      </article>
+
+      {(previousPost || nextPost) && (
+        <nav class="lc-article-pagination" aria-label="Điều hướng giữa các bài viết">
+          {previousPost ? (
+            <a class="lc-article-pagination-link lc-article-pagination-link--previous" href={`/bai/${previousPost.slug}`}>
+              <span class="lc-article-pagination-label">← Bài cũ hơn</span>
+              <strong>{previousPost.title}</strong>
+            </a>
+          ) : (
+            <span class="lc-article-pagination-spacer" aria-hidden="true"></span>
+          )}
+          {nextPost ? (
+            <a class="lc-article-pagination-link lc-article-pagination-link--next" href={`/bai/${nextPost.slug}`}>
+              <span class="lc-article-pagination-label">Bài mới hơn →</span>
+              <strong>{nextPost.title}</strong>
+            </a>
+          ) : (
+            <span class="lc-article-pagination-spacer" aria-hidden="true"></span>
+          )}
+        </nav>
+      )}
+    </main>
+
     <SiteFooter />
   </div>
 </BaseLayout>
+
+<script>
+  const STORAGE_KEY = 'lc-reading';
+  const MIN_SIZE = 15;
+  const MAX_SIZE = 24;
+  const DEFAULTS = { size: 17, bold: false, italic: false };
+
+  const clampSize = (value: number) => Math.min(MAX_SIZE, Math.max(MIN_SIZE, value));
+  const reader = document.querySelector<HTMLElement>('[data-reader]');
+
+  if (reader) {
+    const content = reader.querySelector<HTMLElement>('[data-reader-content]');
+    const toolbar = reader.querySelector<HTMLElement>('[data-reader-toolbar]');
+    const sizeOutput = reader.querySelector<HTMLOutputElement>('[data-reader-size]');
+    const boldButton = reader.querySelector<HTMLButtonElement>('[data-reader-action="bold"]');
+    const italicButton = reader.querySelector<HTMLButtonElement>('[data-reader-action="italic"]');
+    let settings = { ...DEFAULTS };
+
+    try {
+      const saved = JSON.parse(localStorage.getItem(STORAGE_KEY) ?? '{}') as Partial<typeof DEFAULTS>;
+      settings = {
+        size: typeof saved.size === 'number' ? clampSize(saved.size) : DEFAULTS.size,
+        bold: saved.bold === true,
+        italic: saved.italic === true,
+      };
+    } catch {
+      // Storage may be unavailable or contain an old malformed value.
+    }
+
+    const renderSettings = () => {
+      if (!content) return;
+      content.style.fontSize = `${settings.size}px`;
+      content.classList.toggle('is-bold', settings.bold);
+      content.classList.toggle('is-italic', settings.italic);
+      if (sizeOutput) sizeOutput.textContent = `${settings.size}px`;
+      boldButton?.setAttribute('aria-pressed', String(settings.bold));
+      italicButton?.setAttribute('aria-pressed', String(settings.italic));
+    };
+
+    const saveSettings = () => {
+      try {
+        localStorage.setItem(STORAGE_KEY, JSON.stringify(settings));
+      } catch {
+        // Reading controls still work in memory when storage is blocked.
+      }
+    };
+
+    toolbar?.addEventListener('click', (event) => {
+      if (!(event.target instanceof Element)) return;
+      const button = event.target.closest<HTMLButtonElement>('[data-reader-action]');
+      if (!button) return;
+
+      switch (button.dataset.readerAction) {
+        case 'decrease':
+          settings.size = clampSize(settings.size - 1);
+          break;
+        case 'increase':
+          settings.size = clampSize(settings.size + 1);
+          break;
+        case 'bold':
+          settings.bold = !settings.bold;
+          break;
+        case 'italic':
+          settings.italic = !settings.italic;
+          break;
+      }
+
+      renderSettings();
+      saveSettings();
+    });
+
+    renderSettings();
+  }
+</script>
