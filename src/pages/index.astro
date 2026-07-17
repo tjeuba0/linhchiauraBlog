@@ -10,10 +10,72 @@ const posts = await getPostSummaries();
 
 <BaseLayout title="Linhchiaura — Nhật ký & Hộp thư" canonical="/">
   <div class="lc-page">
-    <div class="lc-container">
+    <main class="lc-container">
       <ProfileCard />
-      <AppIsland client:visible posts={posts} />
-    </div>
+      <AppIsland client:load posts={posts} />
+      <script is:inline>
+        (() => {
+          let cancelPending = null;
+
+          document.addEventListener(
+            'click',
+            (event) => {
+              if (
+                event.defaultPrevented ||
+                event.button !== 0 ||
+                event.metaKey ||
+                event.ctrlKey ||
+                event.shiftKey ||
+                event.altKey
+              ) {
+                return;
+              }
+
+              const target = event.target;
+              if (!(target instanceof Element)) return;
+              const link = target.closest('a.lc-card[aria-haspopup="dialog"]');
+              const island = link?.closest('astro-island');
+              if (!(link instanceof HTMLAnchorElement)) return;
+
+              cancelPending?.();
+              cancelPending = null;
+              if (!island?.hasAttribute('ssr')) return;
+
+              event.preventDefault();
+
+              let settled = false;
+              let replayTimer = null;
+              const observer = new MutationObserver(() => {
+                if (island.hasAttribute('ssr') || settled) return;
+                settled = true;
+                observer.disconnect();
+                window.clearTimeout(fallbackTimer);
+                replayTimer = window.setTimeout(() => {
+                  cancelPending = null;
+                  link.click();
+                });
+              });
+              observer.observe(island, { attributes: true, attributeFilter: ['ssr'] });
+
+              const fallbackTimer = window.setTimeout(() => {
+                if (settled) return;
+                settled = true;
+                observer.disconnect();
+                window.location.assign(link.href);
+              }, 5000);
+
+              cancelPending = () => {
+                settled = true;
+                observer.disconnect();
+                window.clearTimeout(fallbackTimer);
+                if (replayTimer !== null) window.clearTimeout(replayTimer);
+              };
+            },
+            true,
+          );
+        })();
+      </script>
+    </main>
     <SiteFooter />
   </div>
 </BaseLayout>

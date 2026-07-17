@@ -42,17 +42,41 @@ const socials = [
 
 <div class="lc-profile">
   <div class="lc-cover">
-    <img class="lc-cover-img" src="/cover.jpg" alt="" width="1760" height="756" loading="eager" />
+    <picture class="lc-cover-picture">
+      <source
+        type="image/webp"
+        srcset="/cover-v1-480.webp 480w, /cover-v1-960.webp 960w, /cover-v1-1760.webp 1760w"
+        sizes="(max-width: 640px) calc(100vw - 28px), 880px"
+      />
+      <img
+        class="lc-cover-img"
+        src="/cover.jpg"
+        alt=""
+        width="1760"
+        height="756"
+        loading="eager"
+        decoding="async"
+        fetchpriority="high"
+      />
+    </picture>
   </div>
   <div class="lc-avatar">
-    <img
-      class="lc-avatar-img"
-      src="/avatar.jpg"
-      alt="Linhchiaura"
-      width="264"
-      height="264"
-      loading="eager"
-    />
+    <picture class="lc-avatar-picture">
+      <source
+        type="image/webp"
+        srcset="/avatar-v1-96.webp 96w, /avatar-v1-192.webp 192w, /avatar-v1-264.webp 264w"
+        sizes="(max-width: 380px) 84px, (max-width: 640px) 92px, 132px"
+      />
+      <img
+        class="lc-avatar-img"
+        src="/avatar.jpg"
+        alt="Linhchiaura"
+        width="264"
+        height="264"
+        loading="eager"
+        decoding="async"
+      />
+    </picture>
   </div>
   <div class="lc-profile-body">
     <h1 class="lc-name">Linhchiaura</h1>

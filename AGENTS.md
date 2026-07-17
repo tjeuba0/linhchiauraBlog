@@ -24,3 +24,4 @@ Consult these guides before working on related tasks:
 ## Lessons Learned
 
 - [Deployment handoff]: Do NOT finish a large website implementation by describing only service configuration while leaving the local code delivery implicit → Instead, state clearly that the changes are uncommitted and give the full ordered handoff: review diff, commit, push, Cloudflare deploy, environment variables, and live verification; explain every newly introduced external service in plain language.
+- [Focused reading experience]: Do NOT replace the blog card-to-popup reading flow with normal page navigation, because the owner's product philosophy is to keep readers focused in one uninterrupted space → Instead, open posts in an accessible, polished reading modal; keep standalone article routes only as a no-JavaScript, deep-link, and SEO fallback.

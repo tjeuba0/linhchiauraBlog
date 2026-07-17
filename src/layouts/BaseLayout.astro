@@ -41,6 +41,22 @@ const publishedTimeISO = publishedTime
     <meta name="generator" content={Astro.generator} />
     <meta name="theme-color" content="#f4faf5" />
 
+    <script is:inline>
+      const root = document.documentElement;
+      window.addEventListener('pointerdown', () => (root.dataset.lcInput = 'pointer'), true);
+      window.addEventListener('keydown', () => (root.dataset.lcInput = 'keyboard'), true);
+
+      try {
+        const saved = JSON.parse(localStorage.getItem('lc-reading') || '{}');
+        const size = Math.min(24, Math.max(15, typeof saved.size === 'number' ? saved.size : 17));
+        document.documentElement.style.setProperty('--lc-reader-size', `${size}px`);
+        document.documentElement.dataset.lcReaderBold = saved.bold === true ? 'true' : 'false';
+        document.documentElement.dataset.lcReaderItalic = saved.italic === true ? 'true' : 'false';
+      } catch {
+        document.documentElement.style.setProperty('--lc-reader-size', '17px');
+      }
+    </script>
+
     <title>{title}</title>
     <meta name="description" content={description} />
     <meta name="robots" content={robots} />
@@ -71,7 +87,7 @@ const publishedTimeISO = publishedTime
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Lora:ital,wght@0,400..700;1,400..700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;600;700&display=swap"
       rel="stylesheet"
     />
   </head>

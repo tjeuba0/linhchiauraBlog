@@ -40,7 +40,7 @@ const displayDate = formatVietnameseDate(post.data.date);
 <BaseLayout
   title={`${post.data.title} — Linhchiaura`}
   description={post.data.excerpt}
-  canonical={`/bai/${post.id}`}
+  canonical={`/bai/${post.id}/`}
   ogType="article"
   image="/cover.jpg"
   imageAlt="Ảnh bìa Linhchiaura"
@@ -106,7 +106,7 @@ const displayDate = formatVietnameseDate(post.data.date);
           </div>
         </header>
 
-        <div class="lc-article-content" data-reader-content>
+        <div class="lc-article-content" data-reader-content data-modal-content>
           <Content />
         </div>
 
@@ -119,7 +119,7 @@ const displayDate = formatVietnameseDate(post.data.date);
       {(previousPost || nextPost) && (
         <nav class="lc-article-pagination" aria-label="Điều hướng giữa các bài viết">
           {previousPost ? (
-            <a class="lc-article-pagination-link lc-article-pagination-link--previous" href={`/bai/${previousPost.slug}`}>
+            <a class="lc-article-pagination-link lc-article-pagination-link--previous" href={`/bai/${previousPost.slug}/`}>
               <span class="lc-article-pagination-label">← Bài cũ hơn</span>
               <strong>{previousPost.title}</strong>
             </a>
@@ -127,7 +127,7 @@ const displayDate = formatVietnameseDate(post.data.date);
             <span class="lc-article-pagination-spacer" aria-hidden="true"></span>
           )}
           {nextPost ? (
-            <a class="lc-article-pagination-link lc-article-pagination-link--next" href={`/bai/${nextPost.slug}`}>
+            <a class="lc-article-pagination-link lc-article-pagination-link--next" href={`/bai/${nextPost.slug}/`}>
               <span class="lc-article-pagination-label">Bài mới hơn →</span>
               <strong>{nextPost.title}</strong>
             </a>
