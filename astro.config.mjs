@@ -5,6 +5,8 @@ import tailwindcss from '@tailwindcss/vite';
 import react from '@astrojs/react';
 import sitemap from '@astrojs/sitemap';
 
+import cloudflare from '@astrojs/cloudflare';
+
 const productionSite = 'https://linhchiaura.khoivandev.workers.dev';
 const configuredSite = process.env.SITE_URL?.trim() || productionSite;
 
@@ -12,7 +14,10 @@ const configuredSite = process.env.SITE_URL?.trim() || productionSite;
 export default defineConfig({
   site: configuredSite,
   integrations: [react(), sitemap()],
+
   vite: {
     plugins: [tailwindcss()],
   },
+
+  adapter: cloudflare(),
 });
