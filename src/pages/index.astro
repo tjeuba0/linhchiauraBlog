@@ -1,0 +1,19 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import ProfileCard from '../components/ProfileCard.astro';
+import SiteFooter from '../components/SiteFooter.astro';
+import AppIsland from '../components/AppIsland.tsx';
+import { getPosts } from '../lib/posts';
+
+const posts = await getPosts();
+---
+
+<BaseLayout title="Linhchiaura — Nhật ký & Hộp thư" canonical="/">
+  <div class="lc-page">
+    <div class="lc-container">
+      <ProfileCard />
+      <AppIsland client:load posts={posts} initialSlug={null} />
+    </div>
+    <SiteFooter />
+  </div>
+</BaseLayout>

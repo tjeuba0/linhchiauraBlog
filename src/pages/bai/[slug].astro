@@ -1,0 +1,31 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import ProfileCard from '../../components/ProfileCard.astro';
+import SiteFooter from '../../components/SiteFooter.astro';
+import AppIsland from '../../components/AppIsland.tsx';
+import { getPosts } from '../../lib/posts';
+
+export async function getStaticPaths() {
+  const posts = await getPosts();
+  return posts.map((post) => ({
+    params: { slug: post.slug },
+    props: { posts, post },
+  }));
+}
+
+const { posts, post } = Astro.props;
+---
+
+<BaseLayout
+  title={`${post.title} — Linhchiaura`}
+  description={post.excerpt}
+  canonical={`/bai/${post.slug}`}
+>
+  <div class="lc-page">
+    <div class="lc-container">
+      <ProfileCard />
+      <AppIsland client:load posts={posts} initialSlug={post.slug} />
+    </div>
+    <SiteFooter />
+  </div>
+</BaseLayout>
