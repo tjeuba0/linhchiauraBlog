@@ -59,7 +59,7 @@ Trong Cloudflare Dashboard, mở **Workers & Pages → project → Settings → 
 
 | Tên | Loại | Bắt buộc | Giá trị |
 | --- | --- | --- | --- |
-| `SITE_URL` | Variable | Có | Origin production, ví dụ `https://linhchiaura.com` |
+| `SITE_URL` | Variable | Không | Ghi đè origin production mặc định `https://linhchiaura.khoivandev.workers.dev` khi đổi domain |
 | `RESEND_API_KEY` | Secret | Có | API key bắt đầu bằng `re_` |
 | `CONTACT_TO_EMAIL` | Variable | Có | Email sẽ nhận lời nhắn, ví dụ `linh@example.com` |
 | `CONTACT_FROM_EMAIL` | Variable | Có | Người gửi thuộc domain Resend đã xác minh, ví dụ `Linhchiaura <hopthu@example.com>` |
@@ -68,7 +68,7 @@ Trong Cloudflare Dashboard, mở **Workers & Pages → project → Settings → 
 
 Không đưa `RESEND_API_KEY` hay `TURNSTILE_SECRET_KEY` vào biến `PUBLIC_*`, mã frontend hoặc Git.
 
-`SITE_URL` là nguồn tạo canonical, Open Graph, RSS và sitemap. Build trên Cloudflare sẽ dừng nếu thiếu biến này để tránh deploy metadata trỏ nhầm về localhost.
+`SITE_URL` là nguồn tạo canonical, Open Graph, RSS và sitemap. Project đã dùng `https://linhchiaura.khoivandev.workers.dev` làm mặc định; chỉ cần khai báo biến này khi chuyển sang domain khác.
 
 Turnstile là tùy chọn nhưng phải cấu hình theo cặp: `PUBLIC_TURNSTILE_SITE_KEY` cho build frontend và `TURNSTILE_SECRET_KEY` cho Pages Function. Nếu chỉ đặt secret, mọi request thật sẽ bị từ chối.
 
