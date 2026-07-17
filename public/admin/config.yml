@@ -1,0 +1,22 @@
+backend:
+  name: github
+  repo: tjeuba0/linhchiauraBlog
+  branch: main
+  base_url: https://sveltia-cms-auth.khoivandev.workers.dev
+
+media_folder: "public/images"
+public_folder: "/images"
+
+collections:
+  - name: "blog"
+    label: "Nhật Ký"
+    folder: "src/content/blog"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Tiêu đề", name: "title", widget: "string" }
+      - { label: "Tag", name: "tag", widget: "select", options: ["Lối sống", "Tâm lý", "Suy ngẫm"] }
+      - { label: "Ngày đăng", name: "date", widget: "datetime", format: "YYYY-MM-DD" }
+      - { label: "Phút đọc", name: "readingMinutes", widget: "number", default: 3 }
+      - { label: "Trích đoạn", name: "excerpt", widget: "text" }
+      - { label: "Nội dung", name: "body", widget: "markdown" }
