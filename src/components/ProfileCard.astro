@@ -1,8 +1,6 @@
 ---
-import { Image } from 'astro:assets';
-import avatar from '../assets/avatar.jpg';
-import cover from '../assets/cover.png';
-
+// Cover/avatar are pre-optimized static files in public/ (served verbatim, no
+// build-time Sharp) so they render on any host, including Cloudflare Pages.
 const socials = [
   {
     label: 'Email',
@@ -44,10 +42,17 @@ const socials = [
 
 <div class="lc-profile">
   <div class="lc-cover">
-    <Image class="lc-cover-img" src={cover} alt="" width={1760} loading="eager" />
+    <img class="lc-cover-img" src="/cover.jpg" alt="" width="1760" height="756" loading="eager" />
   </div>
   <div class="lc-avatar">
-    <Image class="lc-avatar-img" src={avatar} alt="Linhchiaura" width={264} loading="eager" />
+    <img
+      class="lc-avatar-img"
+      src="/avatar.jpg"
+      alt="Linhchiaura"
+      width="264"
+      height="264"
+      loading="eager"
+    />
   </div>
   <div class="lc-profile-body">
     <h1 class="lc-name">Linhchiaura</h1>
