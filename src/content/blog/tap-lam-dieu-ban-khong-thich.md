@@ -16,9 +16,9 @@ Biết trà sữa ngon thật, nhưng dần học cách yêu những ly nước 
 
 Muốn có một cuộc sống bình yên, nên học cách rời xa những mối quan hệ độc hại, dù cảm xúc và dopamine luôn thích những điều mới lạ, kịch tính và đầy kích thích.
 
-Mình nhận ra rằng, bộ não luôn muốn chọn con đường dễ chịu nhất. Nhưng nếu lúc nào cũng chiều theo cảm giác thoải mái, mình sẽ dễ trở thành một kẻ chiều chuộng bản thân - tận hưởng và trì trệ- từ đó rất khó bước ra khỏi vùng an toàn.
+Ở góc độ khoa học thần kinh, bộ não luôn muốn chọn con đường dễ chịu nhất. Nhưng nếu lúc nào cũng chiều theo cảm giác thoải mái, mình sẽ dễ trở thành một kẻ chiều chuộng bản thân - tận hưởng và trì trệ- từ đó rất khó bước ra khỏi vùng an toàn.
 
-Nên ở giai đoạn đầu chưa biết làm gì để phát triển bản thân, cứ cái gì mình né tránh trước đây thì mình sẽ làm. Ghét chạy, thì đi chạy, để không bỏ dở giữa chừng, mình leo hẳn lên núi luôn, đố mà dừng lại được.
+Nên ở giai đoạn đầu chưa biết làm gì để phát triển bản thân, mình lục lại xem cứ cái gì mình né tránh trước đây thì mình sẽ làm. Bởi đó là red zone, là vùng cấm, là vùng ngăn cản mình phát triển, mình nghĩ vậy nên mình ghét chạy, thì mình lại cố chạy, để không bỏ dở giữa chừng, mình leo hẳn lên núi luôn, đố mà dừng lại được.
 
 Ghét học, thì đăng kí học, nộp tiền đi, tiếc là phải học thôi.
 
