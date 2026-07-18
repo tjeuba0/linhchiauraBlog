@@ -26,9 +26,13 @@ Ví dụ
 - tiếng sếp
 - ...tiếng hàng xóm
 
-Khi tôi muốn nghỉ việc. Tôi biết mình cần nghỉ việc, nhưng trong đầu tôi vang lên: "Ổn định đi."- "Đừng mạo hiểm." - "rồi lấy gì nuôi thân?"
+Khi tôi muốn nghỉ việc. Tôi biết mình cần nghỉ việc, nhưng trong đầu tôi vang lên: "Ổn định đi."- "Đừng mạo hiểm." - "Rồi lấy gì nuôi thân?"
 
-Nhưng tôi biết đó không phải là suy nghĩ của mình. Có thể đó chỉ là tiếng nói của rất nhiều người khác đang sống trong đầu tôi mà thôi. 
+Nhưng tôi biết đó không phải là suy nghĩ của mình. Có thể đó chỉ là tiếng nói của rất nhiều người khác đang sống trong đầu tôi mà thôi
+
+Khi bạn 30 tuổi và bạn vẫn chưa lấy chồng, cũng có rất nhiều suy nghĩ trong đầu bạn :" Con gái như thế là ế" "Mất giá" hay "Tầm này sẽ không lấy được người tốt"
+
+Đó thực sự là suy nghĩ của bạn, hay xã hội đang cài cắm vào bạn những định kiến? Nếu bạn tìm ra được bản thể của chính mình thông qua thiền- chánh niệm- bồi bổ cơ thể vật chất- tinh thần và năng lượng của mình được thông suốt, bạn sẽ luôn tìm ra câu trả lời mà không bị những "người khác" trong đầu bạn tác động. Việc của bạn là xác nhận rằng những tiếng nói nhỏ ấy không phải là bạn- sau đó chúng ta sẽ cùng nhau gột rửa nhé!. 
 
 Xin được trích dẫn cuốn Hiểu- Tác giả Osho về vấn đề này:
 
