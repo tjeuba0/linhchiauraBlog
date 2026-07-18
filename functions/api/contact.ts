@@ -79,6 +79,18 @@ function isPlainObject(value: unknown): value is Record<string, unknown> {
   return typeof value === 'object' && value !== null && !Array.isArray(value);
 }
 
+async function getResendErrorName(response: Response): Promise<string> {
+  try {
+    const body: unknown = await response.json();
+    if (isPlainObject(body) && typeof body.name === 'string') {
+      return body.name.slice(0, 80);
+    }
+  } catch {
+    // A missing or malformed provider body is classified by HTTP status below.
+  }
+  return 'unknown';
+}
+
 function isSameOrigin(request: Request): boolean {
   const origin = request.headers.get('Origin');
   if (!origin) return false;
@@ -275,9 +287,16 @@ async function sendContactEmail(
     );
     if (response.ok) return { ok: true };
 
-    console.error('Resend email request failed', { status: response.status });
+    const providerErrorName = await getResendErrorName(response);
+    console.error('Resend email request failed', {
+      status: response.status,
+      name: providerErrorName,
+    });
 
     if (response.status === 401) return { ok: false, reason: 'unauthorized' };
+    if (response.status === 403 && providerErrorName === 'invalid_api_key') {
+      return { ok: false, reason: 'unauthorized' };
+    }
     if (response.status === 403) return { ok: false, reason: 'forbidden' };
     if (response.status === 429) return { ok: false, reason: 'rate_limited' };
     if (response.status >= 500) return { ok: false, reason: 'unavailable' };
@@ -379,14 +398,14 @@ export const handleContactRequest = async (
       return errorResponse(
         502,
         'EMAIL_AUTH_FAILED',
-        'Khóa gửi thư của website chưa được chấp nhận. Bạn vui lòng báo giúp mình nhé.',
+        'API key Resend của website không hợp lệ. Bạn vui lòng báo giúp mình nhé.',
       );
     }
     if (emailResult.reason === 'forbidden') {
       return errorResponse(
         502,
         'EMAIL_SENDER_RESTRICTED',
-        'Dịch vụ gửi thư chưa cho phép địa chỉ gửi hoặc nhận này.',
+        'Resend chỉ cho phép gửi tới email của tài khoản hoặc từ tên miền đã xác minh.',
       );
     }
     if (emailResult.reason === 'rate_limited') {

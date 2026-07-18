@@ -102,12 +102,13 @@ Lỗi luôn có cấu trúc an toàn để frontend hiển thị. Ví dụ khi R
 địa chỉ gửi hoặc nhận:
 
 ```json
-{"ok":false,"error":{"code":"EMAIL_SENDER_RESTRICTED","message":"Dịch vụ gửi thư chưa cho phép địa chỉ gửi hoặc nhận này."}}
+{"ok":false,"error":{"code":"EMAIL_SENDER_RESTRICTED","message":"Resend chỉ cho phép gửi tới email của tài khoản hoặc từ tên miền đã xác minh."}}
 ```
 
-Các phản hồi từ Resend được phân loại theo trạng thái HTTP thành lỗi xác thực,
-giới hạn địa chỉ gửi/nhận, quá hạn mức, request bị từ chối hoặc dịch vụ tạm gián đoạn.
-API không trả về khóa bí mật hay nội dung phản hồi thô của nhà cung cấp.
+Các phản hồi từ Resend được phân loại theo trạng thái HTTP và mã lỗi an toàn
+(`name`) thành API key không hợp lệ, giới hạn địa chỉ gửi/nhận, quá hạn mức,
+request bị từ chối hoặc dịch vụ tạm gián đoạn. API không trả về khóa bí mật hay
+nội dung phản hồi thô của nhà cung cấp.
 
 ### 4. Deploy Cloudflare Worker
 
