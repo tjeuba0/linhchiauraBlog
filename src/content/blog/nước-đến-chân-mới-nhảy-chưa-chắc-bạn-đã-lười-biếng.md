@@ -2,13 +2,33 @@
 title: Nước đến chân mới nhảy - Chưa chắc bạn đã lười biếng!
 tag: Tâm lý
 date: 2026-07-18
-readingMinutes: 5
+readingMinutes: 10
 excerpt: Bạn có phải là người "nước đến chân mới nhảy" hay không? Đấy có phải là dấu hiệu của việc bạn là kẻ lười biếng, hay đơn giản là chưa quản trị cảm xúc tốt?
 ---
 
 Bạn có phải là người "nước đến chân mới nhảy" hay không? Đấy có phải là dấu hiệu của việc bạn là kẻ **_lười biếng_**, hay đơn giản là **_chưa quản trị cảm xúc tốt_**?
 
-Thay vì trách móc bản thân, hãy cùng tôi quan sát chính mình một cách khách quan để tìm ra nguyên nhân cốt lõi (Root cause) của việc trì hoãn. Những kết quả chúng ta thấy thường là nguyên nhân từ rất nhiều vấn đề nội sinh và ngoại sinh, chỉ khi tìm thấy rào cản thực sự chúng ta mới có thể tìm được cách khắc phục cho lý do đó.
+Bài này sẽ khá dài, tôi viết theo **Tư duy thiết kế (Design Thinking):** phương pháp giải quyết vấn đề lấy **con người làm trung tâm** gồm 5 bước:
+
+- 1\. Empathize (Thấu cảm)
+
+***
+
+- 2\. Define (Xác định vấn đề)
+
+***
+
+- 3\. Ideate (Phát triển ý tưởng)
+
+***
+
+- 4\. Prototype (Làm mẫu thử)
+
+***
+
+- 5\. Test (Kiểm chứng)
+
+Thấu cảm: Hiểu được người gặp những vấn đề này một cách tường tận, cụ thể về mặt suy nghĩ, biểu hiện và hành động:
 
 •	Biểu hiện: Thường chỉ có động lực làm việc khi dealine cận kề. Khi nhận được công việc thì thường trì hoãn, tặc lưỡi, để đến mai mốt làm cũng được, hoặc deadline còn dài, có thể để đến sát hạn thì bắt đầu làm cũng chưa muộn
 
@@ -46,15 +66,11 @@ Giải pháp 1: Thiết kế lại kích thước công việc (Micro-stepping) 
 
 Ý tưởng: Thay vì ghi vào To-do list là "Làm bài tiểu luận" (quá lớn, não bộ sẽ sợ và né tránh), hãy cùng tôi thiết kế lại thành các task siêu nhỏ (Micro-task) chỉ mất 5 phút:
 
--	Mở file Word, gõ tiêu đề
-
--	Suy nghĩ ý tưởng
-
--	Tìm 3 nguồn tài liệu
-
--	Bắt đầu viết luận
-
--	Hoàn thành các câu..
+- Mở file Word, gõ tiêu đề
+- Suy nghĩ ý tưởng
+- Tìm 3 nguồn tài liệu
+- Bắt đầu viết luận
+- Hoàn thành các câu..
 
 Mỗi phần việc chia theo thời gian cụ thể, không cần phải ôm đồm làm hết quá nhanh, vì việc đã được thiết kế chia nhỏ ngay từ khi nhận việc, không phải đợi đến deadline mới làm, vì vậy sẽ không gây quá tải cho não bộ, đồng thời cảm thấy áp lực vì phải hoàn thành trong thời gian ngắn. Ngoài ra việc dành nhiều thời gian suy nghĩ về công việc sẽ giúp tăng chất lượng hơn, đề ra giải pháp với nhiều góc nhìn hơn, sáng tạo hơn, thay vì chỉ: làm cho xong!!!
 
