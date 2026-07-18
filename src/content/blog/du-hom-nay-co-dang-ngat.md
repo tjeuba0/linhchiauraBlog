@@ -16,7 +16,7 @@ Trước khi biết trân trọng từng đồng tiền mình làm ra, mình cũ
 
 Nhìn lại, mình mới nhận ra mình đã đi rất, rất xa so với những ngày đầu tiên đầy lúng túng ấy. Với mình, đó thật sự là một kỳ tích.
 
- Chỉ có điều, trước khi trở thành phiên bản tốt hơn, chúng ta đều cần phải học được cách trân trọng chính khoảnh khắc này trước đã.
+Hầu hết chúng ta đều đang trên hành trình trở thành phiên bản mà ta mơ ước,và tất nhiên rồi, trước khi trở thành phiên bản tốt hơn, chúng ta đều cần phải học được cách trân trọng chính khoảnh khắc này trước đã.
 
 Mọi người thường ước có thể tua nhanh được đến giai đoạn mà bản thân đã công thành danh toại. Nhưng ở góc nhìn của số phận, mọi thứ thành công đều phải được xây nền từ những bài học trong thất bại; mỗi một niềm hạnh phúc đều là một bài học từ việc biết ơn những điều mà bản thân đang có. 
 
