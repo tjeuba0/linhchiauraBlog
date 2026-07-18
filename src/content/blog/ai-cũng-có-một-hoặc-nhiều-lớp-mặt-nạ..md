@@ -30,6 +30,8 @@ Ví dụ
 - tiếng sếp
 - ...tiếng hàng xóm
 
+Mà những người kể trên, kì thực họ lại cũng bị ảnh hưởng bởi bố mẹ- gia đình- họ hàng- xã hội .. xung quanh họ nữa, tạo ra một hệ cấu trúc tư tưởng phức tạp ảnh hưởng chồng chéo lẫn nhau và càng ngày càng xa rời tri thức gốc. 
+
 Có một thời gian tôi biết mình cần nghỉ việc. Nhưng trong đầu tôi vang lên: "Ổn định đi."- "Đừng mạo hiểm." - "Rồi lấy gì nuôi thân?"
 
 Đó có thể đó là niềm tin tôi đã vô thức tiếp nhận từ người khác... 
