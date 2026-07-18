@@ -3,28 +3,28 @@ title: Tập làm điều bạn không thích!
 tag: Lối sống
 date: 2026-07-12
 readingMinutes: 3
-excerpt: 'Có 1 lý thuyết mà tôi đã tuân theo khá nhiều năm nay: muốn trưởng thành, hãy tập làm cả những điều mình không thích.'
+excerpt: 'Có 1 lý thuyết mà mình đã tuân theo khá nhiều năm nay: muốn trưởng thành, Hãy tập làm những điều có ích, dù ban đầu mình không thích.'
 ---
 
-Có 1 lý thuyết mà tôi đã tuân theo khá nhiều năm nay và cũng là cách tôi phát triển bản thân, nghe thì có vẻ ngược đời, đó là: Tập làm những gì mình không thích.
+Có một nguyên tắc mình đã theo suốt nhiều năm và cũng là cách mình phát triển bản thân. Nghe thì hơi ngược đời:
 
-Đi chạy có mệt không? Mệt ẻ T.T
+**Hãy tập làm những điều có ích, dù ban đầu mình không thích.**
 
-Ăn uống healthy có nhạt nhẽo không? Nhạt phèo
+Yêu bản thân, nhưng vẫn chấp nhận để cơ bắp đau sau mỗi buổi tập.
 
-Đi học có chán không? Nhiều môn chán ngắt!!!
+Biết trà sữa ngon thật, nhưng dần học cách yêu những ly nước không đường và những bữa ăn lành mạnh.
 
-Ở nhà một mình có cô đơn không? Lại bảo không đi! 
+Muốn có một cuộc sống bình yên, nên học cách rời xa những mối quan hệ độc hại, dù cảm xúc và dopamine luôn thích những điều mới lạ, kịch tính và đầy kích thích.
 
-Càng chọn những thứ khiến bản thân thoải mái, thì càng khó để mà bứt phá và khắc phục những giới hạn của mình được.
+Mình nhận ra rằng, bộ não luôn muốn chọn con đường dễ chịu nhất. Nhưng nếu lúc nào cũng chiều theo cảm giác thoải mái, mình sẽ dễ trở thành một kẻ chiều chuộng bản thân - tận hưởng và trì trệ- từ đó rất khó bước ra khỏi vùng an toàn.
 
-Nên ở giai đoạn đầu chưa biết làm gì để phát triển bản thân, cứ cái gì tôi ghét thì tôi sẽ làm. Ghét chạy, thì đi chạy, để không bỏ dở giữa chừng, tôi leo hẳn lên núi luôn, đố mà dừng lại được
+Nên ở giai đoạn đầu chưa biết làm gì để phát triển bản thân, cứ cái gì mình né tránh trước đây thì mình sẽ làm. Ghét chạy, thì đi chạy, để không bỏ dở giữa chừng, mình leo hẳn lên núi luôn, đố mà dừng lại được.
 
-Ghét học, thì đăng kí học, nộp tiền đi, tiếc là phải học thôi
+Ghét học, thì đăng kí học, nộp tiền đi, tiếc là phải học thôi.
 
-Ghét ở một mình, cái này tôi không chọn, nhưng mà đời bắt tôi phải học, làm dần cũng quen, từ đứa không ngủ được một mình từ nhỏ á, giờ tôi đi du lịch một mình đêm nằm giữa đồng không mông quạnh nghe tiếng mèo chuột hay ma gì đó lục sục cả đêm luôn :))
+Ghét ở một mình, cái này mình không chọn, nhưng mà cuộc đời xô đẩy, rồi dần cũng quen, từ đứa không ngủ được một mình từ nhỏ á, giờ cũng đi du lịch một mình đêm nằm giữa đồng không mông quạnh nghe tiếng mèo chuột hay ma gì đó lục sục cả đêm luôn :))
 
-Nên có vẻ kì lạ, nhưng nếu bạn hỏi tôi nên bắt đầu thay đổi bản thân từ đâu, tôi sẽ bảo với bạn 1 điều kì lạ là, cái gì bạn ghét nhất, né tránh nhất, thì thử làm quen với nó và chinh phục nó.
+Nên có vẻ kì lạ, nhưng nếu bạn hỏi mình nên bắt đầu thay đổi bản thân từ đâu, mình sẽ bảo với bạn 1 điều kì lạ là, cái gì bạn né tránh nhất, thì thử làm quen với nó và chinh phục nó.
 
 Càng chọn những thứ khiến bản thân dễ chịu và thoải mái, chúng ta càng ít cơ hội mở rộng giới hạn của chính mình.
 
