@@ -1,9 +1,9 @@
 ---
-title: '"Quy tắc 5 phút" có thể thay đổi toàn bộ cuộc đời bạn!'
+title: Đôi khi là một sai lầm - Đôi khi không phải vậy.
 tag: Tâm lý
 date: 2026-07-18
 readingMinutes: 3
-excerpt: Trong cuộc sống hiện đại, một trong những trở ngại lớn nhất đối với sự phát triển  cá nhân là sự trì hoãn. Nhiều người chưa thành công là do họ chưa thực sự bắt đầu!
+excerpt: Nhiều người chưa thành công vì họ sợ bắt đầu, họ sợ bắt đầu vì họ sợ mắc sai lầm.
 ---
 
 Trong cuộc sống hiện đại, một trong những trở ngại lớn nhất đối với sự phát triển cá nhân không phải là thiếu năng lực, mà là sự trì hoãn. Nhiều người thông minh, có mục tiêu rõ ràng và đầy tiềm năng vẫn thường xuyên chần chừ trước những công việc quan trọng. Họ không bắt đầu viết bản báo cáo, không mở cuốn sách cần đọc, không triển khai ý tưởng kinh doanh mà mình đã ấp ủ từ lâu. Điều này không xuất phát từ sự lười biếng, mà chủ yếu đến từ cảm giác mơ hồ, lo lắng và áp lực quá lớn khi phải đối diện với một nhiệm vụ chưa được định hình rõ ràng.
