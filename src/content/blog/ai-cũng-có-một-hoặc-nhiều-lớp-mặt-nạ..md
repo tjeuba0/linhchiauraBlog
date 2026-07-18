@@ -36,7 +36,9 @@ Có một thời gian tôi biết mình cần nghỉ việc. Nhưng trong đầu
 
 Khi bạn 30 tuổi và bạn vẫn chưa lấy chồng, cũng có rất nhiều suy nghĩ trong đầu bạn :" Con gái như thế là ế không nhỉ"- hay "Tầm này sẽ không lấy được người tốt"?!?
 
-Đó thực sự là suy nghĩ của bạn, hay xã hội đang cài cắm vào bạn những định kiến? Mình tin rằng thiền, chánh niệm, việc chăm sóc cơ thể, học hỏi và dành thời gian ở một mình đều là những cách giúp chúng ta lắng nghe bản thân rõ hơn, bạn sẽ dễ dàng tìm ra câu trả lời mà không bị những "người khác" trong đầu bạn tác động. Việc của bạn là xác nhận rằng những tiếng nói nhỏ ấy không phải là bạn- sau đó chúng ta sẽ cùng nhau bóc tách trong 1 bài khác về các định kiến phổ biến dưới góc nhìn của tâm lý học nhé!. 
+Đó thực sự là suy nghĩ của bạn, hay xã hội đang cài cắm vào bạn những định kiến? Tôi tin rằng thiền, chánh niệm, việc chăm sóc cơ thể, học hỏi và dành thời gian ở một mình đều là những cách giúp chúng ta lắng nghe bản thân rõ hơn, bạn sẽ dễ dàng tìm ra câu trả lời mà không bị những "người khác" trong đầu bạn tác động. 
+
+Việc đầu tiên của bạn là tập tách biệt rằng những tiếng nói nhỏ ấy chưa chắc đã là bạn- sau đó chúng ta sẽ cùng nhau bóc tách trong 1 bài khác về các định kiến phổ biến dưới góc nhìn của tâm lý học nhé!. 
 
 Xin được gửi tặng bạn trích dẫn cuốn Hiểu- Tác giả Osho về vấn đề này:
 
