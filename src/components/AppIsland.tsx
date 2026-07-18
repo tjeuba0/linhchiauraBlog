@@ -13,7 +13,8 @@ const READING_MIN = 15;
 const READING_MAX = 24;
 const DEFAULT_READING: Reading = { size: 17, bold: false, italic: false };
 const MODAL_CLOSE_DURATION = 180;
-const TURNSTILE_SITE_KEY = import.meta.env.PUBLIC_TURNSTILE_SITE_KEY?.trim() ?? '';
+const TURNSTILE_SITE_KEY =
+  import.meta.env.PUBLIC_TURNSTILE_SITE_KEY?.trim() || '0x4AAAAAAD4dVml4Ve5kO060';
 const TAB_ORDER: Tab[] = ['nhatky', 'gioithieu', 'hopthu'];
 const TAB_HASH: Record<Tab, string> = {
   nhatky: '#nhat-ky',
