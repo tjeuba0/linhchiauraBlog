@@ -4,7 +4,7 @@ tag: Tâm lý
 date: 2026-07-18
 readingMinutes: 3
 excerpt: |-
-  Đôi khi việc bắt đầu một thứ gì đó, có thể đem lại sai lầm, đôi khi không phải vậy,
+  Đôi khi việc bắt đầu một thứ gì đó, có thể đem lại sai lầm.
   Nhưng khi đó không phải là 1 sai lầm, thì hiệu quả đạt được của nó dư sức bù đắp cho những lúc sai lầm ;)
 ---
 
