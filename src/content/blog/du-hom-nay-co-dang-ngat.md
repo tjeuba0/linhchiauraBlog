@@ -34,4 +34,6 @@ Tất cả đều là bài học. Mỗi khi trải qua cảm giác mệt mỏi, 
 
 Dùng những điều đã đi qua để biến chúng thành sức mạnh của riêng mình và tiếp tục vươn lên. Giống như một cái cây vậy.
 
-Muốn vươn cao bao nhiêu, bộ rễ của nó cũng phải cắm sâu xuống lòng đất bấy nhiêu. Đó chính là tư duy khiến mình cứ ngã xuống, rồi lại đứng dậy.
+Muốn vươn cao bao nhiêu, bộ rễ của nó cũng phải cắm sâu xuống lòng đất bấy nhiêu. Đó chính là tư duy khiến mình ngã xuống rồi lại đứng dậy.
+
+Và mình tin, nếu hôm nay bạn đang ở trong một giai đoạn rất khó khăn, thì biết đâu... đó không phải là lúc cuộc đời đang đánh gục bạn. Mà là lúc cuộc đời đang âm thầm nuôi bộ rễ cho một phiên bản mạnh mẽ hơn.
