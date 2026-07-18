@@ -24,7 +24,7 @@ Ghét học, thì đăng kí học, nộp tiền đi, tiếc là phải học th
 
 Ghét ở một mình, cái này mình không chọn, nhưng mà cuộc đời xô đẩy, rồi dần cũng quen, từ đứa không ngủ được một mình từ nhỏ á, giờ cũng đi du lịch một mình đêm nằm giữa đồng không mông quạnh nghe tiếng mèo chuột hay ma gì đó lục sục cả đêm luôn :))
 
-Nên có vẻ kì lạ, nhưng nếu bạn hỏi mình nên bắt đầu thay đổi bản thân từ đâu, mình sẽ bảo với bạn 1 điều kì lạ là, cái gì bạn né tránh nhất, thì thử làm quen với nó và chinh phục nó.
+Nên có vẻ kì lạ, nhưng nếu bạn hỏi mình nên bắt đầu thay đổi bản thân từ đâu, mình sẽ bảo với bạn, cái gì bạn né tránh nhất, thì thử làm quen với nó và chinh phục nó.
 
 Càng chọn những thứ khiến bản thân dễ chịu và thoải mái, chúng ta càng ít cơ hội mở rộng giới hạn của chính mình.
 
