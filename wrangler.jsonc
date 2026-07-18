@@ -4,6 +4,11 @@
   "compatibility_date": "2026-07-17",
   "compatibility_flags": ["global_fetch_strictly_public"],
   "main": "@astrojs/cloudflare/entrypoints/server",
+  "keep_vars": true,
+  "vars": {
+    "CONTACT_TO_EMAIL": "Nguyenlinhchi21@gmail.com",
+    "CONTACT_FROM_EMAIL": "Linhchiaura <onboarding@resend.dev>"
+  },
   "assets": {
     "directory": "./dist",
     "binding": "ASSETS",
