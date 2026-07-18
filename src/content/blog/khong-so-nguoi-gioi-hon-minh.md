@@ -16,9 +16,9 @@ Thì có lẽ điều mình sắp chia sẻ sẽ giúp bạn.
 
 Mình luôn tin rằng, giá trị của một con người không nằm ở việc hôm nay họ đang đứng ở vị trí nào. Mà nằm ở cách họ sống và con người họ đang trở thành.
 
-Nếu mỗi ngày mình đều sống tử tế, chân thành, nghiêm túc với việc trưởng thành và không cần khoác lên mình một phiên bản giả tạo để được yêu thích...
+Nếu mỗi ngày mình đều sống tử tế, chân thành, nghiêm túc với việc trưởng thành và không cần khoác lên mình một phiên bản giả tạo để đạt được mục đích riêng cho cá nhân.
 
-Thì mình không có lý do gì phải thấy mình thấp hơn bất kỳ ai.
+Thì mình không có lý do gì phải coi mình mình thấp hơn bất kỳ ai.
 
 Trong tâm lý học có một khái niệm gọi là **sự an toàn nội tại**.
 
