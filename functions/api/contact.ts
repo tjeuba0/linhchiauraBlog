@@ -1,4 +1,4 @@
-interface Env {
+export interface ContactEnv {
   RESEND_API_KEY?: string;
   CONTACT_TO_EMAIL?: string;
   CONTACT_FROM_EMAIL?: string;
@@ -7,7 +7,7 @@ interface Env {
 
 interface FunctionContext {
   request: Request;
-  env: Env;
+  env: ContactEnv;
 }
 
 interface ContactPayload {
@@ -218,7 +218,7 @@ function buildEmailHtml(payload: ContactPayload): string {
 </html>`;
 }
 
-async function sendContactEmail(env: Env, payload: ContactPayload): Promise<boolean> {
+async function sendContactEmail(env: ContactEnv, payload: ContactPayload): Promise<boolean> {
   const apiKey = env.RESEND_API_KEY?.trim() ?? '';
   const to = env.CONTACT_TO_EMAIL?.trim() ?? '';
   const from = env.CONTACT_FROM_EMAIL?.trim() ?? '';
@@ -266,7 +266,10 @@ async function sendContactEmail(env: Env, payload: ContactPayload): Promise<bool
   }
 }
 
-export const onRequest = async ({ request, env }: FunctionContext): Promise<Response> => {
+export const handleContactRequest = async (
+  request: Request,
+  env: ContactEnv,
+): Promise<Response> => {
   if (request.method !== 'POST') {
     return errorResponse(405, 'METHOD_NOT_ALLOWED', 'Phương thức không được hỗ trợ.', {
       Allow: 'POST',
@@ -355,3 +358,7 @@ export const onRequest = async ({ request, env }: FunctionContext): Promise<Resp
 
   return jsonResponse({ ok: true });
 };
+
+// Kept as a thin compatibility wrapper for Cloudflare Pages Functions previews.
+export const onRequest = ({ request, env }: FunctionContext): Promise<Response> =>
+  handleContactRequest(request, env);

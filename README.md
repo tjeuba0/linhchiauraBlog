@@ -1,6 +1,6 @@
 # Linhchiaura
 
-Blog tĩnh xây bằng Astro, deploy trên Cloudflare Pages. Nội dung blog được quản lý bằng Sveltia CMS; Hộp thư dùng Cloudflare Pages Function tại `POST /api/contact` và gửi email qua Resend.
+Blog tĩnh xây bằng Astro, deploy bằng Cloudflare Worker + Static Assets. Nội dung blog được quản lý bằng Sveltia CMS; Hộp thư dùng Worker endpoint tại `POST /api/contact` và gửi email qua Resend.
 
 ## Phát triển giao diện
 
@@ -18,12 +18,11 @@ Các lệnh chính:
 | `npm run dev` | Chạy Astro dev server tại `localhost:4321` |
 | `npm run check` | Kiểm tra Astro/TypeScript |
 | `npm run build` | Chạy check rồi build site tĩnh vào `dist/` |
-| `npm run preview` | Xem trước riêng phần site tĩnh |
-| `npm run preview:pages` | Chạy `dist/` cùng Pages Functions bằng Wrangler |
+| `npm run preview` | Build rồi chạy Static Assets cùng Worker API bằng Wrangler |
 
-`npm run dev` và `npm run preview` không chạy thư mục `functions/`. Muốn kiểm thử Hộp thư cùng origin, dùng Wrangler theo hướng dẫn bên dưới.
+`npm run dev` không chạy Worker API. Muốn kiểm thử Hộp thư cùng origin, dùng `npm run preview` theo hướng dẫn bên dưới.
 
-## Hộp thư: Resend và Cloudflare Pages Functions
+## Hộp thư: Resend và Cloudflare Workers
 
 Endpoint nhận JSON:
 
@@ -55,7 +54,7 @@ Nếu dùng domain thử nghiệm mặc định của Resend, dịch vụ có th
 
 ### 2. Biến môi trường trên Cloudflare
 
-Trong Cloudflare Dashboard, mở **Workers & Pages → project → Settings → Variables and Secrets**. Khai báo cho môi trường Production; khai báo thêm cho Preview nếu cần kiểm thử bản preview.
+Trong Cloudflare Dashboard, mở **Workers & Pages → linhchiaura → Settings → Variables and Secrets**. Khai báo cho Worker production.
 
 | Tên | Loại | Bắt buộc | Giá trị |
 | --- | --- | --- | --- |
@@ -70,7 +69,7 @@ Không đưa `RESEND_API_KEY` hay `TURNSTILE_SECRET_KEY` vào biến `PUBLIC_*`,
 
 `SITE_URL` là nguồn tạo canonical, Open Graph, RSS và sitemap. Project đã dùng `https://linhchiaura.khoivandev.workers.dev` làm mặc định; chỉ cần khai báo biến này khi chuyển sang domain khác.
 
-Turnstile là tùy chọn nhưng phải cấu hình theo cặp: `PUBLIC_TURNSTILE_SITE_KEY` cho build frontend và `TURNSTILE_SECRET_KEY` cho Pages Function. Nếu chỉ đặt secret, mọi request thật sẽ bị từ chối.
+Turnstile là tùy chọn nhưng phải cấu hình theo cặp: `PUBLIC_TURNSTILE_SITE_KEY` cho build frontend và `TURNSTILE_SECRET_KEY` cho Worker endpoint. Nếu chỉ đặt secret, mọi request thật sẽ bị từ chối.
 
 ### 3. Kiểm thử Function ở local
 
@@ -79,8 +78,7 @@ Tạo file local từ template và điền thông tin thật:
 ```sh
 cp .dev.vars.example .dev.vars
 cp .env.example .env
-npm run build
-npm run preview:pages -- --port 8788
+npm run preview -- --port 8788
 ```
 
 Mở site qua `http://localhost:8788` để frontend và `/api/contact` có cùng origin. Không mở frontend ở cổng `4321` rồi gọi API cổng `8788`, vì endpoint chủ động chặn request khác origin.
@@ -106,22 +104,22 @@ Lỗi luôn có cấu trúc an toàn để frontend hiển thị:
 {"ok":false,"error":{"code":"SEND_FAILED","message":"Chưa thể gửi lời nhắn, bạn thử lại sau nhé."}}
 ```
 
-### 4. Deploy Cloudflare Pages
+### 4. Deploy Cloudflare Worker
 
-Với Git integration, cấu hình Pages:
+Với Git integration, cấu hình Workers Builds:
 
 - Build command: `npm run build`
-- Build output directory: `dist`
+- Deploy command: `npx wrangler deploy`
 - Root directory: thư mục gốc repository
 - Environment variables/secrets: các biến tương ứng trong bảng trên
 
-Cloudflare Pages tự nhận thư mục `functions/` khi deploy từ repository. Sau khi thêm hoặc đổi biến, chạy một deployment mới rồi kiểm tra Hộp thư trên đúng domain production.
+`wrangler.jsonc` kết hợp Astro Cloudflare Worker với thư mục `dist/`; các trang blog đã prerender được phục vụ trực tiếp từ Static Assets, còn `/api/contact` chạy trong Worker. Sau khi thêm hoặc đổi biến, chạy một deployment mới rồi kiểm tra Hộp thư trên đúng domain production.
 
 Nếu deploy trực tiếp bằng Wrangler:
 
 ```sh
 npm run build
-npx wrangler pages deploy dist --project-name <ten-pages-project>
+npx wrangler deploy
 ```
 
 Các secret/variable production vẫn phải được cấu hình trong project Cloudflare, không lấy từ `.dev.vars` khi deploy.
