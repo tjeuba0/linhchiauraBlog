@@ -35,3 +35,5 @@ Nhưng điều thú vị là não cũng có một khả năng tuyệt vời khá
 "À, hóa ra việc này mình làm được."
 
 Và rồi điều từng khiến bạn sợ hãi sẽ dần trở thành bình thường. Và đôi khi, thứ giúp chúng ta lớn lên không phải là sự thoải mái. Mà là khả năng mở rộng vùng an toàn và bứt phá những giới hạn, để cập nhật phiên bản mạnh mẽ hơn của chính mình.
+
+Bonus thêm: Nỗ lực chấp nhận và thích nghi với một điều bạn từng chưa hiểu, né tránh, và sợ hãi, sẽ khiến điều đó trở nên giá trị hơn nhiều với bạn khi đã thực sự nắm bắt được nó.
