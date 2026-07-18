@@ -1,21 +1,45 @@
 ---
-title: "Tôi không sợ tiếp xúc với người giỏi hơn mình!"
-tag: "Lối sống"
+title: Tôi không sợ tiếp xúc với người giỏi hơn mình!
+tag: Lối sống
 date: 2026-07-17
 readingMinutes: 3
-excerpt: "Tôi mới chỉ là 1 cô gái bé nhỏ và nền tảng không có gì xuất sắc, nhưng điều gì khiến tôi không có cảm giác sợ hay lép vế trước người giỏi, đẹp, giàu có."
+excerpt: Nếu bạn từng thấy tim đập nhanh khi nói chuyện với một lãnh đạo cấp cao, từng rụt rè trước những người thành công, hay từng chạnh lòng khi đứng cạnh một cô gái xinh đẹp...
 ---
 
-Tôi mới chỉ là 1 cô gái bé nhỏ và nền tảng không có gì xuất sắc, nhưng điều gì khiến tôi không có cảm giác sợ hay lép vế trước người giỏi, đẹp, giàu có.
+Mình chỉ là một cô gái rất bình thường.
 
-Nếu bạn từng có cảm giác sợ hãi khi ở gần 1 lãnh đạo cấp cao, cảm giác rụt rè khi ở cạnh những người thành đạt, hay một chút tự ti khi kế bên một cô gái xinh đẹp, hãy để mình hướng dẫn cho bạn một tư duy đơn giản để bạn luôn tự tin:
+Tại sao mình chưa bao giờ có cảm giác lép vế khi đứng cạnh những người rất giỏi, rất đẹp hay rất thành đạt?
 
-Chỉ cần bạn sống tử tế, chân thành, đang nghiêm túc với hành trình trưởng thành của mình và không nợ ai một sự giả vờ nào cả. Vậy thì tại sao bạn phải co ro trước bất kỳ ai?
+Nếu bạn từng thấy tim đập nhanh khi nói chuyện với một lãnh đạo cấp cao, từng rụt rè trước những người thành công, hay từng chạnh lòng khi đứng cạnh một cô gái xinh đẹp...
 
-Trong tâm lý học có một khái niệm gọi là "sự an toàn nội tại".
+Thì có lẽ điều mình sắp chia sẻ sẽ giúp bạn.
 
-Khi giá trị bản thân của bạn được xây dựng từ tính cách, sự tử tế, sự chăm chỉ và những điều mình đang trở thành, bạn sẽ bớt phụ thuộc hơn vào việc phải chứng minh mình hơn người khác. Bạn không cần phải là người thành đạt nhất trong phòng để cảm thấy mình có giá trị. Bạn chỉ cần biết mình đang lớn lên mỗi ngày - điều đó sẽ xây dựng cho bạn sức mạnh nội tại và sự tự tin thực sự toát ra từ bên trong.
+Mình luôn tin rằng, giá trị của một con người không nằm ở việc hôm nay họ đang đứng ở vị trí nào. Mà nằm ở cách họ sống và con người họ đang trở thành.
 
-Tôi vẫn còn rất nhiều điều phải học. Nhưng tôi không thấy mình nhỏ bé khi đứng cạnh những người vĩ đại.
+Nếu mỗi ngày mình đều sống tử tế, chân thành, nghiêm túc với việc trưởng thành và không cần khoác lên mình một phiên bản giả tạo để được yêu thích...
 
-Vì tôi vẫn đang học, và nếu được ở gần họ, tôi sẽ tiếp tục học từ họ, chứ chắc chắn không phải là cảm giác tự ti.
+Thì mình không có lý do gì phải thấy mình thấp hơn bất kỳ ai.
+
+Trong tâm lý học có một khái niệm gọi là **sự an toàn nội tại**.
+
+Đó là khi cảm giác về giá trị của bản thân không còn phụ thuộc quá nhiều vào việc người khác giỏi hơn mình, đẹp hơn mình hay thành công hơn mình.
+
+Bạn biết mình còn nhiều thiếu sót.
+
+Nhưng bạn cũng biết mình đang đi đúng hướng.
+
+Vì thế, thay vì so sánh, bạn sẽ quan sát.
+
+Thay vì tự ti, bạn sẽ học hỏi.
+
+Thay vì cố chứng minh mình cũng "đẳng cấp", bạn chỉ tập trung trở thành phiên bản tốt hơn của chính mình ngày hôm qua.
+
+Mình vẫn còn rất nhiều điều phải học.
+
+Nhưng mình không thấy mình nhỏ bé khi đứng cạnh những người vĩ đại.
+
+Bởi mình không đứng cạnh họ để so sánh.
+
+Mình đứng cạnh họ để học.
+
+Và mình tin rằng, khi một người luôn giữ được sự tử tế, lòng ham học hỏi và sự tôn trọng dành cho người khác, thì họ đã có một giá trị mà không ai có thể lấy đi được.
