@@ -3,7 +3,7 @@ title: Mình không sợ tiếp xúc với người giỏi hơn mình!
 tag: Lối sống
 date: 2026-07-17
 readingMinutes: 3
-excerpt: Nếu bạn từng thấy tim đập nhanh khi nói chuyện với một lãnh đạo cấp cao, từng rụt rè trước những người thành công, hay từng chạnh lòng khi đứng cạnh một cô gái xinh đẹp...
+excerpt: Nếu bạn thấy tim đập nhanh khi nói chuyện với lãnh đạo cấp cao, rụt rè trước những người thành công, hay chạnh lòng khi đứng cạnh một cô gái xinh đẹp...
 ---
 
 Mình chỉ là một cô gái rất bình thường.
