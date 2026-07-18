@@ -98,11 +98,16 @@ Thành công trả `200` với:
 {"ok":true}
 ```
 
-Lỗi luôn có cấu trúc an toàn để frontend hiển thị:
+Lỗi luôn có cấu trúc an toàn để frontend hiển thị. Ví dụ khi Resend chưa cho phép
+địa chỉ gửi hoặc nhận:
 
 ```json
-{"ok":false,"error":{"code":"SEND_FAILED","message":"Chưa thể gửi lời nhắn, bạn thử lại sau nhé."}}
+{"ok":false,"error":{"code":"EMAIL_SENDER_RESTRICTED","message":"Dịch vụ gửi thư chưa cho phép địa chỉ gửi hoặc nhận này."}}
 ```
+
+Các phản hồi từ Resend được phân loại theo trạng thái HTTP thành lỗi xác thực,
+giới hạn địa chỉ gửi/nhận, quá hạn mức, request bị từ chối hoặc dịch vụ tạm gián đoạn.
+API không trả về khóa bí mật hay nội dung phản hồi thô của nhà cung cấp.
 
 ### 4. Deploy Cloudflare Worker
 

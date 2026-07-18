@@ -17,6 +17,16 @@ interface ContactPayload {
   turnstileToken: string;
 }
 
+type EmailSendFailure =
+  | 'configuration'
+  | 'unauthorized'
+  | 'forbidden'
+  | 'rate_limited'
+  | 'rejected'
+  | 'unavailable';
+
+type EmailSendResult = { ok: true } | { ok: false; reason: EmailSendFailure };
+
 const MAX_BODY_BYTES = 32_768;
 const MAX_NAME_LENGTH = 80;
 const MAX_EMAIL_LENGTH = 254;
@@ -218,7 +228,10 @@ function buildEmailHtml(payload: ContactPayload): string {
 </html>`;
 }
 
-async function sendContactEmail(env: ContactEnv, payload: ContactPayload): Promise<boolean> {
+async function sendContactEmail(
+  env: ContactEnv,
+  payload: ContactPayload,
+): Promise<EmailSendResult> {
   const apiKey = env.RESEND_API_KEY?.trim() ?? '';
   const to = env.CONTACT_TO_EMAIL?.trim() ?? '';
   const from = env.CONTACT_FROM_EMAIL?.trim() ?? '';
@@ -229,7 +242,7 @@ async function sendContactEmail(env: ContactEnv, payload: ContactPayload): Promi
     hasForbiddenControlCharacters(to) ||
     !isValidFromAddress(from)
   ) {
-    return false;
+    return { ok: false, reason: 'configuration' };
   }
 
   const email: Record<string, unknown> = {
@@ -260,9 +273,18 @@ async function sendContactEmail(env: ContactEnv, payload: ContactPayload): Promi
       },
       10_000,
     );
-    return response.ok;
+    if (response.ok) return { ok: true };
+
+    console.error('Resend email request failed', { status: response.status });
+
+    if (response.status === 401) return { ok: false, reason: 'unauthorized' };
+    if (response.status === 403) return { ok: false, reason: 'forbidden' };
+    if (response.status === 429) return { ok: false, reason: 'rate_limited' };
+    if (response.status >= 500) return { ok: false, reason: 'unavailable' };
+    return { ok: false, reason: 'rejected' };
   } catch {
-    return false;
+    console.error('Resend email request failed', { status: 'network_or_timeout' });
+    return { ok: false, reason: 'unavailable' };
   }
 }
 
@@ -351,9 +373,48 @@ export const handleContactRequest = async (
     }
   }
 
-  const sent = await sendContactEmail(env, payload);
-  if (!sent) {
-    return errorResponse(502, 'SEND_FAILED', 'Chưa thể gửi lời nhắn, bạn thử lại sau nhé.');
+  const emailResult = await sendContactEmail(env, payload);
+  if (!emailResult.ok) {
+    if (emailResult.reason === 'unauthorized') {
+      return errorResponse(
+        502,
+        'EMAIL_AUTH_FAILED',
+        'Khóa gửi thư của website chưa được chấp nhận. Bạn vui lòng báo giúp mình nhé.',
+      );
+    }
+    if (emailResult.reason === 'forbidden') {
+      return errorResponse(
+        502,
+        'EMAIL_SENDER_RESTRICTED',
+        'Dịch vụ gửi thư chưa cho phép địa chỉ gửi hoặc nhận này.',
+      );
+    }
+    if (emailResult.reason === 'rate_limited') {
+      return errorResponse(
+        429,
+        'EMAIL_RATE_LIMITED',
+        'Hộp thư đang nhận quá nhiều lời nhắn. Bạn thử lại sau nhé.',
+      );
+    }
+    if (emailResult.reason === 'rejected') {
+      return errorResponse(
+        502,
+        'EMAIL_REQUEST_REJECTED',
+        'Dịch vụ gửi thư chưa chấp nhận nội dung hoặc cấu hình email.',
+      );
+    }
+    if (emailResult.reason === 'configuration') {
+      return errorResponse(
+        503,
+        'EMAIL_NOT_CONFIGURED',
+        'Hộp thư đang tạm gián đoạn do thiếu cấu hình gửi thư.',
+      );
+    }
+    return errorResponse(
+      503,
+      'EMAIL_PROVIDER_UNAVAILABLE',
+      'Dịch vụ gửi thư đang tạm gián đoạn, bạn thử lại sau nhé.',
+    );
   }
 
   return jsonResponse({ ok: true });
