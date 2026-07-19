@@ -6,12 +6,6 @@ readingMinutes: 5
 excerpt: Nếu Phật Thích Ca xuất thân chỉ là một người ăn mày, Ngài có đắc đạo được không?
 ---
 
-Trước khi Phật Thích Ca đắc đạo dưới gốc cây bồ đề, Ngài là **Thái tử của vương quốc Thích Ca**. Sinh ra trong nhung lụa, chưa từng thiếu tiền bạc, quyền lực hay những thú vui của cuộc đời.
+Trước khi thành Phật, Thái tử Tất Đạt Đa gần như đã có mọi thứ mà một con người thời bấy giờ có thể mong muốn: quyền lực, giàu sang, gia đình và địa vị.Đôi khi mình tự hỏi, liệu chính vì đã nếm trải gần như trọn vẹn những điều mà thế giới vật chất có thể mang lại, nên Ngài mới đủ điều kiện để nhận ra rằng chúng vẫn chưa thể giải quyết tận gốc nỗi khổ của con người?Nếu một người mỗi ngày còn phải lo miếng ăn, chỗ ngủ và sự sống còn, liệu họ có đủ khoảng trống trong tâm trí để suy ngẫm về vô thường, vô ngã hay giải thoát không?Có lẽ đây cũng là lý do mà trong tâm lý học hiện đại, người ta cho rằng khi các nhu cầu sinh tồn chưa được đáp ứng, con người rất khó hướng sự chú ý đến những nhu cầu tinh thần cao hơn.Và liệu có phải:
 
-Thế nên, mình tự hỏi vì là Ngài đã có tất cả, nên việc Ngài buông bỏ tất cả và vượt lên trên thế giới vật chất- và chạm tới đỉnh cao của thế giới tinh thần- vì ngài đã có điều kiện để chạm được đến những điều ấy hay không?
-
-Nếu xuất thân là một kẻ ăn mày, cơm không no ba bữa, áo rách quấn thân, màn trời chiếu đất, liệu có 1 khoảnh khắc nào nghĩ ngợi đến việc vượt thoát luân hồi hay không? Tất cả những gì kẻ ăn mày quan tâm chỉ là một miếng ăn ngày mai, lo tìm chỗ trú thân khi mưa bão. Vì vậy anh ta không thể suy nghĩ đến thứ gì cao hơn ngoài cái thế giới vật chất thiếu thốn ấy. 
-
-Phật Thích Ca có đầy đủ điều kiện và nhân duyên để đắc đạo và nhập Niết Bàn.
-
-Kẻ ăn mày đã thiếu đi điều kiện cần đ
+> **Con người chỉ bắt đầu đi tìm chân lý khi đã thôi phải vật lộn để tồn tại?**
