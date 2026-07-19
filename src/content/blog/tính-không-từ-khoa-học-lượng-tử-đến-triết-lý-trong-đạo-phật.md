@@ -2,7 +2,7 @@
 title: Tính KHÔNG - từ khoa học lượng tử đến triết lý trong Đạo Phật
 tag: Suy ngẫm
 date: 2026-07-19
-readingMinutes: 3
+readingMinutes: 5
 excerpt: Vạn vật không có tự tánh riêng biệt. Không có tôi - không có bạn - không có gì là cố định - đó là tính KHÔNG.
 ---
 
