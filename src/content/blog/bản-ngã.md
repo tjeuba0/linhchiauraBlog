@@ -11,11 +11,23 @@ excerpt: |-
 
 Trong khá nhiều tôn giáo, chúng ta đề cao tư tưởng " Vô ngã"
 
+Phổ biến nhất, là **vô ngã** trong **Đạo Phật** là một trong **ba dấu ấn của sự tồn tại** trong Phật giáo, cùng với:
+
+- **Vô thường (Anicca):** mọi sự đều thay đổi.
+- **Khổ (Dukkha):** bám chấp vào cái thay đổi sẽ dẫn đến khổ.
+- **Vô ngã (Anattā):** không có một "cái tôi" cố định, độc lập và bất biến
+
+Và rồi tôi cũng tự hỏi:
+
 Nhưng giả định rằng chúng ta được ban cho bản ngã vì một lý do gì đó?
 
 Người vĩ đại có bản ngã vĩ đại, có lẽ đó chính là điều khiến họ trở nên vĩ đại.
 
-Vì thế nên sử dụng nó cho tốt hay cố gắng chối bỏ nó?
+Vì thế nên sử dụng nó cho tốt hay cố gắng chối bỏ nó? 
+
+Có rất nhiều khái niệm và cách hiểu về Bản ngã, trong nhiều lý thuyết khác nhau, vì thế hôm nay tôi sẽ chia sẻ thêm một số góc nhìn trong các hệ tư tưởng khác. 
+
+Đầu tiên cùng đến với Osho.
 
 ...
 
@@ -31,7 +43,7 @@ Theo Osho... Xã hội không muốn bạn biết bạn thực sự là ai, và 
 
 Quay trở lại câu hỏi tôi đặt ra từ đầu.
 
-Vậy thì, theo Phật Giáo, theo Osho, đều đồng tình với tư tưởng hướng về "Vô ngã"
+Vậy thì, theo Phật Giáo, theo Osho, đều đồng tình với tư tưởng hướng về "Vô ngã".
 
 Vậy theo Phân tâm học thì sao?
 
@@ -80,9 +92,6 @@ Cụ thể, tâm lý học trả lời câu hỏi con người suy nghĩ, lập 
 
 Quay trở lại tiếp câu hỏi đầu tiên về quan điểm "Người vĩ đại có bản ngã vĩ đại."
 
-Ở đây, bản ngã này tương đương với:
+Nếu hiểu 'bản ngã' là cảm nhận về chính mình, nó có thể biểu hiện qua nhiều hình thức: tham vọng lớn, lòng tự trọng cao, niềm tin mạnh mẽ vào bản thân, hay một ý thức rõ ràng về giá trị của mình. Tuy nhiên, dưới góc nhìn Phật giáo, những điều này không tự thân là 'bản ngã'. Điều tạo nên chấp ngã là khi ta đồng nhất chúng với con người thật của mình và tin rằng đó là một bản sắc cố định, bất biến.
 
-- Người có **tham vọng lớn**.
-- Người có **cái tôi mạnh**.
-- Người có **lòng tự trọng cao**.
-- Người có **niềm tin vào bản thân**.
+Điểm cốt lõi không nằm ở việc **có** những phẩm chất ấy hay không, mà ở việc **bám chấp** vào chúng.
