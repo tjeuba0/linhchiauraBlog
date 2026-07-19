@@ -89,7 +89,7 @@ Quay trở lại tiếp câu hỏi đầu tiên về quan điểm "Người vĩ 
 
 Nếu hiểu 'bản ngã' là cảm nhận về chính mình, nó có thể biểu hiện qua nhiều hình thức: tham vọng lớn, lòng tự trọng cao, niềm tin mạnh mẽ vào bản thân, hay một ý thức rõ ràng về giá trị của mình. Tuy nhiên, dưới góc nhìn Phật giáo, những điều này không tự thân là 'bản ngã'. Điều tạo nên chấp ngã là khi ta đồng nhất chúng với con người thật của mình và tin rằng đó là một bản sắc cố định, bất biến.
 
-Điểm cốt lõi không nằm ở việc **có** những phẩm chất ấy hay không, mà ở việc **bám chấp** vào chúng.
+Điểm cốt lõi không nằm ở việc có những phẩm chất ấy hay không, mà ở việc **bám chấp** vào chúng.
 
 Bạn có thể đầy tham vọng nhưng không bị tham vọng định nghĩa.
 
