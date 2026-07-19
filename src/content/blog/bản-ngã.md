@@ -21,6 +21,6 @@ Vì thế nên sử dụng nó cho tốt hay cố gắng chối bỏ nó?
 
 Và mình để đây là 1 topic mở.
 
-Mình sẽ viết thêm những suy nghĩ của mình về chủ đề này và cũng mong ngóng được nghe thêm những quan điểm của các bạn về "bản ngã" nhé!
+Mình sẽ viết thêm những suy nghĩ của mình về chủ đề này và cũng mong ngóng được nghe thêm những quan điểm của các bạn về "bản ngã" trong phần "Bạn viết" nhé!
 
 Hope to see you!
