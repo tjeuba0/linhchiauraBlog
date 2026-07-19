@@ -12,8 +12,8 @@ Thấy quá nhiều, biết quá nhiều, và vì thế, họ tự mình tách b
 
 Với những người có tâm thức và trí tuệ phát triển, họ không thích nghi tốt với các cuộc gặp gỡ thông thường, đối với họ - đây là những sự giao tiếp hời hợt, chứ không phải giao tiếp thực sự.
 
-Một điều nữa mà những người có trí tuệ cũng vô tình thể hiện ra, là họ yêu cầu cao và khá đòi hỏi, nếu họ cảm thấy ai đó không đáng, họ sẽ không chia sẻ cuộc sống của họ, còn nếu không, họ sẽ chọn ở một mình.
+Một điều nữa mà những người có trí tuệ cũng vô tình thể hiện ra, là họ yêu cầu cao và khá đòi hỏi, nếu họ cảm thấy ai đó không đáng, họ sẽ không chia sẻ cuộc sống của họ, họ sẽ chọn ở một mình.
 
 Để kết nối với người khác, họ thường cần cảm thấy rằng người đó đủ trưởng thành để hiểu nhau, và cùng hỗ trợ cho sự tiến bộ của nhau cũng như đồng điệu về ngôn từ, cảm xúc, cách nhìn về thế giới.
 
-Nói tóm lại, người có trí tuệ có một vài đặc điểm như vậy, nhưng cũng phải nhớ hãy giữ cho mình tâm khiêm hạ và khi họ học cách trở nên cô độc một cách tự do, họ cũng sẽ học cách tôn trọng những khoảnh khắc cá nhân của người khác.
+Nói tóm lại, người có trí tuệ thay vì được mở rộng vòng tròn mối quan hệ, họ lại trở nên cô đơn, một số đặc điểm của họ dễ khiến họ trở nên kiêu ngạo, cần nhớ giữ cho mình tâm khiêm hạ và khi họ học cách trở nên cô độc một cách tự do, họ cũng sẽ học cách tôn trọng những khoảnh khắc cá nhân của mỗi người.
