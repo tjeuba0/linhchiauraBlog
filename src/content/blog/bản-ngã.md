@@ -10,21 +10,19 @@ excerpt: |-
 
 Trong khá nhiều tôn giáo, chúng ta đề cao tư tưởng " Vô ngã"
 
-Phổ biến nhất, là **vô ngã** trong **Đạo Phật** là một trong **ba dấu ấn của sự tồn tại** trong Phật giáo, cùng với:
-
-- **Vô thường (Anicca):** mọi sự đều thay đổi.
-- **Khổ (Dukkha):** bám chấp vào cái thay đổi sẽ dẫn đến khổ.
-- **Vô ngã (Anattā):** không có một "cái tôi" cố định, độc lập và bất biến
+Phổ biến nhất, là **vô ngã** trong **Đạo Phật** là một trong **ba dấu ấn của sự tồn tại** trong Phật giáo, với ý nghĩa: không có một "cái tôi" cố định, độc lập và bất biến.
 
 Và rồi cũng có một quan điểm khác cho rằng:
 
-Có phải người vĩ đại đều có một "bản ngã" rất lớn? Hay điều khiến họ vĩ đại không phải là bản ngã, mà là khả năng không để bản ngã điều khiển mình?
+Có phải người vĩ đại đều có một "bản ngã" vĩ đại? Hay điều khiến họ vĩ đại không phải là bản ngã, mà là khả năng không để bản ngã điều khiển mình?
 
 Vì thế nên sử dụng nó cho tốt hay cố gắng chối bỏ nó? 
 
-Có rất nhiều khái niệm và cách hiểu về Bản ngã, trong nhiều lý thuyết khác nhau, vì thế hôm nay tôi sẽ chia sẻ thêm một số góc nhìn trong các hệ tư tưởng khác. 
+Có rất nhiều khái niệm và cách hiểu về Bản ngã, trong nhiều lý thuyết khác nhau, vì thế hôm nay tôi sẽ chia sẻ thêm một số góc nhìn trong các hệ tư tưởng mà tôi đã đọc và chiêm nghiệm.
 
-Đầu tiên cùng đến với tư tưởng **Osho.**
+Ở trên tôi đã nói về **Đạo Phật,** khá phổ biến.
+
+Thứ hai, chúng ta cùng đến với tư tưởng **Osho.**
 
 ...
 
