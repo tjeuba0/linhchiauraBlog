@@ -1,5 +1,5 @@
 ---
-title: '#Triết học & các tư tưởng - Bản ngã - Cái nhìn qua nhiều lăng kính Phật giáo, Osho & Freud'
+title: Bản ngã - Cái nhìn qua nhiều lăng kính Phật giáo, Osho & Freud
 tag: Suy ngẫm
 date: 2026-07-18
 readingMinutes: 10
