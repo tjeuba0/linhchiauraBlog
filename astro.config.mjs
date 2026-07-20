@@ -17,6 +17,12 @@ export default defineConfig({
 
   vite: {
     plugins: [tailwindcss()],
+    build: {
+      // Without CSS targets, Lightning CSS minifies media queries into range
+      // syntax ("(width<=640px)"), which iOS Safari < 16.4 cannot parse — the
+      // whole mobile layout block gets dropped on older iPhones.
+      cssTarget: ['safari15', 'ios15'],
+    },
   },
 
   adapter: cloudflare(),

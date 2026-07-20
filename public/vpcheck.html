@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>Kiểm tra hiển thị</title>
+<style>
+  body { font-family: -apple-system, sans-serif; font-size: 17px; margin: 16px; background: #f4faf5; color: #35443c; }
+  h1 { font-size: 20px; }
+  .box { padding: 10px 12px; border-radius: 10px; margin: 8px 0; background: #fbdcdc; }
+  .box b { display: block; }
+  table { border-collapse: collapse; width: 100%; margin-top: 12px; }
+  td { border-bottom: 1px solid #cfe3d4; padding: 6px 4px; word-break: break-all; }
+  td:first-child { color: #666; white-space: nowrap; padding-right: 10px; }
+  .note { font-size: 14px; color: #666; margin-top: 14px; }
+
+  #t-legacy::after, #t-range::after { content: "KHÔNG áp dụng ✗"; }
+  @media (max-width: 640px) {
+    #t-legacy { background: #d7f0dd; }
+    #t-legacy::after { content: "CÓ áp dụng ✓"; }
+  }
+  @media (width <= 640px) {
+    #t-range { background: #d7f0dd; }
+    #t-range::after { content: "CÓ áp dụng ✓"; }
+  }
+</style>
+</head>
+<body>
+<h1>Kiểm tra hiển thị — chụp màn hình trang này giúp mình nhé</h1>
+
+<div class="box" id="t-legacy"><b>Media query kiểu cũ (max-width: 640px):</b></div>
+<div class="box" id="t-range"><b>Media query kiểu mới (width &lt;= 640px):</b></div>
+
+<table id="info"><tr><td>JavaScript</td><td>không chạy được</td></tr></table>
+
+<p class="note">Trang chẩn đoán tạm thời, không ảnh hưởng tới blog.</p>
+
+<script>
+(function () {
+  function mq(q) {
+    try {
+      var m = window.matchMedia(q);
+      if (m.media === 'not all') return 'KHÔNG HIỂU cú pháp';
+      return m.matches ? 'khớp' : 'không khớp';
+    } catch (e) { return 'lỗi: ' + e.message; }
+  }
+  var vv = window.visualViewport;
+  var rows = [
+    ['User agent', navigator.userAgent],
+    ['innerWidth', window.innerWidth],
+    ['clientWidth', document.documentElement.clientWidth],
+    ['screen.width × height', screen.width + ' × ' + screen.height],
+    ['visualViewport.width', vv ? Math.round(vv.width * 10) / 10 : 'không có'],
+    ['visualViewport.scale', vv ? Math.round(vv.scale * 1000) / 1000 : 'không có'],
+    ['devicePixelRatio', window.devicePixelRatio],
+    ['(max-width: 640px)', mq('(max-width: 640px)')],
+    ['(width <= 640px)', mq('(width <= 640px)')],
+    ['(max-device-width: 480px)', mq('(max-device-width: 480px)')],
+    ['(device-width <= 480px)', mq('(device-width <= 480px)')]
+  ];
+  var html = '';
+  for (var i = 0; i < rows.length; i++) {
+    html += '<tr><td>' + rows[i][0] + '</td><td>' + rows[i][1] + '</td></tr>';
+  }
+  document.getElementById('info').innerHTML = html;
+})();
+</script>
+</body>
+</html>
