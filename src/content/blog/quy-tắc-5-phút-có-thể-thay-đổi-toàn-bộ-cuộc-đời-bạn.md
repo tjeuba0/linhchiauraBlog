@@ -1,5 +1,5 @@
 ---
-title: '#Trưởng thành - Hầu hết chúng ta không thất bại vì làm sai. Chúng ta thất bại vì không bắt đầu.'
+title: Hầu hết chúng ta không thất bại vì làm sai. Chúng ta thất bại vì không bắt đầu.
 tag: Tâm lý
 date: 2026-07-18
 readingMinutes: 3
