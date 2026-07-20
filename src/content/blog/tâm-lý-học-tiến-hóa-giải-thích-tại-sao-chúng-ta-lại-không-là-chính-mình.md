@@ -12,14 +12,14 @@ Chúng ta cần hiểu sự tiến hóa này đi kèm với rất nhiều cơ ch
 
 Đầu tiên, hãy ghi nhớ - bản chất sâu xa và cốt lõi nhất của con người chính là một sinh vật xã hội, chịu ảnh hưởng bởi xã hội, thích tương tác xã hội, chúng ta không được thiết kế để sống một mình.
 
-Và sinh vật xã hội là gì, đặc trưng của chúng ta là: tranh giành quyền lực, tranh giành địa vị xã hội, và cơ hội sinh sản (một cách ngấm ngầm hoặc công khai ).
+Chúng ta sống trong cộng đồng, nhưng đừng quên rằng, chúng ta vẫn có những đặc trưng của một sinh vật đó là: **tranh giành quyền lực, tranh giành địa vị xã hội, và cơ hội sinh sản** (một cách ngấm ngầm hoặc công khai) giữa  những cộng đồng đó - hãy nhớ 3 ý này!
 
-Và theo tâm lý học tiến hóa, để đạt được những mục đích đó, bộ não của con người sẽ được thiết kế để lừa lọc người khác, nhưng điểm mấu chốt ở đây, nó còn rất thông minh để tự đánh lừa chính mình, khiến cho bản thân các bạn cũng không hề biết mình đang làm mọi thứ để đạt được 3 điều trên: tranh giành quyền lực, tranh giành địa vị xã hội, và cơ hội sinh sản! Nếu có ai đó nói đến, chúng ta sẽ cãi phăng đi.
+Và theo tâm lý học tiến hóa, để đạt được những mục đích đó, bộ não của con người sẽ được thiết kế để đạt được lợi ích- thậm chí lừa lọc người khác, nhưng điểm mấu chốt ở đây, nó còn rất thông minh để tự đánh lừa chính mình, khiến cho bản thân các bạn cũng không hề biết mình đang làm mọi thứ để đạt được 3 điều trên: tranh giành quyền lực, tranh giành địa vị xã hội, và cơ hội sinh sản! Nếu có ai đó nói đến, chúng ta sẽ cãi phăng đi.
 
 Cùng đến với một số luận điểm chính về việc bộ não chúng ta rất tinh vi trong việc "lừa lọc" người khác và chính nó nhé
 
 1. **Xã hội học vi mô:** Dựa trên những hành vi của chúng ta và qua thời gian học hỏi, tương tác, não bộ dần học được cách tự biên tự diễn những tương tác một cách thuần thục đáng kinh ngạc mà không cần phải cố gắng. Trong khi ta đang mải nghĩ xem mình nên nói gì, thì bộ não đã kịp thời điều khiển ta mỉm cười, thể hiện biểu cảm, giao tiếp bằng mắt, lựa chọn tư thế chính xác,.. đồng thời phản hồi với những hành vi tương tự ở người đang giao tiếp với mình.
-2. **Tâm lý học nhận thức và xã hội:** não bộ chúng ta không chỉ là thiên tài ghi nhớ, tự bật chế độ auto phản hồi, mà còn giống như chatgpt trong việc bịa ra những thông tin, giấu nhẹm đi những điều bất lợi cho chủ thể, thậm chí còn xuyên tạc những động cơ hành động vị nhân sinh, giải mã những thiên kiến của chúng ta theo hướng cực kì hợp lý, nhằm đánh lừa chính bản thân, nó ghi nhớ sai, và cũng thích truyền đạt "tam sao thất bản"
+2. **Tâm lý học nhận thức và xã hội:** não bộ chúng ta không chỉ là thiên tài ghi nhớ, tự bật chế độ auto phản hồi, mà còn giống như chatgpt trong việc bịa ra những thông tin, giấu nhẹm đi những điều bất lợi cho chủ thể, thậm chí còn xuyên tạc những động cơ hành động vị nhân sinh, giải mã những thiên kiến của chúng ta theo hướng cực kì hợp lý, nhằm đánh lừa chính bản thân, nó ghi nhớ sai, và cũng thích truyền đạt "tam sao thất bản". Ví dụ
 3. **Linh trưởng học:** Nhà triết học & chính trị người Ý Machiavelli đã chỉ ra, con người có những đặc trưng của loài linh trưởng với những đặc điểm cố hữu sau:
 
 - Thích khoe mẽ để tán tỉnh bạn tình
