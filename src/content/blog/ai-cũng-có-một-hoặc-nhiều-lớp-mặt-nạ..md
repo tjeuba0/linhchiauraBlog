@@ -1,5 +1,5 @@
 ---
-title: Hầu hết mọi người đều là "người khác"
+title: '#Não bộ & Tâm lý - Hầu hết mọi người đều là "người khác"'
 tag: Suy ngẫm
 date: 2026-07-18
 readingMinutes: 10
