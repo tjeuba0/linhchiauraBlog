@@ -1,6 +1,6 @@
 ---
 title: Mình không sợ tiếp xúc với người giỏi hơn mình!
-tag: "Nhật ký trưởng thành"
+tag: Lối sống
 date: 2026-07-17
 readingMinutes: 3
 excerpt: Nếu bạn thấy tim đập nhanh khi nói chuyện với lãnh đạo cấp cao, rụt rè trước những người thành công, hay chạnh lòng khi đứng cạnh một cô gái xinh đẹp...
