@@ -1,6 +1,6 @@
 ---
 title: Hầu hết mọi người đều là "người khác"
-tag: "Triết học & các tư tưởng"
+tag: Não bộ & Tâm lý
 date: 2026-07-18
 readingMinutes: 10
 excerpt: |-
