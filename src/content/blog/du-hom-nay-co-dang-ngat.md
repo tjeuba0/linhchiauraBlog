@@ -1,5 +1,5 @@
 ---
-title: Dù hôm nay có đắng ngắt, tin mình đi, nó sẽ qua
+title: '#Trưởng thành -Dù hôm nay có đắng ngắt, tin mình đi, nó sẽ qua'
 tag: Suy ngẫm
 date: 2026-07-05
 readingMinutes: 5
