@@ -1,5 +1,5 @@
 ---
-title: Tập làm điều bạn không thích!
+title: '#Trưởng thành - Tập làm điều bạn không thích!'
 tag: Lối sống
 date: 2026-07-12
 readingMinutes: 3
