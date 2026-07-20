@@ -1,5 +1,5 @@
 ---
-title: Tâm lý học tiến hóa giải thích tại sao chúng ta lại là những sinh vật lừa lọc.
+title: Tâm lý học tiến hóa giải thích tại sao chúng ta lại là những sinh vật thích lừa lọc.
 tag: Tâm lý
 date: 2026-07-20
 readingMinutes: 3
