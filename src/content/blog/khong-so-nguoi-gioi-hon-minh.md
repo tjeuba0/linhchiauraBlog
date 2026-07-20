@@ -1,5 +1,5 @@
 ---
-title: Mình không sợ tiếp xúc với người giỏi hơn mình!
+title: '#Trưởng thành - Mình không sợ tiếp xúc với người giỏi hơn mình!'
 tag: Lối sống
 date: 2026-07-17
 readingMinutes: 3
