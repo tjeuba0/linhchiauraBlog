@@ -1,5 +1,5 @@
 ---
-title: '#Triết học & các tư tưởng - Tính KHÔNG - từ khoa học lượng tử đến triết lý trong Đạo Phật'
+title: Tính KHÔNG - từ khoa học lượng tử đến triết lý trong Đạo Phật
 tag: Suy ngẫm
 date: 2026-07-19
 readingMinutes: 5
