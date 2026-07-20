@@ -1,6 +1,6 @@
 ---
-title: '#Trưởng thành - Tập làm điều bạn không thích!'
-tag: "Phát triển bản thân"
+title: Tập làm điều bạn không thích!
+tag: Lối sống
 date: 2026-07-12
 readingMinutes: 3
 excerpt: 'Có 1 lý thuyết mà mình đã tuân theo khá nhiều năm nay: Hãy tập làm những điều có ích, dù ban đầu mình không thích.'
