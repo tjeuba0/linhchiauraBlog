@@ -1,6 +1,6 @@
 ---
 title: Hầu hết chúng ta không thất bại vì làm sai. Chúng ta thất bại vì không bắt đầu.
-tag: Tâm lý
+tag: "Phát triển bản thân"
 date: 2026-07-18
 readingMinutes: 3
 excerpt: |-

@@ -9,7 +9,7 @@ public_folder: "/images"
 
 collections:
   - name: "blog"
-    label: "Nhật Ký"
+    label: "Đọc sâu"
     folder: "src/content/blog"
     media_folder: "/public/images"
     public_folder: "/images"
@@ -17,7 +17,15 @@ collections:
     slug: "{{slug}}"
     fields:
       - { label: "Tiêu đề", name: "title", widget: "string" }
-      - { label: "Tag", name: "tag", widget: "select", options: ["Lối sống", "Tâm lý", "Suy ngẫm"] }
+      - label: "Chủ đề"
+        name: "tag"
+        widget: "select"
+        options:
+          - "Não bộ & Tâm lý"
+          - "Phát triển bản thân"
+          - "Triết học & các tư tưởng"
+          - "Chữa lành- Con người & Các mối quan hệ"
+          - "Nhật ký trưởng thành"
       - { label: "Ngày đăng", name: "date", widget: "datetime", format: "YYYY-MM-DD" }
       - { label: "Phút đọc", name: "readingMinutes", widget: "number", default: 3 }
       - { label: "Trích đoạn", name: "excerpt", widget: "text" }

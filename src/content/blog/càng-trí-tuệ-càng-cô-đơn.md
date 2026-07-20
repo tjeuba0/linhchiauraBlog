@@ -1,6 +1,6 @@
 ---
 title: Càng trí tuệ càng cô đơn
-tag: Suy ngẫm
+tag: "Não bộ & Tâm lý"
 date: 2026-07-19
 readingMinutes: 3
 excerpt: Có bao giờ bạn bước vào một căn phòng, nhìn mọi người cười nói, nhưng bạn không thể hòa nhập. Vì bạn nhìn ra những ẩn ý đằng sau đó, và những câu chuyện mà không ai thể hiện ra.

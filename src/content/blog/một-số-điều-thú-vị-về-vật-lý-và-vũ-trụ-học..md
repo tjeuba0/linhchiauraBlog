@@ -1,6 +1,6 @@
 ---
 title: Một số điều thú vị về Vật lý và Vũ trụ học.
-tag: Suy ngẫm
+tag: "Triết học & các tư tưởng"
 date: 2026-07-19
 readingMinutes: 1
 excerpt: Vật lý học cho biết nền tảng cơ bản của vũ trụ. Đọc về vật lý học, cơ học lượng tử sẽ giúp mở ra những góc nhìn về Vũ trụ và cách nó vận hành.

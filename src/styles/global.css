@@ -155,11 +155,13 @@ astro-island {
   background: #ffffff;
   border-radius: 24px;
   box-shadow: 0 6px 24px rgba(46, 125, 91, 0.08);
-  overflow: hidden;
+  overflow: visible;
 }
 .lc-cover {
   height: 190px;
   position: relative;
+  overflow: hidden;
+  border-radius: 24px 24px 0 0;
   background:
     radial-gradient(ellipse at 15% 45%, rgba(178, 219, 190, 0.8), transparent 58%),
     radial-gradient(circle at 80% 20%, rgba(247, 227, 166, 0.75), transparent 52%),
@@ -216,7 +218,8 @@ astro-island {
   gap: 10px;
   margin-top: 22px;
 }
-.lc-social a {
+.lc-social > a,
+.lc-email-menu > summary {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -231,11 +234,85 @@ astro-island {
     border-color var(--lc-motion-base) var(--lc-ease-standard),
     background var(--lc-motion-base) var(--lc-ease-standard);
 }
-.lc-social a:hover {
+.lc-email-menu {
+  position: relative;
+}
+.lc-email-menu > summary {
+  list-style: none;
+  cursor: pointer;
+}
+.lc-email-menu > summary::-webkit-details-marker {
+  display: none;
+}
+.lc-social > a:hover,
+.lc-email-menu > summary:hover,
+.lc-email-menu[open] > summary {
   background: #e7f3ea;
   border-color: #b8d9c3;
   color: #2e7d5b;
   transform: translateY(-2px);
+}
+.lc-email-popover {
+  position: absolute;
+  z-index: 30;
+  top: calc(100% + 10px);
+  left: 50%;
+  display: grid;
+  width: min(260px, calc(100vw - 40px));
+  padding: 16px;
+  gap: 9px;
+  border: 1px solid #dcebe0;
+  border-radius: 15px;
+  background: #ffffff;
+  text-align: left;
+  box-shadow: 0 14px 36px rgba(24, 70, 50, 0.16);
+  transform: translateX(-50%);
+  animation: lcPanelEnter var(--lc-motion-base) var(--lc-ease-out) both;
+}
+.lc-email-popover strong {
+  color: var(--lc-green-darkest);
+  font: 700 13px 'Be Vietnam Pro', sans-serif;
+}
+.lc-email-address {
+  overflow-wrap: anywhere;
+  color: var(--lc-text-muted);
+  font: 400 12px/1.5 'Be Vietnam Pro', sans-serif;
+}
+.lc-email-popover .lc-email-action {
+  display: flex;
+  width: 100%;
+  min-height: 42px;
+  padding: 0 14px;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #cfe2d5;
+  border-radius: 999px;
+  background: #ffffff;
+  color: var(--lc-green-darkest);
+  font: 600 12px 'Be Vietnam Pro', sans-serif;
+  text-decoration: none;
+  cursor: pointer;
+}
+.lc-email-popover .lc-email-action--primary {
+  border-color: var(--lc-green-darkest);
+  background: var(--lc-green-darkest);
+  color: #ffffff;
+}
+.lc-email-popover .lc-email-action:hover {
+  transform: none;
+  border-color: #a9cdb5;
+  background: var(--lc-pill-green);
+}
+.lc-email-popover .lc-email-action--primary:hover {
+  border-color: var(--lc-green-darkest-hover);
+  background: var(--lc-green-darkest-hover);
+  color: #ffffff;
+}
+.lc-email-status {
+  min-height: 18px;
+  color: var(--lc-green-darkest);
+  font: 600 11px/1.5 'Be Vietnam Pro', sans-serif;
+  text-align: center;
 }
 
 /* ---------- Tabs ---------- */
@@ -351,6 +428,75 @@ astro-island {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   gap: 18px;
+}
+.lc-topic-list {
+  display: grid;
+  gap: 34px;
+}
+.lc-topic-section {
+  min-width: 0;
+}
+.lc-topic-head,
+.lc-topic-filtered-head {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 18px;
+  margin-bottom: 14px;
+}
+.lc-topic-kicker {
+  display: block;
+  margin-bottom: 4px;
+  color: var(--lc-text-subtle);
+  font: 600 10.5px/1.4 'Be Vietnam Pro', sans-serif;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+.lc-topic-head h3,
+.lc-topic-filtered-head h3 {
+  margin: 0;
+  color: var(--lc-green-darkest);
+  font: 700 18px/1.45 'Be Vietnam Pro', sans-serif;
+  text-wrap: pretty;
+}
+.lc-topic-head button,
+.lc-topic-back {
+  display: inline-flex;
+  min-height: 44px;
+  flex: none;
+  padding: 0 16px;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  border: 1px solid #cfe2d5;
+  border-radius: 999px;
+  background: #ffffff;
+  color: var(--lc-green-darkest);
+  font: 600 12px 'Be Vietnam Pro', sans-serif;
+  cursor: pointer;
+  transition:
+    border-color var(--lc-motion-base) var(--lc-ease-standard),
+    background var(--lc-motion-base) var(--lc-ease-standard);
+}
+.lc-topic-head button:hover,
+.lc-topic-back:hover {
+  border-color: #a9cdb5;
+  background: var(--lc-pill-green);
+}
+.lc-topic-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 18px;
+}
+.lc-topic-filtered {
+  animation: lcPanelEnter var(--lc-motion-base) var(--lc-ease-out) both;
+}
+.lc-topic-back {
+  margin-bottom: 18px;
+}
+.lc-topic-filtered-head span {
+  color: var(--lc-text-subtle);
+  font: 500 12px 'Be Vietnam Pro', sans-serif;
 }
 .lc-card {
   background: #ffffff;
@@ -478,6 +624,11 @@ astro-island {
   color: #2e7d5b;
   background: #ffffff;
 }
+.lc-about-icon--book {
+  border: 1.5px solid #bfe0cc;
+  background: #ffffff;
+  color: #2e7d5b;
+}
 .lc-about-icon--spark {
   background: #fdeee0;
   color: #e8944a;
@@ -497,6 +648,9 @@ astro-island {
   font: 400 13.5px/1.75 'Be Vietnam Pro', sans-serif;
   color: var(--lc-text-muted);
 }
+.lc-about-desc + .lc-about-desc {
+  margin-top: 10px;
+}
 .lc-about-desc--italic {
   font: italic 400 13.5px/1.75 Georgia, 'Times New Roman', serif;
 }
@@ -509,6 +663,13 @@ astro-island {
 .lc-banner-mark {
   font: 700 40px/0.4 Georgia, 'Times New Roman', serif;
   color: rgba(255, 255, 255, 0.45);
+}
+.lc-banner-title {
+  margin-bottom: 12px;
+  color: #d9eee0;
+  font: 700 13px/1.4 'Be Vietnam Pro', sans-serif;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
 }
 .lc-banner-quote {
   margin: 10px 0 0;
@@ -716,12 +877,20 @@ astro-island {
   padding: 22px 24px;
   text-align: center;
 }
-.lc-footer-1 {
-  font: italic 400 12.5px Georgia, 'Times New Roman', serif;
+.lc-footer-message {
+  max-width: 720px;
+  margin: 0 auto;
+  font: italic 400 12.5px/1.7 Georgia, 'Times New Roman', serif;
   color: #49695a;
 }
+.lc-footer-message p {
+  margin: 0;
+}
+.lc-footer-message p + p {
+  margin-top: 3px;
+}
 .lc-footer-2 {
-  margin-top: 6px;
+  margin-top: 9px;
   font: 400 12px 'Be Vietnam Pro', sans-serif;
   color: #49695a;
 }
@@ -1479,12 +1648,14 @@ button:focus-visible,
 input:focus-visible,
 textarea:focus-visible,
 select:focus-visible,
+summary:focus-visible,
 [tabindex]:focus-visible {
   outline: 3px solid var(--lc-focus);
   outline-offset: 3px;
 }
 .lc-tab:active,
-.lc-social a:active,
+.lc-social > a:active,
+.lc-email-menu > summary:active,
 .lc-card:active,
 .lc-send.is-ready:active,
 .lc-thanks-btn:active,
@@ -1508,7 +1679,8 @@ select:focus-visible,
     transform: none;
     box-shadow: 0 2px 10px rgba(46, 125, 91, 0.06);
   }
-  .lc-social a:hover,
+  .lc-social > a:hover,
+  .lc-email-menu > summary:hover,
   .lc-card:hover .lc-card-more {
     transform: none;
   }
@@ -1536,6 +1708,12 @@ select:focus-visible,
   }
 }
 
+@media (min-width: 641px) and (max-width: 820px) {
+  .lc-topic-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
 /* ---------- Mobile ---------- */
 @media (max-width: 640px) {
   .lc-container {
@@ -1549,6 +1727,7 @@ select:focus-visible,
   }
   .lc-cover {
     height: 118px;
+    border-radius: 18px 18px 0 0;
   }
   .lc-avatar {
     width: 92px;
@@ -1621,6 +1800,40 @@ select:focus-visible,
   .lc-sub {
     line-height: 1.6;
   }
+  .lc-topic-list {
+    gap: 30px;
+  }
+  .lc-topic-head,
+  .lc-topic-filtered-head {
+    align-items: flex-start;
+    gap: 12px;
+  }
+  .lc-topic-head h3,
+  .lc-topic-filtered-head h3 {
+    font-size: 16px;
+  }
+  .lc-topic-head button {
+    min-height: 40px;
+    padding-inline: 12px;
+  }
+  .lc-topic-grid {
+    grid-template-columns: none;
+    grid-auto-columns: minmax(82%, 1fr);
+    grid-auto-flow: column;
+    gap: 12px;
+    padding: 2px 2px 10px;
+    overflow-x: auto;
+    overscroll-behavior-inline: contain;
+    scroll-padding-inline: 2px;
+    scroll-snap-type: inline mandatory;
+    scrollbar-width: none;
+  }
+  .lc-topic-grid::-webkit-scrollbar {
+    display: none;
+  }
+  .lc-topic-grid .lc-card {
+    scroll-snap-align: start;
+  }
   .lc-newpost {
     width: 100%;
     justify-content: center;
@@ -1688,7 +1901,7 @@ select:focus-visible,
   .lc-footer {
     padding: 20px 16px calc(20px + env(safe-area-inset-bottom));
   }
-  .lc-footer-1,
+  .lc-footer-message,
   .lc-footer-2 {
     line-height: 1.55;
   }

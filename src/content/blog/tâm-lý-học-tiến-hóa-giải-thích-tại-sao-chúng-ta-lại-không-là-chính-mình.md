@@ -1,6 +1,6 @@
 ---
 title: Tâm lý học tiến hóa giải thích tại sao chúng ta lại là những sinh vật thích lừa lọc.
-tag: Tâm lý
+tag: "Não bộ & Tâm lý"
 date: 2026-07-20
 readingMinutes: 3
 excerpt: Khi ở một mình, tất cả mọi người đều rất thành thật, nhưng chỉ cần có 2 người trở lên, sự giả dối sẽ bắt đầu xuất hiện.

@@ -1,4 +1,5 @@
 import { getCollection, type CollectionEntry } from 'astro:content';
+import type { BlogTopic } from './topics';
 
 export type BlogEntry = CollectionEntry<'blog'>;
 
@@ -9,7 +10,7 @@ export type BlogEntry = CollectionEntry<'blog'>;
  */
 export type PostSummary = {
   slug: string;
-  tag: string;
+  tag: BlogTopic;
   title: string;
   excerpt: string;
   date: string;

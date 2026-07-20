@@ -10,8 +10,8 @@ export const GET: APIRoute = async (context) => {
   const posts = await getSortedPostEntries();
 
   return rss({
-    title: 'Linhchiaura — Nhật ký',
-    description: 'Những dòng suy ngẫm mộc mạc về trưởng thành, bình an và yêu thương bản thân.',
+    title: 'Linhchiaura — Đọc sâu',
+    description: 'Những góc nhìn mới về tâm lý, cuộc sống và hành trình trưởng thành mỗi ngày.',
     site: context.site,
     items: posts.map((post) => ({
       title: post.data.title,

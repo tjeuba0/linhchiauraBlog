@@ -1,6 +1,7 @@
 import { useCallback, useEffect, useRef, useState } from 'react';
-import { Heart, Sparkles } from 'lucide-react';
+import { BookOpen, Heart, Sparkles } from 'lucide-react';
 import type { PostSummary } from '../lib/posts';
+import { BLOG_TOPICS, type BlogTopic } from '../lib/topics';
 
 type Tab = 'nhatky' | 'gioithieu' | 'hopthu';
 type SubmitState = 'idle' | 'sending' | 'error';
@@ -17,6 +18,11 @@ const TURNSTILE_SITE_KEY =
   import.meta.env.PUBLIC_TURNSTILE_SITE_KEY?.trim() || '0x4AAAAAAD4dVml4Ve5kO060';
 const TAB_ORDER: Tab[] = ['nhatky', 'gioithieu', 'hopthu'];
 const TAB_HASH: Record<Tab, string> = {
+  nhatky: '#doc-sau',
+  gioithieu: '#ve-minh',
+  hopthu: '#ban-viet',
+};
+const LEGACY_TAB_HASH: Record<Tab, string> = {
   nhatky: '#nhat-ky',
   gioithieu: '#gioi-thieu',
   hopthu: '#hop-thu',
@@ -49,7 +55,7 @@ interface Props {
 }
 
 function tabFromHash(hash: string): Tab {
-  const match = TAB_ORDER.find((key) => TAB_HASH[key] === hash);
+  const match = TAB_ORDER.find((key) => TAB_HASH[key] === hash || LEGACY_TAB_HASH[key] === hash);
   return match ?? 'nhatky';
 }
 
@@ -117,9 +123,15 @@ function getPostContent(slug: string): Promise<string> {
 
 export default function AppIsland({ posts }: Props) {
   const [tab, setTab] = useState<Tab>('nhatky');
+  const [selectedTopic, setSelectedTopic] = useState<BlogTopic | null>(null);
+  const filteredTopicHeadingRef = useRef<HTMLHeadingElement>(null);
 
   useEffect(() => {
-    const syncFromUrl = () => setTab(tabFromHash(window.location.hash));
+    const syncFromUrl = () => {
+      const next = tabFromHash(window.location.hash);
+      setTab(next);
+      if (next !== 'nhatky') setSelectedTopic(null);
+    };
     syncFromUrl();
     window.addEventListener('hashchange', syncFromUrl);
     window.addEventListener('popstate', syncFromUrl);
@@ -129,8 +141,17 @@ export default function AppIsland({ posts }: Props) {
     };
   }, []);
 
+  useEffect(() => {
+    if (!selectedTopic) return;
+    const frame = requestAnimationFrame(() =>
+      filteredTopicHeadingRef.current?.focus({ preventScroll: true }),
+    );
+    return () => cancelAnimationFrame(frame);
+  }, [selectedTopic]);
+
   const selectTab = (next: Tab, pushHistory = true) => {
     setTab(next);
+    if (next !== 'nhatky') setSelectedTopic(null);
     if (!pushHistory || window.location.hash === TAB_HASH[next]) return;
     window.history.pushState({ lcTab: next }, '', `${window.location.pathname}${TAB_HASH[next]}`);
   };
@@ -489,6 +510,48 @@ export default function AppIsland({ posts }: Props) {
     resetTurnstile();
   };
 
+  const topicGroups = BLOG_TOPICS.map((topic) => ({
+    topic,
+    posts: posts.filter((post) => post.tag === topic),
+  })).filter((group) => group.posts.length > 0);
+
+  const returnToTopicList = () => {
+    if (!selectedTopic) return;
+    const topicId = `lc-topic-${BLOG_TOPICS.indexOf(selectedTopic) + 1}`;
+    setSelectedTopic(null);
+    requestAnimationFrame(() => document.getElementById(topicId)?.focus({ preventScroll: true }));
+  };
+
+  const renderPostCard = (post: PostSummary) => (
+    <a
+      key={post.slug}
+      className="lc-card"
+      href={`/bai/${post.slug}/`}
+      aria-haspopup="dialog"
+      aria-controls="lc-reading-dialog"
+      onPointerEnter={() => prefetchPost(post.slug)}
+      onPointerDown={() => prefetchPost(post.slug)}
+      onFocus={() => prefetchPost(post.slug)}
+      onClick={(event) => {
+        if (!isPlainLeftClick(event)) return;
+        if (openPost(post.slug, event.currentTarget)) event.preventDefault();
+      }}
+    >
+      <div className="lc-card-top">
+        <span className="lc-tag">{post.tag}</span>
+        <span className="lc-mins">{post.mins}</span>
+      </div>
+      <h4 className="lc-card-title">{post.title}</h4>
+      <p className="lc-card-excerpt">{post.excerpt}</p>
+      <div className="lc-card-bottom">
+        <time className="lc-card-date" dateTime={post.isoDate}>
+          {post.date}
+        </time>
+        <span className="lc-card-more">Đọc tiếp →</span>
+      </div>
+    </a>
+  );
+
   const tabBtn = (key: Tab, label: string) => (
     <button
       id={`lc-tab-${key}`}
@@ -509,9 +572,9 @@ export default function AppIsland({ posts }: Props) {
     <>
       <nav className="lc-tabs" aria-label="Nội dung chính">
         <div className="lc-tabs-inner" role="tablist" aria-label="Chọn nội dung" data-active={tab}>
-          {tabBtn('nhatky', 'Nhật Ký')}
-          {tabBtn('gioithieu', 'Giới Thiệu')}
-          {tabBtn('hopthu', 'Hộp Thư')}
+          {tabBtn('nhatky', 'Đọc sâu')}
+          {tabBtn('gioithieu', 'Về mình')}
+          {tabBtn('hopthu', 'Bạn viết')}
         </div>
       </nav>
 
@@ -526,42 +589,58 @@ export default function AppIsland({ posts }: Props) {
             <div>
               <h2 className="lc-h2">
                 <span aria-hidden="true">📖</span>
-                <span>Nhật Ký Linhchiaura</span>
+                <span>Đọc sâu</span>
               </h2>
-              <p className="lc-sub">Nơi lắng đọng những dòng suy ngẫm mộc mạc và chân thành.</p>
+              <p className="lc-sub">
+                Mời bạn cùng mình khám phá những góc nhìn mới về tâm lý, cuộc sống và hành trình
+                trưởng thành mỗi ngày.
+              </p>
             </div>
           </div>
-          <div className="lc-grid">
-            {posts.map((post) => (
-              <a
-                key={post.slug}
-                className="lc-card"
-                href={`/bai/${post.slug}/`}
-                aria-haspopup="dialog"
-                aria-controls="lc-reading-dialog"
-                onPointerEnter={() => prefetchPost(post.slug)}
-                onPointerDown={() => prefetchPost(post.slug)}
-                onFocus={() => prefetchPost(post.slug)}
-                onClick={(event) => {
-                  if (!isPlainLeftClick(event)) return;
-                  if (openPost(post.slug, event.currentTarget)) event.preventDefault();
-                }}
+          {selectedTopic ? (
+            <div className="lc-topic-filtered">
+              <button
+                type="button"
+                className="lc-topic-back"
+                onClick={returnToTopicList}
               >
-                <div className="lc-card-top">
-                  <span className="lc-tag">{post.tag}</span>
-                  <span className="lc-mins">{post.mins}</span>
-                </div>
-                <h3 className="lc-card-title">{post.title}</h3>
-                <p className="lc-card-excerpt">{post.excerpt}</p>
-                <div className="lc-card-bottom">
-                  <time className="lc-card-date" dateTime={post.isoDate}>
-                    {post.date}
-                  </time>
-                  <span className="lc-card-more">Đọc tiếp →</span>
-                </div>
-              </a>
-            ))}
-          </div>
+                <span aria-hidden="true">←</span> Tất cả chủ đề
+              </button>
+              <div className="lc-topic-filtered-head">
+                <h3 ref={filteredTopicHeadingRef} tabIndex={-1}>
+                  {selectedTopic}
+                </h3>
+                <span>{posts.filter((post) => post.tag === selectedTopic).length} bài viết</span>
+              </div>
+              <div className="lc-grid">
+                {posts.filter((post) => post.tag === selectedTopic).map(renderPostCard)}
+              </div>
+            </div>
+          ) : (
+            <div className="lc-topic-list">
+              {topicGroups.map((group, index) => {
+                const topicId = `lc-topic-${index + 1}`;
+                return (
+                  <section key={group.topic} className="lc-topic-section" aria-labelledby={topicId}>
+                    <div className="lc-topic-head">
+                      <div>
+                        <span className="lc-topic-kicker">Chủ đề {index + 1}</span>
+                        <h3 id={topicId} tabIndex={-1}>
+                          {group.topic}
+                        </h3>
+                      </div>
+                      {group.posts.length > 3 && (
+                        <button type="button" onClick={() => setSelectedTopic(group.topic)}>
+                          Xem tất cả <span aria-hidden="true">→</span>
+                        </button>
+                      )}
+                    </div>
+                    <div className="lc-topic-grid">{group.posts.slice(0, 3).map(renderPostCard)}</div>
+                  </section>
+                );
+              })}
+            </div>
+          )}
         </section>
       )}
 
@@ -573,6 +652,18 @@ export default function AppIsland({ posts }: Props) {
           aria-labelledby="lc-tab-gioithieu"
         >
           <div className="lc-about-grid">
+            <article className="lc-about-card">
+              <div className="lc-blob lc-blob--green" aria-hidden="true" />
+              <div className="lc-about-icon lc-about-icon--book" aria-hidden="true">
+                <BookOpen size={18} strokeWidth={2} />
+              </div>
+              <h2 className="lc-about-title">Background</h2>
+              <p className="lc-about-desc">
+                Mình là Linh Chi. Dược sĩ tốt nghiệp Đại học Dược Hà Nội và có 10 năm làm việc trong
+                ngành Dược. Hiện đang theo học Tâm lý học tại Đại học Khoa học Xã hội và Nhân văn.
+                Mình có chứng nhận Reiki Master.
+              </p>
+            </article>
             <article className="lc-about-card">
               <div className="lc-blob lc-blob--green" aria-hidden="true" />
               <div className="lc-about-icon lc-about-icon--heart" aria-hidden="true">
@@ -589,24 +680,19 @@ export default function AppIsland({ posts }: Props) {
               <div className="lc-about-icon lc-about-icon--spark" aria-hidden="true">
                 <Sparkles size={18} strokeWidth={2} />
               </div>
-              <h2 className="lc-about-title">Phong cách sống</h2>
+              <h2 className="lc-about-title">Ý nghĩa của Blog</h2>
               <p className="lc-about-desc">
-                Năng động, hiện đại, độc lập, tinh tế và luôn tràn đầy tiếng cười; kết hợp sự mềm mại
-                nữ tính với tinh thần tự tin bứt phá.
+                Blog này là nơi mình chia sẻ những góc nhìn về tâm lý, não bộ, triết học, sức khỏe và
+                sự trưởng thành – những điều đã giúp mình sống tỉnh táo, khỏe mạnh và nhiều năng lượng
+                hơn.
               </p>
-            </article>
-            <article className="lc-about-card">
-              <div className="lc-blob lc-blob--green" aria-hidden="true" />
-              <div className="lc-about-icon lc-about-icon--quote" aria-hidden="true">
-                ❞
-              </div>
-              <h2 className="lc-about-title">Triết lý sống</h2>
-              <p className="lc-about-desc lc-about-desc--italic">
-                Sống rực rỡ và tỏa sáng theo cách riêng của bạn. Bằng tri thức, sự bình an và tử tế!
+              <p className="lc-about-desc">
+                Hy vọng chúng cũng sẽ hữu ích với bạn trên hành trình của riêng mình.
               </p>
             </article>
           </div>
           <figure className="lc-banner">
+            <figcaption className="lc-banner-title">Triết lý sống</figcaption>
             <div className="lc-banner-mark" aria-hidden="true">
               “
             </div>
