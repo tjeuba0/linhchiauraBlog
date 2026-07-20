@@ -1,5 +1,5 @@
 ---
-title: Càng trí tuệ càng cô đơn
+title: '#Não bộ & Tâm lý - Càng trí tuệ càng cô đơn'
 tag: Suy ngẫm
 date: 2026-07-19
 readingMinutes: 3
