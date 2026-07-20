@@ -1715,7 +1715,7 @@ summary:focus-visible,
 }
 
 /* ---------- Mobile ---------- */
-@media (max-width: 640px) {
+@media (max-width: 640px), (max-device-width: 480px) {
   .lc-container {
     margin-top: 12px;
     padding-right: max(14px, env(safe-area-inset-right));
@@ -1833,7 +1833,6 @@ summary:focus-visible,
   .lc-topic-grid .lc-card {
     flex: 0 0 82%;
     width: auto;
-    max-width: 22rem;
     scroll-snap-align: start;
   }
   .lc-newpost {
