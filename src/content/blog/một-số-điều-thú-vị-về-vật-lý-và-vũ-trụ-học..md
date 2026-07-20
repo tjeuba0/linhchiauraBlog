@@ -1,5 +1,5 @@
 ---
-title: Một số điều thú vị về Vật lý và Vũ trụ học.
+title: '#Khoa học & Vũ trụ - Một số điều thú vị về Vật lý và Vũ trụ học.'
 tag: Suy ngẫm
 date: 2026-07-19
 readingMinutes: 1
