@@ -1,5 +1,5 @@
 ---
-title: '#Triết học & các tư tưởng - Từ thế giới vật chất đến thế giới tinh thần'
+title: Từ thế giới vật chất đến thế giới tinh thần
 tag: Suy ngẫm
 date: 2026-07-18
 readingMinutes: 5
