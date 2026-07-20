@@ -29,6 +29,6 @@ Cùng đến với một số luận điểm chính về việc bộ não chúng
 
 Điều này được thể hiện rõ ràng ở loài linh trưởng- và chúng ta thì có nhưng kín kẽ hơn, thủ đoạn hơn - chúng ta khôn ngoan che giấu nó bằng sự tinh vi của não bộ & hành vi.
 
-4. **Những vấn đề khó hiểu:** Ngoài sự giải thích bằng khoa học, thì khoa học cũng luôn có những vùng xám, đó là nơi đặt ra những vấn đề khó hiểu, khó giải thích, ví dụ như: Khi một em bé bị kẹt tay, em chạy đến bên mẹ và mẹ em đặt lên một chiếc hôn, kì lạ thay, em đã hết đau thật, không dùng thuốc, chỉ bằng một chút "lừa đảo" - để đây mẹ hôn cho em hết đau, hay mẹ thổi phù nó đi nhé, thế là vấn đề hết thật! Não bộ không chỉ đánh lừa chúng ta trong xã hội.Nó còn có thể thay đổi chính trải nghiệm cơ thể!
+4. **Những vấn đề khó hiểu:** Khoa học luôn có những vùng xám, đó là nơi đặt ra những vấn đề khó hiểu, khó giải thích, ví dụ như: Khi một em bé bị kẹt tay, em chạy đến bên mẹ và mẹ em đặt lên một chiếc hôn, kì lạ thay, em đã hết đau thật, không dùng thuốc, chỉ bằng một chút "lừa đảo" - để đây mẹ hôn cho em hết đau, hay mẹ thổi phù nó đi nhé, thế là vấn đề hết thật! Não bộ không chỉ đánh lừa chúng ta trong xã hội.Nó còn có thể thay đổi chính trải nghiệm cơ thể!
 
 Vì vậy mục tiêu của việc học tâm lý không phải để trở nên hoài nghi mọi người. Mà để nhận ra những cơ chế này đang vận hành trong chính mình. Khi hiểu chúng, ta không còn là nô lệ của bản năng nữa.
