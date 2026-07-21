@@ -6,18 +6,14 @@ readingMinutes: 3
 excerpt: Có bao giờ bạn bước vào một căn phòng, nhìn mọi người cười nói, nhưng bạn không thể hòa nhập. Vì bạn nhìn ra những ẩn ý đằng sau đó, và những câu chuyện mà không ai thể hiện ra.
 ---
 
-Cái giá của việc thông minh và trí tuệ, đó là sự tách biệt với đám đông, những người có trí tuệ, họ không chỉ biết nhiều hơn, mà họ cảm thấy nhiều hơn. Họ cảm nhận được những năng lượng khác, những tần số khác, những sự thật chưa được phơi bày bên trong một lớp vẻ bóng bẩy và hào nhoáng.
+Có một giai đoạn trong hành trình lớn lên về tâm thức, khi bạn bắt đầu cảm nhận nhiều hơn, nhìn thấy những lớp sâu hơn đằng sau vẻ ngoài bóng bẩy của mọi thứ - bạn thấy mình khó tìm được ai "cùng tần số" như trước nữa.
 
-Thấy quá nhiều, biết quá nhiều, và vì thế, họ tự mình tách biệt với phần còn lại.  Trong đám đông ấy, bạn biết rất khó tìm được một người có tần số chung, nhưng hãy yên tâm là bạn không cô độc, bạn chỉ đang ở trong hành trình tiến hóa tâm thức. Và khi bạn đủ mạnh mẽ rồi, bạn sẽ gặp những người giống như bạn. Ở nơi đó, sự kết nối sẽ trở nên sâu sắc hơn bao giờ hết. 
+Đó không phải vì bạn hơn ai, mà vì bạn đang ở giữa một sự chuyển đổi: cách bạn nhìn thế giới đã thay đổi, nhưng bạn chưa tìm được ngôn ngữ chung mới với những người xung quanh. Cảm giác lạc lõng đó là thật, và nó dễ khiến ta muốn rút lui, chỉ giữ lại những ai "hiểu mình".
 
-Bạn hãy tin vào con đường mình đang đi, cũng như biết ơn tất cả những nhân duyên đã tới để khiến cho bạn được học tập, trải nghiệm, quán chiếu bản thân trong những môi trường đa dạng: bạn có còn so sánh, có cao ngạo không? Hay bạn bao dung và tôn trọng tât cả những sự khác biệt?
+Nhưng đây cũng là lúc dễ mắc một cái bẫy: nhầm lẫn giữa "chưa tìm được kết nối" và "người khác không xứng đáng để kết nối". Nếu ta để sự khác biệt biến thành thước đo hơn-kém, ta sẽ càng cô lập mình hơn - không phải vì thế giới đóng lại, mà vì chính ta đã đóng cửa trước.
 
-Và một câu hỏi khó hơn nữa, nếu sự khác biệt đó không chỉ hiện diện, nó còn tấn công bạn? Lúc ấy bạn sẽ phản ứng và suy nghĩ như thế nào?
+Bạn hãy tin vào con đường mình đang đi, và biết ơn những nhân duyên đã cho bạn cơ hội học tập, trải nghiệm, quán chiếu bản thân qua nhiều môi trường khác nhau. Nhưng cũng nên tự hỏi: mình có đang so sánh, có đang cao ngạo không? Hay mình thực sự bao dung và tôn trọng sự khác biệt - kể cả với những người chưa "cùng tần số" với mình? Và nếu một ngày sự khác biệt ấy không chỉ hiện diện, mà còn khiến bạn cảm thấy bị công kích - bạn sẽ phản ứng thế nào? Đây là câu hỏi khó hơn, và có lẽ là câu hỏi thật sự đáng để ngồi lại với chính mình.
 
-Với những người có tâm thức và trí tuệ phát triển, tôi biết họ không thích nghi tốt với các cuộc gặp gỡ thông thường, đối với họ - đây là những sự giao tiếp hời hợt, chứ không phải giao tiếp thực sự.
+Quay trở lại với sự trưởng thành về tâm thức, đó không phải là thu hẹp vòng tròn quan hệ lại chỉ còn những người "đủ tầm", mà là học cách giữ được sự sâu sắc của mình trong khi vẫn mở lòng với những người chưa đi cùng một quãng đường như mình. Cô đơn có thể là một chặng cần đi qua, nhưng đừng biến nó thành nơi trú ẩn vĩnh viễn núp dưới danh nghĩa "chỉ mình mới hiểu".
 
-Một điều nữa mà những người có trí tuệ cũng vô tình thể hiện ra, là họ yêu cầu cao và khá đòi hỏi, nếu họ cảm thấy ai đó không đáng, họ sẽ không chia sẻ cuộc sống của họ, họ sẽ chọn ở một mình.
-
-Để kết nối với người khác, họ thường cần cảm thấy rằng người đó đủ trưởng thành để hiểu nhau, và cùng hỗ trợ cho sự tiến bộ của nhau cũng như đồng điệu về ngôn từ, cảm xúc, cách nhìn về thế giới.
-
-Nói tóm lại, người có trí tuệ thay vì được mở rộng vòng tròn mối quan hệ, họ lại trở nên cô đơn, một số đặc điểm của họ dễ khiến họ trở nên kiêu ngạo, cần nhớ giữ cho mình tâm khiêm hạ và khi họ học cách trở nên cô độc một cách tự do, họ cũng sẽ học cách tôn trọng những khoảnh khắc tiến hóa cá nhân của mỗi người.
+Giữ cho mình một tâm khiêm hạ, không phải bằng cách nói ra, mà bằng cách thực sự tôn trọng hành trình của mỗi người, kể cả khi nó chậm hơn, khác hơn, hay đơn giản không cùng con đường bạn đang đi.
