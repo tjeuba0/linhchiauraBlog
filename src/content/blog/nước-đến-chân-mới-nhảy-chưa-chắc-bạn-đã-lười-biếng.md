@@ -1,6 +1,6 @@
 ---
 title: Nước đến chân mới nhảy - Chưa chắc bạn đã lười biếng!
-tag: "Não bộ & Tâm lý"
+tag: Não bộ & Tâm lý
 date: 2026-07-18
 readingMinutes: 10
 excerpt: Bạn có phải là người "nước đến chân mới nhảy" hay không? Đấy có phải là dấu hiệu của việc bạn là kẻ lười biếng, hay đơn giản là chưa quản trị cảm xúc tốt?
@@ -11,21 +11,9 @@ Bạn có phải là người "nước đến chân mới nhảy" hay không? Đ
 Bài này sẽ khá dài, tôi viết theo **Tư duy thiết kế (Design Thinking):** phương pháp giải quyết vấn đề lấy **con người làm trung tâm** gồm 5 bước:
 
 - 1\. Empathize (Thấu cảm)
-
-***
-
 - 2\. Define (Xác định vấn đề)
-
-***
-
 - 3\. Ideate (Phát triển ý tưởng)
-
-***
-
 - 4\. Prototype (Làm mẫu thử)
-
-***
-
 - 5\. Test (Kiểm chứng)
 
 Trong nội dung này chúng ta sẽ đi sâu vào 3 phần đầu để hiểu cách triển khai một ý tưởng và giải pháp trên góc nhìn tâm lý học.
