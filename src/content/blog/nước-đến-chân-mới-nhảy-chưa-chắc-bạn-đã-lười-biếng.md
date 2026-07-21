@@ -6,7 +6,9 @@ readingMinutes: 10
 excerpt: Bạn có phải là người "nước đến chân mới nhảy" hay không? Đấy có phải là dấu hiệu của việc bạn là kẻ lười biếng, hay đơn giản là chưa quản trị cảm xúc tốt?
 ---
 
-Bạn có phải là người "nước đến chân mới nhảy" hay không? Đấy có phải là dấu hiệu của việc bạn là kẻ **_lười biếng_**, hay đơn giản là **_chưa quản trị cảm xúc tốt_**?
+Đây là bài luận tôi đã thực hiện cho Môn học: **Tư duy thiết kế**, tìm giải pháp cho 1 vấn đề tâm lý, tôi đã chọn chính vấn đề của tôi: NƯỚC ĐẾN CHÂN MỚI NHẢY- cụ thể là tôi hay delay những việc giấy tờ và nhàm chán.
+
+Nếu bạn cũng là người "nước đến chân mới nhảy" thì xin mời đọc bài này. Xin chúc mừng vì chúng ta không phải là kẻ **_lười biếng_**, mà đơn giản là **_chưa quản trị cảm xúc tốt_**.
 
 Bài này sẽ khá dài, tôi viết theo **Tư duy thiết kế (Design Thinking):** phương pháp giải quyết vấn đề lấy **con người làm trung tâm** gồm 5 bước:
 
