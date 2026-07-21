@@ -43,7 +43,7 @@ Mà những người kể trên, kì thực họ lại cũng bị ảnh hưởng
 
 Khi biết được những tiếng nói ngổn ngang trong đầu có thể chưa phải là tri thức căn nguyên, hay những nguyên lý đã được kiểm chứng - thì thiền, chánh niệm, việc chăm sóc cơ thể, học hỏi và dành thời gian ở một mình đều là những cách giúp chúng ta lắng nghe bản thân rõ hơn, có thời gian để đọc thêm sách và tìm kiếm những tri thức cốt lõi, để từ đó bạn sẽ tìm ra câu trả lời mà không bị những "người khác" trong đầu bạn tác động. 
 
-Cố gắng tập tách biệt những tiếng nói nhỏ ấy vì nó chưa chắc đã là bạn - sau đó chúng ta sẽ cùng nhau bóc tách trong 1 bài khác về các định kiến phổ biến dưới góc nhìn của tâm lý học nhé!. 
+Cố gắng tập tách biệt những tiếng nói nhỏ ấy vì nó chưa chắc đã là bạn - và bạn chỉ có thể làm chủ cuộc sống của mình, làm những việc khiến bản thân hạnh phúc- nếu như bạn không còn nghe lời những người khác. 
 
 Xin được gửi tặng bạn trích dẫn cuốn Hiểu- Tác giả Osho về vấn đề này:
 
