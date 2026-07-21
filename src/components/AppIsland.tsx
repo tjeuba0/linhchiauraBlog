@@ -657,11 +657,13 @@ export default function AppIsland({ posts }: Props) {
               <div className="lc-about-icon lc-about-icon--book" aria-hidden="true">
                 <BookOpen size={18} strokeWidth={2} />
               </div>
-              <h2 className="lc-about-title">Background</h2>
+              <h2 className="lc-about-title">Học vấn</h2>
               <p className="lc-about-desc">
                 Mình là Linh Chi. Dược sĩ tốt nghiệp Đại học Dược Hà Nội và có 10 năm làm việc trong
-                ngành Dược. Hiện đang theo học Tâm lý học tại Đại học Khoa học Xã hội và Nhân văn.
-                Mình có chứng nhận Reiki Master.
+                ngành Dược. Càng làm lâu, mình càng nhận ra sức khỏe thể chất thôi chưa đủ - tâm lý và
+                tinh thần mới là gốc rễ. Vì vậy mình đang theo đuổi ngành Tâm lý học tại Đại học Khoa
+                học Xã hội và Nhân văn, và có chứng nhận Reiki Master để hiểu sâu hơn về việc chữa lành
+                từ bên trong.
               </p>
             </article>
             <article className="lc-about-card">
