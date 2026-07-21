@@ -1,5 +1,5 @@
 ---
-title: Tâm lý học tiến hóa giải thích tại sao "não bộ đang lừa dối chính bạn"
+title: Cơ chế âm thầm của não bộ có thể điều khiển chúng ta mà ta không hề biết?
 tag: Não bộ & Tâm lý
 date: 2026-07-20
 readingMinutes: 3
