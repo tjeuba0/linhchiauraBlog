@@ -1,5 +1,5 @@
 ---
-title: Tập làm điều bạn không thích!
+title: Tập làm điều bạn chưa thích!
 tag: Phát triển bản thân
 date: 2026-07-12
 readingMinutes: 3
