@@ -20,9 +20,9 @@ Có một thời gian tôi biết mình cần nghỉ việc. Nhưng trong đầu
 
 Khi bạn 30 tuổi và bạn vẫn chưa lấy chồng, cũng có rất nhiều suy nghĩ trong đầu bạn :" Con gái như thế là mất giá không nhỉ"- hay "Tầm này sẽ không lấy được người tốt"?!?
 
-Đó thực sự là suy nghĩ của bạn, hay xã hội đang cài cắm vào bạn những định kiến? Vì chúng ta là những sinh vật xã hội không sống đơn lẻ, và lớn lên nhờ học tập, giáo dục, nên hoàn toàn dễ hiểu khi trong đầu mỗi chúng ta có rất nhiều "con người".
+Đó thực sự là suy nghĩ của bạn, hay xã hội đang cài cắm vào bạn những định kiến? Vì chúng ta là những sinh vật xã hội không sống đơn lẻ, và lớn lên nhờ học tập, giáo dục, nên hoàn toàn dễ hiểu khi trong đầu mỗi chúng ta có rất nhiều "con người"
 
-Ví dụ
+Đó là:
 
 - tiếng mẹ
 - tiếng bố
@@ -36,7 +36,7 @@ Mà những người kể trên, kì thực họ lại cũng bị ảnh hưởng
 
 Khi biết được những tiếng nói ngổn ngang trong đầu có thể chưa phải là tri thức căn nguyên, hay những nguyên lý đã được kiểm chứng - thì thiền, chánh niệm, việc chăm sóc cơ thể, học hỏi và dành thời gian ở một mình đều là những cách giúp chúng ta lắng nghe bản thân rõ hơn, có thời gian để đọc thêm sách và tìm kiếm những tri thức cốt lõi, để từ đó bạn sẽ tìm ra câu trả lời mà không bị những "người khác" trong đầu bạn tác động. 
 
-Việc đầu tiên của bạn là tập tách biệt rằng những tiếng nói nhỏ ấy chưa chắc đã là bạn- sau đó chúng ta sẽ cùng nhau bóc tách trong 1 bài khác về các định kiến phổ biến dưới góc nhìn của tâm lý học nhé!. 
+Cố gắng tập tách biệt những tiếng nói nhỏ ấy vì nó chưa chắc đã là bạn - sau đó chúng ta sẽ cùng nhau bóc tách trong 1 bài khác về các định kiến phổ biến dưới góc nhìn của tâm lý học nhé!. 
 
 Xin được gửi tặng bạn trích dẫn cuốn Hiểu- Tác giả Osho về vấn đề này:
 
@@ -44,4 +44,4 @@ Xin được gửi tặng bạn trích dẫn cuốn Hiểu- Tác giả Osho về
 
 Tương lai của bạn là vàng son"
 
-Với mình, sự trưởng thành, hạnh phúc, và tương lai đầy bình yên của tất cả chúng ta, đều là vàng son!
+Với tôi, sự trưởng thành, hạnh phúc, và tương lai đầy bình yên của tất cả chúng ta, đều là vàng son!
