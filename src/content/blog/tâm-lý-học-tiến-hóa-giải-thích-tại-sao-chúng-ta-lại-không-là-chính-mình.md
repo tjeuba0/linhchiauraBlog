@@ -20,7 +20,7 @@ Cùng đến với một số luận điểm chính về việc bộ não chúng
 
 1. **Xã hội học vi mô:** Dựa trên những hành vi của chúng ta và qua thời gian học hỏi, tương tác, não bộ dần học được cách tự biên tự diễn những tương tác một cách thuần thục đáng kinh ngạc mà không cần phải cố gắng. Trong khi ta đang mải nghĩ xem mình nên nói gì, thì bộ não đã kịp thời điều khiển ta mỉm cười, thể hiện biểu cảm, giao tiếp bằng mắt, lựa chọn tư thế chính xác,.. đồng thời phản hồi với những hành vi tương tự ở người đang giao tiếp với mình.
 2. **Tâm lý học nhận thức và xã hội:** não bộ chúng ta không chỉ là thiên tài ghi nhớ, tự bật chế độ auto phản hồi, mà còn giống như chatgpt trong việc bịa ra những thông tin, giấu nhẹm đi những điều bất lợi cho chủ thể, thậm chí còn xuyên tạc những động cơ hành động vị nhân sinh, giải mã những thiên kiến của chúng ta theo hướng cực kì hợp lý, nhằm đánh lừa chính bản thân, nó ghi nhớ sai, và cũng thích truyền đạt "tam sao thất bản". 
-3. **Linh trưởng học:** Nhà triết học & chính trị người Ý Machiavelli đã mô tả kiểu hành vi mưu mô, sau đó "Machiavellian Intelligence", sau đó trong thuật ngữ trong linh trưởng học hiện đại, cũng đề cập về việc con người có những đặc trưng của loài linh trưởng với những đặc điểm cố hữu sau:
+3. **Linh trưởng học:** Nhà triết học & chính trị người Ý Machiavelli đã mô tả kiểu hành vi mưu mô, sau đó trong thuật ngữ trong linh trưởng học hiện đại, cũng đề cập về việc con người có những đặc trưng của loài linh trưởng với những đặc điểm mưu mô cố hữu sau:
 
 - Thích khoe mẽ để tán tỉnh bạn tình
 - Thích sự thống trị & phục tùng
