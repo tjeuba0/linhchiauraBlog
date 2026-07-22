@@ -1,5 +1,5 @@
 ---
-title: TRỜI CÀNG ĐEN - SAO CÀNG SÁNG
+title: Trời càng đen - Sao càng sáng
 tag: Chữa lành- Con người & Các mối quan hệ
 date: 2026-07-21
 readingMinutes: 5
