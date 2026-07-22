@@ -1,5 +1,5 @@
 ---
-title: Khiêm hạ.
+title: Khiêm hạ
 tag: Chữa lành- Con người & Các mối quan hệ
 date: 2026-07-19
 readingMinutes: 3
