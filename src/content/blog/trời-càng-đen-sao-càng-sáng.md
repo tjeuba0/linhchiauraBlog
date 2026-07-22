@@ -22,7 +22,7 @@ Mình chờ đợi.
 
 Không có cánh tay nào đưa ra cả. 
 
-Mình nhắm mắt, nước mắt tự khô sau một đêm khó ngủ. Sáng hôm sau, mình vẫn sửa soạn, lên taxi, tới chỗ làm - một ngày bình thường như mọi ngày.
+Mình nhắm mắt, nước mắt tự khô sau một đêm khó ngủ. Sáng hôm sau, mình vẫn sửa soạn, lên taxi và nước mắt lại chảy dài- anh lái xe nhìn mình hơi ái ngại, sau đó khi tới chỗ làm - mình lại bắt đầu một ngày bình thường như mọi ngày.
 
 Đêm đó mình cảm thấy gì? Là cảm giác bế tắc, và lo sợ ngày mai vẫn phải đối diện với những vấn đề chưa có cách giải quyết trọn vẹn, thê thảm hơn là, sẽ không bao giờ có một cách giải quyết trọn vẹn. Tất cả những gì trong khả năng, mình đã làm hết sức rồi. Có lẽ mình sợ nhất không phải là bế tắc, mà còn sợ không được thông cảm, không được bao dung, không được cho thêm một cơ hội - và vì không thấy ai giơ tay ra, nên mới phải cầu xin đến những vị thần.
 
