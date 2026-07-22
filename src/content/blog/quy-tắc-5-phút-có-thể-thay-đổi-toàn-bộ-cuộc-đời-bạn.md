@@ -1,7 +1,7 @@
 ---
 title: Chúng ta không thất bại vì làm sai. Chúng ta thất bại vì không bắt đầu
 tag: Phát triển bản thân
-date: 2026-07-18
+date: 2026-06-17
 readingMinutes: 5
 excerpt: |-
   Đôi khi việc bắt đầu một thứ gì đó, có thể đem lại sai lầm.
