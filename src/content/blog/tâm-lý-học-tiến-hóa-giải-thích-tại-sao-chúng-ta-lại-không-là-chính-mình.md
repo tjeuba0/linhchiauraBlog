@@ -1,5 +1,5 @@
 ---
-title: Cơ chế âm thầm của não bộ có thể điều khiển chúng ta mà ta không hề biết?
+title: Tâm lý học tiến hóa về bản năng nguyên thủy của con người.
 tag: Não bộ & Tâm lý
 date: 2026-07-20
 readingMinutes: 3
