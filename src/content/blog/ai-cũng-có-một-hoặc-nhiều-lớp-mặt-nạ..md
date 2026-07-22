@@ -2,7 +2,7 @@
 title: Hầu hết mọi người đều là "người khác"
 tag: Não bộ & Tâm lý
 date: 2026-07-18
-readingMinutes: 10
+readingMinutes: 5
 excerpt: |-
   Suy nghĩ của họ là quan điểm của một ai đó.
   Cuộc sống của họ đều là bắt chước.
