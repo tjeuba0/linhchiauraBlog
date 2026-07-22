@@ -1,5 +1,5 @@
 ---
-title: Chúng ta không thất bại vì làm sai. Chúng ta thất bại vì không bắt đầu.
+title: Chúng ta không thất bại vì làm sai. Chúng ta thất bại vì không bắt đầu
 tag: Phát triển bản thân
 date: 2026-07-18
 readingMinutes: 5
