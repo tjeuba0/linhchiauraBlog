@@ -1,5 +1,5 @@
 ---
-title: Nước đến chân mới nhảy - Chưa chắc bạn đã lười biếng!
+title: Nước đến chân mới nhảy - Chưa chắc bạn đã lười biếng
 tag: Não bộ & Tâm lý
 date: 2026-07-18
 readingMinutes: 6
