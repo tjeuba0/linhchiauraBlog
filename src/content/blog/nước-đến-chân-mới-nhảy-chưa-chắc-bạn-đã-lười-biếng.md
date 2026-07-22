@@ -2,7 +2,7 @@
 title: Nước đến chân mới nhảy - Chưa chắc bạn đã lười biếng!
 tag: Não bộ & Tâm lý
 date: 2026-07-18
-readingMinutes: 10
+readingMinutes: 6
 excerpt: Bạn có phải là người "nước đến chân mới nhảy" hay không? Đấy có phải là dấu hiệu của việc bạn là kẻ lười biếng, hay đơn giản là chưa quản trị cảm xúc tốt?
 ---
 
