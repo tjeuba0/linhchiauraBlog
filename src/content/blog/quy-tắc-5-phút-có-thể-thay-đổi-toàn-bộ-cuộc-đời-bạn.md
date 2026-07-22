@@ -1,5 +1,5 @@
 ---
-title: Hầu hết chúng ta không thất bại vì làm sai. Chúng ta thất bại vì không bắt đầu.
+title: Chúng ta không thất bại vì làm sai. Chúng ta thất bại vì không bắt đầu.
 tag: Phát triển bản thân
 date: 2026-07-18
 readingMinutes: 3
@@ -38,4 +38,4 @@ Thử bắt tay vào một việc mà bạn biết là ý nghĩa, nhưng vẫn c
 
 Đôi khi việc bắt đầu một thứ gì đó, có thể đem lại sai lầm, đôi khi không phải vậy,
 
-Nhưng khi đó không phải là 1 sai lầm, thì hiệu quả đạt được của nó dư sức bù đắp cho những lúc sai lầm.
+Nhưng khi đó không phải là 1 sai lầm, thì hiệu quả đạt được của nó dư sức bù đắp cho những lúc sai lầm ;)
