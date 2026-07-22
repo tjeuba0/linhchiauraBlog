@@ -6,7 +6,7 @@ readingMinutes: 3
 excerpt: Nói thẳng là não bộ khá lười, não bộ sẽ ưu tiên việc sống sót, chứ không phải ưu tiên tính chính xác, vì não bộ muốn tiết kiệm năng lượng. Suy nghĩ nhiều thì tốn năng lượng, vì thế não sẽ chọn bias (thiên kiến) như một đường tắt để phản ứng nhanh với môi trường.
 ---
 
-Nói thẳng là não bộ khá lười, não bộ sẽ ưu tiên việc sống sót, chứ không phải ưu tiên tính chính xác, vì não bộ muốn tiết kiệm năng lượng. Suy nghĩ nhiều thì tốn năng lượng, vì thế não sẽ chọn bias (thiên kiến) như một đường tắt để phản ứng nhanh với môi trường.. Mà não bộ thích quyết định nhanh, thích tiết kiệm năng lượng thay vì đào sâu tìm ra vấn đề cốt lõi,  vì thế nên độ chính xác trên mỗi quyết định cũng rất ..hên xui.
+Nói thẳng là não bộ khá lười, não bộ sẽ ưu tiên việc sống sót, chứ không phải ưu tiên tính chính xác, vì não bộ muốn tiết kiệm năng lượng. Suy nghĩ nhiều thì tốn năng lượng, vì thế não sẽ chọn bias (thiên kiến) như một đường tắt để phản ứng nhanh với môi trường..  vì thế nên độ chính xác trên mỗi quyết định cũng rất ..hên xui.
 
 Một số cơ chế của não bộ mà chúng ta cần biết như sau:
 
