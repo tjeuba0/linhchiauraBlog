@@ -1,5 +1,5 @@
 ---
-title: Tâm lý học tiến hóa nói gì về bản năng nguyên thủy của con người.
+title: Tâm lý học tiến hóa nói gì về bản năng nguyên thủy của con người
 tag: Não bộ & Tâm lý
 date: 2026-07-20
 readingMinutes: 3
