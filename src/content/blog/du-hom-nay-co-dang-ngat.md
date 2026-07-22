@@ -1,8 +1,8 @@
 ---
 title: Dù hôm nay có đắng ngắt, tin mình đi, nó sẽ qua
-tag: "Chữa lành- Con người & Các mối quan hệ"
+tag: Chữa lành- Con người & Các mối quan hệ
 date: 2026-07-05
-readingMinutes: 5
+readingMinutes: 3
 excerpt: Nếu bạn muốn có được thứ mà mình mong đợi, bạn cũng phải dám chấp nhận tất cả những nguyên liệu xấu xí, đắng ngắt để tạo ra nên nó. Đó là quy luật cân bằng của vũ trụ.
 ---
 
