@@ -1,5 +1,5 @@
 ---
-title: Càng trí tuệ có phải là càng cô đơn?
+title: Khiêm hạ.
 tag: Chữa lành- Con người & Các mối quan hệ
 date: 2026-07-19
 readingMinutes: 3
