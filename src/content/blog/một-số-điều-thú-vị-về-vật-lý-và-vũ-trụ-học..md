@@ -1,5 +1,5 @@
 ---
-title: Một số điều thú vị về Vật lý và Vũ trụ học.
+title: Một số điều thú vị về Vật lý và Vũ trụ học
 tag: Triết học & các tư tưởng
 date: 2026-07-19
 readingMinutes: 5
