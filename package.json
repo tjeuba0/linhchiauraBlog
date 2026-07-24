@@ -7,7 +7,8 @@
   },
   "scripts": {
     "dev": "astro dev",
-    "check": "astro check",
+    "check": "npm run check:topics && astro check",
+    "check:topics": "node scripts/check-blog-topics.mjs",
     "build": "npm run check && astro build",
     "preview": "npm run build && wrangler dev",
     "astro": "astro",
