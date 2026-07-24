@@ -592,8 +592,7 @@ export default function AppIsland({ posts }: Props) {
                 <span>Đọc sâu</span>
               </h2>
               <p className="lc-sub">
-                Mời bạn cùng mình khám phá những góc nhìn mới về tâm lý, cuộc sống và hành trình
-                trưởng thành mỗi ngày.
+                Tích cực không phải chỉ thấy ánh sáng, mà là thấy cả bóng tối và vẫn chọn ánh sáng.
               </p>
             </div>
           </div>
@@ -672,10 +671,14 @@ export default function AppIsland({ posts }: Props) {
                 <Heart size={18} strokeWidth={2} />
               </div>
               <h2 className="lc-about-title">Sở thích &amp; Đam mê</h2>
-              <p className="lc-about-desc">
-                Chạy bộ &amp; leo núi, sáng tạo nội dung số, tâm lý học, du lịch khám phá &amp; thiện
-                nguyện.
-              </p>
+              <ul className="lc-about-list">
+                <li>Chạy bộ &amp; leo núi.</li>
+                <li>Sáng tạo nội dung số.</li>
+                <li>Trò chuyện với bạn bè.</li>
+                <li>Tâm lý học &amp; khoa học hành vi</li>
+                <li>Du lịch khám phá</li>
+                <li>Thiện nguyện &amp; các hoạt động cộng đồng.</li>
+              </ul>
             </article>
             <article className="lc-about-card">
               <div className="lc-blob lc-blob--orange" aria-hidden="true" />

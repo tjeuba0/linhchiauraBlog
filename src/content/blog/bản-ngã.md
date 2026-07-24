@@ -1,6 +1,6 @@
 ---
 title: Bản ngã - Cái nhìn qua nhiều lăng kính Phật giáo, Osho & Freud
-tag: Triết học & các tư tưởng
+tag: Khoa học & Các hệ tư tưởng
 date: 2026-07-18
 readingMinutes: 10
 excerpt: |-

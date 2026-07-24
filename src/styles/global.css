@@ -654,6 +654,26 @@ astro-island {
 .lc-about-desc--italic {
   font: italic 400 13.5px/1.75 Georgia, 'Times New Roman', serif;
 }
+.lc-about-list {
+  display: grid;
+  gap: 9px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  color: var(--lc-text-muted);
+  font: 400 13.5px/1.6 'Be Vietnam Pro', sans-serif;
+}
+.lc-about-list li {
+  display: grid;
+  grid-template-columns: 18px minmax(0, 1fr);
+  gap: 8px;
+  align-items: start;
+}
+.lc-about-list li::before {
+  content: '✓';
+  color: #2e7d5b;
+  font-weight: 700;
+}
 .lc-banner {
   margin-top: 22px;
   background: #1e5a40;

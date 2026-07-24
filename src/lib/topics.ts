@@ -1,9 +1,8 @@
 export const BLOG_TOPICS = [
-  'Não bộ & Tâm lý',
+  'Chữa lành - Con người & Các mối quan hệ',
   'Phát triển bản thân',
-  'Triết học & các tư tưởng',
-  'Chữa lành- Con người & Các mối quan hệ',
-  'Nhật ký trưởng thành',
+  'Não bộ & Tâm lý',
+  'Khoa học & Các hệ tư tưởng',
 ] as const;
 
 export type BlogTopic = (typeof BLOG_TOPICS)[number];
