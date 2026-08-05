@@ -6,7 +6,7 @@ readingMinutes: 3
 excerpt: Nếu bạn muốn có được thứ mà mình mong đợi, bạn cũng phải dám chấp nhận tất cả những nguyên liệu xấu xí, đắng ngắt để tạo ra nên nó. Đó là quy luật cân bằng của vũ trụ.
 ---
 
-Trước khi có sức khỏe để tập luyện đa dạng các bộ môn và trở thành một người yêu thể thao, mình từng là đứa đi bộ 3 km đã thở hổn hển, chân mềm nhũn như con chi chi. Lần leo núi Hàm Lợn đầu tiên, thành công duy nhất là không khóc T.T
+Trước khi có sức khỏe để tập luyện đa dạng các bộ môn và trở thành một người yêu thể thao, mình từng là đứa đi bộ 3 km đã thở hổn hển, chân mềm nhũn như con chi chi. Lần leo núi Hàm Lợn đầu tiên, thành công duy nhất là không khóc.
 
 Trước khi học được cách bao dung với người khác, mình cũng từng đầy tham - sân - si. Mình từng mất ngủ nguyên một đêm vì hối hận sau một lần nổi nóng với chính người thân của mình.
 
@@ -22,11 +22,13 @@ Mọi người thường ước có thể tua nhanh được đến giai đoạn
 
 Nếu bạn muốn có được thứ mà mình mong đợi, bạn cũng phải dám chấp nhận tất cả những nguyên liệu xấu xí, đắng ngắt để tạo ra nên nó. Đó là **quy luật cân bằng của vũ trụ.**
 
-Có cô đơn mới học được cách làm việc với bản thân,
+Có những lúc cô đơn, mình mới học được cách ở yên với chính mình.
 
-Có bệnh đau mới học được cách bảo vệ thân thể,
 
-Có tổn thương mới học cách không làm người khác có cảm giác tương tự,
+Có những lần đau ốm, mình mới hiểu sức khỏe quý đến thế nào và biết cách chăm sóc cơ thể hơn.
+
+
+Có những tổn thương, mình mới học được cách dịu dàng hơn với người khác, bởi mình hiểu cảm giác đó đau như thế nào.
 
 ...
 
