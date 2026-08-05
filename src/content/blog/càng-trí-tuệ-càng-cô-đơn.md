@@ -1,19 +1,21 @@
 ---
-title: Khiêm hạ
+title: Khi nào thì mình biết là mình đã ổn thật?
 tag: Chữa lành - Con người & Các mối quan hệ
 date: 2026-07-19
 readingMinutes: 3
-excerpt: Có bao giờ bạn bước vào một căn phòng, nhìn mọi người cười nói, nhưng bạn không thể hòa nhập. Vì bạn nhìn ra những ẩn ý đằng sau đó, và những câu chuyện mà không ai thể hiện ra.
+excerpt: Mình bắt đầu thực sự chữa lành từ khi mình không nghĩ mình cần phải chữa lành nữa
 ---
 
-Có một giai đoạn trong hành trình lớn lên về tâm thức, khi bạn bắt đầu cảm nhận nhiều hơn, nhìn thấy những lớp sâu hơn đằng sau vẻ ngoài bóng bẩy của mọi thứ - bạn thấy mình khó tìm được ai "cùng tần số" như trước nữa.
+Cụm từ "chữa lành" bắt đầu phổ biến và trở nên lan tràn khắp nơi đặc biệt là giới trẻ trong 5 năm trở lại đây, điều này không hề xấu. Thay vì chỉ tập trung vào đời sống vật chất, cơm ăn áo mặc như thế hệ cha mẹ, chúng ta- những người trẻ đã rất tích cực trong việc nhìn nhận tầm quan trọng của thế giới tinh thần và sự cân bằng của một hệ thần kinh khỏe mạnh.
 
-Đó không phải vì bạn hơn ai, mà vì bạn đang ở giữa một sự chuyển đổi: cách bạn nhìn thế giới đã thay đổi, nhưng bạn chưa tìm được ngôn ngữ chung mới với những người xung quanh. Cảm giác lạc lõng đó là thật, và nó dễ khiến ta muốn rút lui, chỉ giữ lại những ai "hiểu mình".
+Bản thân mình, một cô gái sinh năm 1993, ở giai đoạn xã hội Việt Nam bắt đầu chuyển sang giai đoạn kinh tế mới, du nhập của internet, bố mẹ của mình cũng như bao ông bố bà mẹ khác, thể hiện tình yêu bằng hành động chứ không phải lời nói hay những cử chỉ âu yếm, mình cũng sẽ gặp một số vấn đề "nho nhỏ" và tham gia mạnh mẽ vào "làn sóng chữa lành". Gọi vui thế chứ mình không chữa lành cho vui, bản thân mình cảm nhận được những vấn đề tâm lý của bản thân mà rõ ràng nhất là cảm giác gắn bó lo âu, hoăc yêu thương có điều kiện, mình luôn có cảm giác gồng lên vì chỉ khi mình đủ giỏi mới được yêu thương và đối xử xứng đáng.
 
-Nhưng đây cũng là lúc dễ mắc một cái bẫy: nhầm lẫn giữa "chưa tìm được kết nối" và "người khác không xứng đáng để kết nối". Nếu ta để sự khác biệt biến thành thước đo hơn-kém, ta sẽ càng cô lập mình hơn - không phải vì thế giới đóng lại, mà vì chính ta đã đóng cửa trước.
+Tự nhìn nhận được vấn đề của bản thân đã là một bước tiến lớn. Khi nhận thức được điều đó, với mỗi sự kiện, mình luôn tự phân tích tình huống và cảm xúc của mình, tìm ra lý do, lời giải đáp cho những suy nghĩ đó, điều chỉnh để có những lối đi đúng đắn hơn. Có khoảng 2 năm, bio từ Facebook, tiktok, ... của mình luôn là "Tên + chữa lành từ bên trong". Mình không phủ nhận chữa lành và quay về bên trong, giống như uống thuốc vậy, khi bị bệnh, chúng ta phải uống thuốc, nhưng không phải là uống mãi mãi.
 
-Bạn hãy tin vào con đường mình đang đi, và biết ơn những nhân duyên đã cho bạn cơ hội học tập, trải nghiệm, quán chiếu bản thân qua nhiều môi trường khác nhau. Nhưng cũng nên tự hỏi: mình có đang so sánh, có đang cao ngạo không? Hay mình thực sự bao dung và tôn trọng sự khác biệt - kể cả với những người chưa "cùng tần số" với mình? Và nếu một ngày sự khác biệt ấy không chỉ hiện diện, mà còn khiến bạn cảm thấy bị công kích - bạn sẽ phản ứng thế nào? Đây là câu hỏi khó hơn, và có lẽ là câu hỏi thật sự đáng để ngồi lại với chính mình.
+Khi vẫn còn tâm lý "mắc kẹt", tâm lý nạn nhân, cần sự giúp đỡ, chúng ta sẽ sống với cái nhãn đó và cư xử đúng như cái danh tính đó.
 
-Quay trở lại với sự trưởng thành về tâm thức, đó không phải là thu hẹp vòng tròn quan hệ lại chỉ còn những người "đủ tầm", mà là học cách giữ được sự sâu sắc của mình trong khi vẫn mở lòng với những người chưa đi cùng một quãng đường như mình. Cô đơn có thể là một chặng cần đi qua, nhưng đừng biến nó thành nơi trú ẩn vĩnh viễn núp dưới danh nghĩa "chỉ mình mới hiểu".
+Mỗi khi nhắc đến câu chuyện yêu thương bản thân có điều kiện, phải đep, phải học giỏi, thành công, kiếm nhiều tiền, mới có được yêu thương, mình luôn nghĩ đến câu chuyện vì học hành chểnh mảng hồi lớp 8 mà mình được chuyển về quê để đi "du học". Và mình mang theo tâm lý nạn nhân rằng bố mẹ sẽ đẩy mình ra xa nếu mình cư xử hay hành động không tốt. Mình luôn nhắc đến sự kiện đó với một chút nghen ngào tủi thân thay vì cảm thông và biết ơn cha mẹ.
 
-Giữ cho mình một tâm khiêm hạ, không phải bằng cách nói ra, mà bằng cách thực sự tôn trọng hành trình của mỗi người, kể cả khi nó chậm hơn, khác hơn, hay đơn giản không cùng con đường bạn đang đi.
+Về mặt nhận thức, mình hoàn toàn hiểu được và cảm thông cho những quyết định của bố mẹ, và thâm tâm mình biết bố mẹ vẫn thương yêu mình không cần lý do, nhưng chính vì tâm lý cần "chữa lành" nên mặc dù mình hiểu về mặt lý trí- nhưng cảm xúc thì vẫn đôi phần ấm ức.
+
+Và một sự thức tỉnh đã đến với mình
