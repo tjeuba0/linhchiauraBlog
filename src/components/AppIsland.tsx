@@ -587,13 +587,7 @@ export default function AppIsland({ posts }: Props) {
         >
           <div className="lc-nk-head">
             <div>
-              <h2 className="lc-h2">
-                <span aria-hidden="true">📖</span>
-                <span>Đọc sâu</span>
-              </h2>
-              <p className="lc-sub">
-                Tích cực không phải chỉ thấy ánh sáng, mà là thấy cả bóng tối và vẫn chọn ánh sáng.
-              </p>
+              <h2 className="lc-h2">Đọc sâu</h2>
             </div>
           </div>
           {selectedTopic ? (
