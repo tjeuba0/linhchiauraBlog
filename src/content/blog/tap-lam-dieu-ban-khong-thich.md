@@ -3,7 +3,7 @@ title: Tập làm điều bạn chưa thích
 tag: Phát triển bản thân
 date: 2026-07-12
 readingMinutes: 3
-excerpt: 'Có 1 lý thuyết mà mình đã tuân theo khá nhiều năm nay: Hãy tập làm những điều có ích, dù ban đầu mình không thích.'
+excerpt: Hãy tập làm những điều có ích, dù ban đầu mình có vẻ rất ghét nó.
 ---
 
 Có một nguyên tắc mình đã theo suốt nhiều năm và cũng là cách mình phát triển bản thân. Nghe thì hơi ngược đời:
