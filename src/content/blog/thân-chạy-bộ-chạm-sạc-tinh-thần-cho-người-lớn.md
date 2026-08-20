@@ -14,8 +14,8 @@ Khi bạn tập chạy bộ, trái tim sẽ là thứ thay đổi đầu tiên c
 
 Ngoài ra, chạy bộ không chỉ dùng đôi chân, vì khi bạn chạy có đến 200 cơ trên khắp cơ thể cùng phối hợp nhịp nhàng dưới sự điều khiển của hệ thần kinh, đây là vận động toàn thân.
 
-Anh Đạt- một người anh siêu tài năng của mình đã hướng dẫn mình tính Kcal như sau, mỗi km tương đương 60kcal, như vậy với 5km, cơ thể chúng ta trung bình tiêu được 300 Kcal, giúp đốt mỡ ngay cả khi nghỉ ngơi.
+Anh Đạt- một người anh siêu tài năng của mình đã động viên mình chạy và hướng dẫn mình tính Kcal như sau, mỗi km tương đương 60kcal, như vậy với 5km, cơ thể chúng ta trung bình tiêu được 300 Kcal, giúp đốt mỡ ngay cả khi nghỉ ngơi.
 
 Không chỉ vậy, mỗi lần chạy não sẽ tiết ra endorphin khiến mọi ồn ào bên ngoài tan biến, chỉ còn tiếng thở và tiếng bước chân của riêng bạn.
 
-Đừng sợ bước đầu khó, với những ích lợi như vậy - mình cổ vũ bạn cố gắng chinh phục 5km đầu tiên ;) Mình sẽ rất vui nếu biết được ai đó sẽ bắt đầu buộc dây giày và lên đường ngay từ hôm nay đấy.
+Đừng sợ bước đầu khó, với những ích lợi như vậy - mình cổ vũ bạn cố gắng chinh phục 300Kcal đầu tiên ;) Mình sẽ rất vui nếu biết được ai đó sẽ bắt đầu buộc dây giày và lên đường ngay từ hôm nay đấy.
