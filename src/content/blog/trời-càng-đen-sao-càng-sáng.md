@@ -22,6 +22,8 @@ Mình chờ đợi.
 
 **Tất nhiên, không có cánh tay nào đưa ra cả.** 
 
+_(có cánh tay nào đưa ra lại là một vấn đề nghiêm trọng khác đấy :))_
+
 Mình nhắm mắt, nước mắt tự khô sau một đêm khó ngủ.
 
 Sáng hôm sau, phố xá lên đèn, mình vẫn sửa soạn, lên taxi và bắt đầu ngày mới. Ngoài đường xe cộ chạy đông vui, may là mình ngồi trong xe nên nước mắt chảy dài - chỉ anh lái xe nhìn mình hơi ái ngại. Thôi lau nước mắt - mình lại bắt đầu một ngày bình thường như mọi ngày.
