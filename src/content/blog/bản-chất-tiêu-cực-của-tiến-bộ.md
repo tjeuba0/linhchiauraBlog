@@ -27,8 +27,8 @@ Và đó một phần giải thích cảm giác chúng ta thấy mơ hồ, quá 
 
 Thay vì chống lại cảm xúc, chúng ta chỉ cần nhìn thấy những cảm xúc đó và chấp nhận.
 
-Có những ngày cực kì mệt mỏi, trống rỗng, đó là những lúc chúng ta có thể dành cho bản thân " 1 khoảng lặng" cho não bộ, chỉ cần hôm sau bạn đi tiếp
+Có những ngày cực kì mệt mỏi, trống rỗng, đó là những lúc chúng ta có thể dành cho bản thân " 1 khoảng lặng" cho não bộ, chỉ cần hôm sau bạn vẫn đi tiếp
 
-Đừng để mục tiêu đè bẹp chúng ta hôm nay, chỉ cần so sánh mình so với quá khứ, từ lúc bắt đầu đến hôm nay bạn đã cải thiện được gì? Bạn đã nhìn thấy lỗ hổng nào của bản thân? Và có cách nào để khắc phục.
+Đừng để mục tiêu đè bẹp chúng ta hôm nay, chỉ cần so sánh mình so với quá khứ, từ lúc bắt đầu đến hôm nay bạn đã cải thiện được gì? Bạn đã nhìn thấy lỗ hổng nào của bản thân? Và có cách nào để khắc phục? Đi từng bước nhỏ.
 
-Con đường này mỗi bước đi sẽ giúp chúng ta tiến gần đến con người chân thực của mình, đây không phải điều xấu, cảm xúc cũng không phải kẻ thù, thay vì vội vàng tiêu diệt chúng... hãy chấp nhận như một phần của quá trình trưởng thành, chứ không phải lỗi hệ thống
+Đây là mặt xám của quá trình trưởng thành, dù con đường này mỗi bước đi sẽ giúp chúng ta tiến gần đến con người chân thực của mình, nhưng cũng đi kèm với rất nhiều cô đơn và cảm giác bất lực, đây không phải điều xấu, cảm xúc cũng không phải kẻ thù, thay vì vội vàng tiêu diệt chúng... hãy chấp nhận như một phần của quá trình trưởng thành, chứ hoàn toàn không phải lỗi hệ thống.
