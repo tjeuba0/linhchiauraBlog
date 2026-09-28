@@ -6,7 +6,7 @@ readingMinutes: 3
 excerpt: Có người gọi là "duyên", có người gọi đó là "sự ngẫu nhiên"
 ---
 
-Gần đây tôi và một người bạn tranh luận với nhau về một chuyện: "Việc bạn tôi gặp được một người rất thú vị khi đi công tác". Bạn tôi bảo đó là ngẫu nhiên. Tôi bảo đó là có duyên. Chúng tôi không ai thuyết phục được ai, nhưng câu hỏi thì ở lại với tôi.
+Gần đây tôi và một người bạn tranh luận với nhau về một chuyện: "Việc 2 con người vô tình gặp nhau và tạo ra những điều có ý nghĩa sau đó". Bạn tôi bảo đó là ngẫu nhiên. Tôi bảo đó là có duyên. Chúng tôi không ai thuyết phục được ai, nhưng câu hỏi thì ở lại với tôi.
 
 Sau nhiều ngày suy nghĩ về nó, tôi thấy đây là chủ đề có sự giao thoa giữa cả tâm lý, khoa học, các hệ tư tưởng, nên tôi thú thực cũng không biết xếp vào nhóm bài nào.
 
