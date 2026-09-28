@@ -1,6 +1,6 @@
 ---
 title: Bản chất tiêu cực của tiến bộ
-tag: Não bộ & Tâm lý
+tag: Phát triển bản thân
 date: 2026-09-28
 readingMinutes: 3
 excerpt: Tiến bộ và phát triển không chỉ là niềm vui, trái ngược, nó đi kèm với những điều tưởng chừng rất tiêu cực.
