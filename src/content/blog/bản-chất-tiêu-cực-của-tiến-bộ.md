@@ -8,7 +8,7 @@ excerpt: Tiến bộ và phát triển không chỉ là niềm vui, trái ngư�
 
 Khi một người không ngừng tiến bộ, trong hành trình đó chắc chắn sẽ gặp những vấn đề về cảm xúc - cụ thể là cảm giác mơ hồ, không rõ ràng, cảm giác cô đơn và thậm chí rất nhiều lần hoài nghi chính mình.
 
-Vì hành trình phát triển đồng nghĩa với việc liên tục lược bỏ đi phiên bản cũ, phá vỡ những niềm tin cũ để xây dựng những kĩ năng, tư tưởng mới, hình hài mới... quá trình đó chính là không ngừng phá vỡ trạng thái cân bằng, rồi lại thiết lập trạng thái cân bằng, chính là nguyên nhân khiến chúng ta xuất hiện những cảm giác khá "tiêu cực". Vì vậy mới nói: bản chất của tiến bộ, không phải cảm xúc dễ chịu, vì nó đồng nghĩa với việc tiếp xúc với những người mới, việc mới, những thử thách mới. Mỗi ngày đều sẽ nảy sinh cảm xúc, rồi lại phải tiêu hóa cảm xúc ấy, tạo nên nền tảng của quá trình trưởng thành.
+Vì hành trình phát triển đồng nghĩa với việc liên tục lược bỏ đi phiên bản cũ, phá vỡ những niềm tin cũ để xây dựng những kĩ năng, tư tưởng mới, hình hài mới... quá trình đó chính là không ngừng phá vỡ trạng thái cân bằng, rồi lại thiết lập trạng thái cân bằng, làm xuất hiện những cảm giác khá "tiêu cực". Vì vậy mới nói: bản chất của tiến bộ, không phải cảm xúc dễ chịu, vì nó đồng nghĩa với việc tiếp xúc với những người mới, việc mới, những thử thách mới. Mỗi ngày đều sẽ nảy sinh cảm xúc, rồi lại phải tiêu hóa cảm xúc ấy, tạo nên nền tảng của quá trình trưởng thành.
 
 Nói cách khác, bạn càng muốn nỗ lực tiến lên, bạn càng dễ hoảng loạn và sụp đổ. Những cảm xúc ấy không nên được nhìn nhận như một sự yếu đuối, mình có thể nói, nếu bạn cảm thấy: mơ hồ, cô đơn, lo âu, hoài nghi bản thân - lại là dấu hiệu của việc bạn đang bước ra khỏi vùng an toàn, và đang bước vào vùng chưa biết.
 
