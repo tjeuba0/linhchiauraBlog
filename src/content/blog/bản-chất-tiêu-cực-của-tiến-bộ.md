@@ -1,6 +1,6 @@
 ---
 title: Bản chất tiêu cực của tiến bộ
-tag: Phát triển bản thân
+tag: Não bộ & Tâm lý
 date: 2026-09-28
 readingMinutes: 3
 excerpt: Tiến bộ và phát triển không chỉ là niềm vui, trái ngược, nó đi kèm với những điều tưởng chừng rất tiêu cực.
@@ -33,6 +33,6 @@ Có những ngày cực kì mệt mỏi, trống rỗng, đó là những lúc c
 
 Đừng để mục tiêu to lớn đè bẹp chúng ta hôm nay, chỉ cần so sánh mình so với quá khứ, từ lúc bắt đầu đến hôm nay bạn đã cải thiện được gì? Bạn đã nhìn thấy lỗ hổng nào của bản thân? Và những thành tựu nho nhỏ, những món quà ghi nhận bản thân nho nhỏ - hãy đi từng bước nhỏ.
 
-Đây là mặt tráicủa quá trình trưởng thành, dù con đường này mỗi bước đi sẽ giúp chúng ta tiến gần đến con người chân thực của mình, nhưng cũng đi kèm với rất nhiều cô đơn và cảm giác bất lực. Có lẽ đây không phải điều xấu, cảm xúc cũng không phải kẻ thù, thay vì vội vàng tiêu diệt chúng... hãy chấp nhận như một phần của quá trình trưởng thành, và vẫn kiên cường đi tiếp.
+Đây là mặt trái của quá trình trưởng thành, dù con đường này mỗi bước đi sẽ giúp chúng ta tiến gần đến con người chân thực của mình, nhưng cũng đi kèm với rất nhiều cô đơn và cảm giác bất lực. Có lẽ đây không phải điều xấu, cảm xúc cũng không phải kẻ thù, thay vì vội vàng tiêu diệt chúng... hãy chấp nhận như một phần của quá trình trưởng thành, và vẫn kiên cường đi tiếp.
 
 Niềm vui và thành công ở cuối con đường là có thật. Nhưng trên đường đi, ta phải học cách đi cùng những cảm xúc chưa dễ chịu: không cần tiêu diệt chúng, chỉ cần đừng để chúng dừng chân mình.
