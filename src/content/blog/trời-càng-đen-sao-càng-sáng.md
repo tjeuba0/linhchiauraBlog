@@ -34,4 +34,4 @@ Bạn biết không, những vì sao không hề sáng hơn vào ban đêm. Nó 
 
 Ai chẳng có vài đêm khó ngủ. Chúng ta cũng không cần “tìm ra câu trả lời” hay “giải quyết vấn đề” ngay lúc đó, mà chỉ là sống sót qua đêm để đến sáng - thế thôi. Những thử thách đến, đơn giản vì bạn có đủ năng lực để vượt qua nó. Và đêm đó không có cánh tay của vị thần nào đỡ mình dậy, chắc là vì vị thần ấy thấy được mình đã có đầy đủ sức mạnh để tự vượt qua nó bằng chính mình.
 
-Chúc bạn vững vàng đi qua những đêm đen thật dài, và bước ra khỏi nó với một trái tim lấp lánh những ánh sao. Mình ở đây, để nói rằng, chúng mình sẽ luôn làm được!
+Chúc bạn vững vàng đi qua những đêm đen thật dài, và bước ra khỏi nó với một trái tim lấp lánh những ánh sao. Hãy nhớ rằng màn đêm không phải vĩnh cửu, chỉ là bình minh đang tới. Mình ở đây, để nói rằng, chúng mình sẽ luôn làm được!
