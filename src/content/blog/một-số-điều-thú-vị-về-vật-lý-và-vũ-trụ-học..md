@@ -3,7 +3,7 @@ title: Một số điều thú vị về Vật lý và Vũ trụ học
 tag: Khoa học & Các hệ tư tưởng
 date: 2026-07-19
 readingMinutes: 5
-excerpt: Nếu bạn cho rằng bạn hiểu cơ học lượng tử, thì thực chất là bạn chưa hề hiểu nó! Nhưng nên tìm hiểu về nó, tri thức của bạn sẽ mở ra theo cách chưa từng có!
+excerpt: Nếu bạn cho rằng bạn hiểu cơ học lượng tử, thì thực chất là bạn chưa hề hiểu nó!
 ---
 
 1. Mặt trời chúng ta đang thấy là của 8 phút trước, mặt trời có nổ tung thì chúng ta sẽ sống thêm 8 phút bình thường. Màn đêm đen tuyền mà bạn thấy, cũng là ánh sáng từ những ngôi sao xa xôi cách đây hàng triệu năm. Hầu như chúng ta đều đang **sống trong quá khứ**. Hãy nhớ suy nghĩ này để bắt đầu sống cho hiện tại!
