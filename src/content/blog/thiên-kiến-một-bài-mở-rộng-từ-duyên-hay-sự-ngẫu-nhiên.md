@@ -11,3 +11,36 @@ Chúng ta gọi một cuộc gặp là "duyên" gần như chỉ khi nhìn lại
 Thật tuyệt vời vì bài viết này ra đời sau bài "Duyên hay ngẫu nhiên" chỉ 2 ngày. Đây thực sự là một chủ đề có thể expand ra nhiều nội dung khác nhau dưới rất nhiều góc nhìn.
 
 Tôi đã nói về sự thao túng của não bộ đối với hành vi của con người và lý do các thiên kiến ra đời, nếu bạn còn nhớ, và nhân đây chúng ta sẽ đi sâu về thiên kiến để lý giải cho bài viết về Duyên đã bàn trước đó - nói riêng, và cho các hành vi trong đời sống con người - nói chung.
+
+**Hindsight bias - _“Biết vậy ngay từ đầu rồi.”_**
+
+Là xu hướng **sau khi biết kết quả**, ta cảm thấy kết quả đó vốn đã dễ đoán hoặc gần như chắc chắn xảy ra.
+
+Ví dụ: Khi 2 người gặp nhau trên một chuyến xe muộn, và rồi họ nhanh chóng phát triển tình cảm và đi đến hôn nhân. Họ có thể nhìn lại một cuộc tình đẹp và kể rằng: _họ biết là mình đã dành cho nhau ngay từ phút đầu tiên_. Nhưng **nếu cuộc tình đó thất bại**, chính họ có thể đã không nhìn thấy điều đó rõ ràng đến thế.
+
+Não chúng ta có xu hướng **viết lại câu chuyện quá khứ để kết quả hiện tại trở nên hợp lý**. Vì câu chuyên đã xảy ra nên chúng ta thường đưa ra kết luận và chắc mẩm là mình đúng, dramatic hóa câu chuyện như một "mối duyên" từ tiền kiếp.
+
+**Survivorship bias - _“Nhìn những trường hợp thành công và quên những tình huống không thành.”_**
+
+Là khi ta chỉ nhìn thấy **những người/sự vật đã “sống sót”**, mà quên mất những người đã thất bại và biến mất khỏi tầm nhìn.
+
+Tôi sẽ tìm lại một ví dụ rất hay để kể lại cho các bạn, đâu đó tôi đã đọc về câu chuyện này nhiều năm trước
+
+Wait a minute.
+
+Đây rồi, câu chuyện là thế này: **"Hãy bọc giáp chỗ không có lỗ đạn”.**
+
+Trong Thế chiến II, nhóm thống kê của quân đội Mỹ nghiên cứu những chiếc máy bay ném bom trở về sau nhiệm vụ. Họ đánh dấu vị trí các lỗ đạn trên những chiếc máy bay sống sót. Và họ nhìn thấy một pattern đại khái như:
+
+Cánh - thân máy bay - đuôi: rất nhiều lỗ đạn
+Động cơ - khu vực quan trọng: rất ít lỗ đạn.
+
+Câu hỏi đặt ra: “Nếu chỉ được gia cố một số vị trí, nên đặt thêm giáp ở đâu?”
+
+Cách suy nghĩ tự nhiên là: “Chỗ nào nhiều lỗ nhất → chỗ đó bị bắn nhiều nhất → gia cố chỗ đó.” tức là họ sẽ bọc giáp ở cánh, thân, đuôi máy bay.
+
+Nhưng Abraham Wald nhìn dữ liệu theo một hướng khác. Ông nhận ra: Khoan. Chúng ta chỉ đang nhìn thấy những chiếc máy bay đã trở về.
+
+Vì vậy : Nơi có nhiều lỗ đạn trên máy bay sống sót không nhất thiết là nơi nguy hiểm nhất. Thậm chí, nó có thể cho chúng ta biết: “Đây là nơi máy bay có thể bị bắn mà vẫn sống sót." - nó hoàn toàn ngược lại so với logic ban đầu.
+
+Đó chính là survivorship bias.
