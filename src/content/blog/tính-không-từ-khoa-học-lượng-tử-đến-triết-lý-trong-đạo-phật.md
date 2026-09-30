@@ -3,7 +3,7 @@ title: Tính KHÔNG - từ khoa học lượng tử đến triết lý trong Đ�
 tag: Khoa học & Các hệ tư tưởng
 date: 2026-07-19
 readingMinutes: 5
-excerpt: Vạn vật không có tự tánh riêng biệt. Không có tôi - không có bạn - không có gì là cố định - đó là tính KHÔNG.
+excerpt: Vạn vật không có tự tánh riêng biệt.
 ---
 
 Phật Giáo và Khoa Học có một sự nhất quán sâu sắc.
@@ -18,6 +18,6 @@ Nghiên cứu tiến hành như sau: Đục 2 khe trên 1 tấm sáng, khi khôn
 
  Vậy về bản chất của hạt, nó không tồn tại một cách cố hữu.
 
-Quay lại Tánh không trong : không bám chất vào cái tôi, vì nó là tổng hợp của thể xác- tư duy- cảm xúc - suy nghĩ, và thay đổi theo từng giây phút.
+Quay lại Tánh không trong Phật Giáo: không bám chất vào cái tôi, vì nó là tổng hợp của thể xác- tư duy- cảm xúc - suy nghĩ, các mối quan hệ nhân duyên - và thay đổi theo từng giây phút.
 
 Hãy thử suy ngẫm về điều này nhé!
