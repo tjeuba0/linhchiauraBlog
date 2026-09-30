@@ -19,7 +19,7 @@ Rõ ràng nếu bạn ở trong một môi trường quen thuộc, bạn sẽ kh
 Theo lý thuyết khoa học thần kinh hiện đại, não bộ cũng cần làm quen, tập luyện để tạo ra những đường liên hệ thần kinh, kết nối các trung khu thần kinh và tạo ra hệ thống chức năng liên quan, thay đổi cấu trúc và hoạt động của các synap, chất dẫn truyền thần kinh và thậm chí có thể tạo ra các tế bào thần kinh mới ( khoa học đang nghiên cứu thêm). Não bộ của chúng ta có khả năng lập trình mới , thay đổi lối mòn tư duy, tạo ra một hệ thống lập trình tư duy ở mức độ cao hơn.  Đây là "tính dẻo thần kinh". Trong quá trình này, chúng ta có thể gặp phải những **cảm xúc đi kèm**:
 
 - **Quá tải bộ nhớ làm việc:** khi tiếp nhận khái niệm mới, bạn phải giữ nhiều thứ trong đầu cùng lúc, và cảm giác "nặng đầu" là do đó.
-- **Sai và bị lộ ra là sai:** học cái mới nghĩa là vụng về, và với người đã giỏi ở lĩnh vực cũ thì điều này dễ gây khó chịu về mặt cái tôi.
+- **Sai và bị lộ ra là sai:** học cái mới nghĩa là vụng về, và với người đã giỏi ở lĩnh vực cũ thì điều này dễ gây khó chịu về mặt cái tôi. Sau khi mình có 10 năm thành công ở vai trò Sale manager, khi chuyển sang định hướng mới làm Marketing, mình khá loay hoay và cảm thấy  khó chấp nhận khi chính mình chưa hiểu rõ công việc mới và hoàn thành tốt nó ở giai đoạn đầu. Mình đã rất stress ở giai đoạn này.
 - **Bỏ thói quen cũ:** não ưu tiên đường tắt đã quen. Đi đường mới tốn công hơn nên tạo cảm giác cưỡng lại. Điều đó tạo ra căng thẳng
 - **Không thấy tiến bộ ngay:** phần khó chịu nhất là làm nhiều mà chưa thấy kết quả.
 
