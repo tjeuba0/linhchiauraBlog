@@ -1,5 +1,5 @@
 ---
-title: Thiên kiến - Một bài mở rộng từ "Duyên" hay "Sự ngẫu nhiên"
+title: Thiên kiến - Góc nhìn lý giải cho "Duyên"
 tag: Não bộ & Tâm lý
 date: 2026-09-30
 readingMinutes: 3
@@ -8,7 +8,7 @@ excerpt: Chúng ta gọi một cuộc gặp là "duyên" gần như chỉ khi nh
 
 Chúng ta gọi một cuộc gặp là "duyên" gần như chỉ khi nhìn lại và thấy nó dẫn đến điều tốt. Hàng nghìn lần gặp người mà chẳng đi đến đâu thì không ai gọi là duyên hay ngẫu nhiên, chúng bị quên. Đây là thiên kiến nhìn lại (hindsight bias) cộng với việc chỉ thấy những trường hợp thành công (survivorship bias).
 
-Thật tuyệt vời vì bài viết này ra đời sau bài "Duyên hay ngẫu nhiên" chỉ 2 ngày. Đây thực sự là một chủ đề có thể expand ra nhiều nội dung khác nhau dưới rất nhiều góc nhìn.
+Thật tuyệt vời vì bài viết này ra đời sau bài "Duyên hay ngẫu nhiên" chỉ 2 ngày. Bài viết về "Duyên" thực sự rất duyên dáng khi là chủ đề có thể expand ra nhiều nội dung khác nhau dưới rất nhiều góc nhìn.
 
 Tôi đã nói về sự thao túng của não bộ đối với hành vi của con người và lý do các thiên kiến ra đời, nếu bạn còn nhớ, và nhân đây chúng ta sẽ đi sâu về thiên kiến để lý giải cho bài viết về Duyên đã bàn trước đó - nói riêng, và cho các hành vi trong đời sống con người - nói chung.
 
@@ -41,6 +41,10 @@ Cách suy nghĩ tự nhiên là: “Chỗ nào nhiều lỗ nhất → chỗ đ�
 
 Nhưng Abraham Wald nhìn dữ liệu theo một hướng khác. Ông nhận ra: Khoan. Chúng ta chỉ đang nhìn thấy những chiếc máy bay đã trở về.
 
-Vì vậy : Nơi có nhiều lỗ đạn trên máy bay sống sót không nhất thiết là nơi nguy hiểm nhất. Thậm chí, nó có thể cho chúng ta biết: “Đây là nơi máy bay có thể bị bắn mà vẫn sống sót." - nó hoàn toàn ngược lại so với logic ban đầu.
+Vì vậy : Nơi có nhiều lỗ đạn trên máy bay sống sót không nhất thiết là nơi nguy hiểm nhất. Thậm chí, nó có thể cho chúng ta biết: “Đây là nơi máy bay có thể bị bắn mà vẫn sống sót." - nó hoàn toàn ngược lại so với logic ban đầu. Và họ chọn khu vực ít lỗ đạn nhất để bọc giáp, bởi đơn giản một khi khu vực đó trúng đạn - những chiếc máy bay không thể trở về.
 
 Đó chính là survivorship bias.
+
+Trong câu chuyện về duyên, 1 sự vật - con người còn sống sót - tồn tại đến cuối hành trình sẽ được kể lại như một công thức của sự thành công. 99 câu chuyện tương tự cũng xảy ra như vậy nhưng không đi đến kết quả mong muốn sẽ bị lãng quên sau nhiều giấc ngủ (chưa) ngon.
+
+Tóm lại
