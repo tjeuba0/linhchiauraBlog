@@ -16,9 +16,9 @@ Tôi đã nói về sự thao túng của não bộ đối với hành vi của 
 
 Là xu hướng **sau khi biết kết quả**, ta cảm thấy kết quả đó vốn đã dễ đoán hoặc gần như chắc chắn xảy ra.
 
-Ví dụ: Khi 2 người gặp nhau trên một chuyến xe muộn, và rồi họ nhanh chóng phát triển tình cảm và đi đến hôn nhân. Họ có thể nhìn lại một cuộc tình đẹp và kể rằng: _họ biết là mình đã dành cho nhau ngay từ phút đầu tiên_. Nhưng **nếu cuộc tình đó thất bại**, chính họ có thể đã không nhìn thấy điều đó rõ ràng đến thế.
+Ví dụ: Khi 2 người gặp nhau trên một chuyến xe muộn, và rồi họ nhanh chóng phát triển tình cảm và đi đến hôn nhân. Họ có thể nhìn lại một cuộc tình đẹp và kể rằng: _họ biết là mình đã dành cho nhau ngay từ phút đầu tiên_. Nhưng nếu cuộc tình đó thất bại, chính họ có thể đã không nhìn thấy điều đó rõ ràng đến thế.
 
-Não chúng ta có xu hướng **viết lại câu chuyện quá khứ để kết quả hiện tại trở nên hợp lý**. Vì câu chuyên đã xảy ra nên chúng ta thường đưa ra kết luận và chắc mẩm là mình đúng, dramatic hóa câu chuyện như một "mối duyên" từ tiền kiếp.
+Não chúng ta có xu hướng viết lại câu chuyện quá khứ để kết quả hiện tại trở nên hợp lý. Vì câu chuyên đã xảy ra nên chúng ta thường đưa ra kết luận và chắc mẩm là mình đúng, dramatic hóa câu chuyện như một "mối duyên" từ tiền kiếp.
 
 **Survivorship bias - _“Nhìn những trường hợp thành công và quên những tình huống không thành.”_**
 
