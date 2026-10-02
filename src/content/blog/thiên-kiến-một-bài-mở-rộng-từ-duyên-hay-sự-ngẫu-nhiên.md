@@ -47,4 +47,4 @@ Vì vậy : Nơi có nhiều lỗ đạn trên máy bay sống sót không nhấ
 
 Trong câu chuyện về duyên, 1 sự vật - con người còn sống sót - tồn tại đến cuối hành trình sẽ được kể lại như một công thức của sự thành công. 99 câu chuyện tương tự cũng xảy ra như vậy nhưng không đi đến kết quả mong muốn sẽ bị lãng quên sau nhiều giấc ngủ (không) ngon.
 
-Đây cũng chỉ là một góc phản tư của tôi để nhìn nhận "Duyên" dưới góc nhìn tâm lý học não bộ. Bài tới mình sẽ phản tư tiếp tính "Ngẫu nhiên" dưới góc nhìn vật lý học lượng tử. Mời bạn đón đọc nhé!
+Đây cũng chỉ là một góc phản tư của mình để nhìn nhận "Duyên" dưới góc nhìn tâm lý học não bộ. Nhưng mình không kết luận mọi thứ chỉ là "ngẫu nhiên" và các kịch bản khác là do não bộ tự diễn giải. Bài tới mình sẽ phản tư tiếp tính "Ngẫu nhiên" dưới góc nhìn vật lý học lượng tử. Mời bạn đón đọc nhé!
