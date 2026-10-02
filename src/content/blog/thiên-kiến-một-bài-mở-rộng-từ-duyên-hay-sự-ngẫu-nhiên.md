@@ -10,7 +10,7 @@ Chúng ta gọi một cuộc gặp là "duyên" gần như chỉ khi nhìn lại
 
 Thật tuyệt vời vì bài viết này ra đời sau bài "Duyên hay ngẫu nhiên" chỉ 2 ngày. Bài viết về "Duyên" thực sự rất duyên dáng khi là chủ đề có thể expand ra nhiều nội dung khác nhau dưới rất nhiều góc nhìn.
 
-Tôi đã nói về sự thao túng của não bộ đối với hành vi của con người và lý do các thiên kiến ra đời, nếu bạn còn nhớ, và nhân đây chúng ta sẽ đi sâu về thiên kiến để lý giải cho bài viết về Duyên đã bàn trước đó - nói riêng, và cho các hành vi trong đời sống con người - nói chung.
+Mình đã nói về sự thao túng của não bộ đối với hành vi của con người và lý do các thiên kiến ra đời, nếu bạn còn nhớ, và nhân đây chúng ta sẽ đi sâu về thiên kiến để lý giải cho bài viết về Duyên đã bàn trước đó - nói riêng, và cho các hành vi trong đời sống con người - nói chung.
 
 **Hindsight bias - _“Biết vậy ngay từ đầu rồi.”_**
 
@@ -24,7 +24,7 @@ Não chúng ta có xu hướng viết lại câu chuyện quá khứ để kết
 
 Là khi ta chỉ nhìn thấy **những người/sự vật đã “sống sót”**, mà quên mất những người đã thất bại và biến mất khỏi tầm nhìn.
 
-Tôi sẽ tìm lại một ví dụ rất hay để kể lại cho các bạn, đâu đó tôi đã đọc về câu chuyện này nhiều năm trước
+Mình sẽ tìm lại một ví dụ rất hay để kể lại cho các bạn, đâu đó tôi đã đọc về câu chuyện này nhiều năm trước
 
 Wait a minute.
 
@@ -45,6 +45,6 @@ Vì vậy : Nơi có nhiều lỗ đạn trên máy bay sống sót không nhấ
 
 Đó chính là survivorship bias.
 
-Trong câu chuyện về duyên, 1 sự vật - con người còn sống sót - tồn tại đến cuối hành trình sẽ được kể lại như một công thức của sự thành công. 99 câu chuyện tương tự cũng xảy ra như vậy nhưng không đi đến kết quả mong muốn sẽ bị lãng quên sau nhiều giấc ngủ (chưa) ngon.
+Trong câu chuyện về duyên, 1 sự vật - con người còn sống sót - tồn tại đến cuối hành trình sẽ được kể lại như một công thức của sự thành công. 99 câu chuyện tương tự cũng xảy ra như vậy nhưng không đi đến kết quả mong muốn sẽ bị lãng quên sau nhiều giấc ngủ (không) ngon.
 
-Tóm lại
+Đây cũng chỉ là một góc phản tư của tôi để nhìn nhận "Duyên" dưới góc nhìn tâm lý học não bộ. Bài tới mình sẽ phản tư tiếp tính "Ngẫu nhiên" dưới góc nhìn vật lý học lượng tử. Mời bạn đón đọc nhé!
