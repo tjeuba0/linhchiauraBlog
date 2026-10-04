@@ -43,7 +43,7 @@ Nhưng Abraham Wald nhìn dữ liệu theo một hướng khác. Ông nhận ra:
 
 Vì vậy : Nơi có nhiều lỗ đạn trên máy bay sống sót không nhất thiết là nơi nguy hiểm nhất. Thậm chí, nó có thể cho chúng ta biết: “Đây là nơi máy bay có thể bị bắn mà vẫn sống sót." - nó hoàn toàn ngược lại so với logic ban đầu. Và họ chọn khu vực ít lỗ đạn nhất để bọc giáp, bởi đơn giản một khi khu vực đó trúng đạn - những chiếc máy bay không thể trở về.
 
-Đó chính là survivorship bias.
+Đó chính là **survivorship bias.**
 
 Trong câu chuyện về duyên, 1 sự vật - con người còn sống sót - tồn tại đến cuối hành trình sẽ được kể lại như một công thức của sự thành công. 99 câu chuyện tương tự cũng xảy ra như vậy nhưng không đi đến kết quả mong muốn sẽ bị lãng quên sau nhiều giấc ngủ (không) ngon.
 
