@@ -39,7 +39,7 @@ Có một thời gian mình biết mình cần nghỉ việc. Nhưng trong đầ
 
 Mà những người kể trên, kì thực họ lại cũng bị ảnh hưởng bởi bố mẹ - gia đình - họ hàng - xã hội .. xung quanh họ nữa, tạo ra một hệ cấu trúc tư tưởng phức tạp ảnh hưởng chồng chéo lẫn nhau và càng ngày càng xa rời tri thức gốc. 
 
-Khi biết được những tiếng nói ngổn ngang trong đầu chúng ta có thể chưa phải là tri thức căn nguyên, hay những nguyên lý đã được kiểm chứng - thì mình nghĩ việc đầu tiên là dành thời gian ở một mình - rời xa những lời nói vả tư tưởng đã lảng vảng quanh chúng ta suốt gần cả cuộc đời đều. Ở một mình giúp chúng ta lắng nghe bản thân rõ hơn, có thời gian để đọc thêm sách và tìm kiếm những tri thức cốt lõi, để từ đó bạn sẽ có những lập luận để dần không bị những "người khác" trong đầu bạn chi phối. 
+Khi biết được những tiếng nói ngổn ngang trong đầu chúng ta có thể chưa phải là tri thức căn nguyên, hay những nguyên lý đã được kiểm chứng - thì mình nghĩ việc đầu tiên là dành thời gian ở một mình - rời xa những lời nói đã lảng vảng quanh chúng ta suốt gần cả cuộc đời đều. Ở một mình giúp chúng ta lắng nghe bản thân rõ hơn, có thời gian để đọc thêm sách và tìm kiếm những tri thức cốt lõi, để từ đó bạn sẽ có những lập luận để dần không bị những "người khác" trong đầu bạn chi phối. 
 
 Cố gắng tập tách biệt những tiếng nói nhỏ trong đầu bạn - nhưng của người khác, khi nó vang lên  - và bạn chỉ có thể làm chủ cuộc sống của mình, làm những việc khiến bản thân hạnh phúc- nếu như bạn không còn nghe lời người khác. 
 
