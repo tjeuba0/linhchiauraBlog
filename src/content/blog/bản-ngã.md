@@ -18,9 +18,9 @@ Có phải người vĩ đại đều có một "bản ngã" vĩ đại? Hay đi
 
 Vì thế nên sử dụng nó cho tốt hay cố gắng chối bỏ nó? 
 
-Có rất nhiều khái niệm và cách hiểu về Bản ngã, trong nhiều lý thuyết khác nhau, vì thế hôm nay tôi sẽ chia sẻ thêm một số góc nhìn trong các hệ tư tưởng mà tôi đã đọc và chiêm nghiệm.
+Có rất nhiều khái niệm và cách hiểu về Bản ngã, bản thân mình cũng dễ lẫn lộn khái niệm của cụm từ này trong nhiều lý thuyết khác nhau, vì thế hôm nay mình sẽ chia sẻ thêm một số góc nhìn trong các hệ tư tưởng mà mình đã đọc và chiêm nghiệm.
 
-Ở trên tôi đã nói về **Đạo Phật,** khá phổ biến.
+Ở trên mình đã nói về **Đạo Phật,** khá phổ biến.
 
 Thứ hai, chúng ta cùng đến với tư tưởng **Osho.**
 
@@ -28,7 +28,7 @@ Thứ hai, chúng ta cùng đến với tư tưởng **Osho.**
 
 Osho- nhà triết học, đạo sư, bậc thầy tâm linh nổi tiếng người Ấn Độ, nói về Bản ngã- như một _nhân cách giả của bạn._
 
-Ông phủ nhận việc coi nó là vô nghĩa, ngược lại, nó phục vụ cho một mục đích lớn lao. Mục đích của bản ngã là cho bạn một con người giả -bởi xã hội, tôn giáo, đất nước, chủng tộc bẩm sinh của bạn không muốn bạn biết con người thật của mình. Và lúc đó bạn sẽ luôn vâng lời.
+Ông phủ nhận việc coi nó là vô nghĩa, ngược lại, nó phục vụ cho một mục đích lớn lao. Mục đích của bản ngã là cho bạn một con người giả -bởi xã hội, tôn giáo, đất nước, chủng tộc bẩm sinh của bạn không muốn bạn biết con người thật của mình. Và lúc đó bạn sẽ luôn vâng lời - Ông viết trong cuốn "Bản Ngã".
 
 Ông nói rằng, để vâng lời thì đôi khi chẳng cần trí thông minh nào cả. Tất cả máy móc đều rất vâng lời. Vậy thì tất cả máy móc sẽ đều được lên thiên đường, chúng chưa bao giờ không vâng lời :) 
 
@@ -36,7 +36,7 @@ Theo Osho, xã hội, giáo dục và các thiết chế văn hóa thường vô
 
 -----------
 
-Quay trở lại câu hỏi tôi đặt ra từ đầu.
+Quay trở lại câu hỏi mình đặt ra từ đầu. Vậy tư tưởng của Đức Phật và Osho là khác nhau.
 
 Điểm giao nhau giữa hai góc nhìn không phải là sự phủ nhận xã hội, mà là lời nhắc rằng con người thường đồng nhất bản thân với những hình ảnh về "tôi". Khác biệt nằm ở chỗ: Osho nhấn mạnh nguồn gốc xã hội của những chiếc mặt nạ ấy, còn Phật giáo đi xa hơn khi cho rằng ngay cả những gì ta tự gọi là "tôi" cũng không có bản chất cố định.
 
@@ -71,7 +71,7 @@ Và cuối cùng: Superego (Siêu tôi) Là tiếng nói đạo đức. Được
 
 Ví dụ: "Người tốt không nên làm thế."
 
-Một quyết định thường là kết quả của cuộc "đàm phán" giữa ba phần này. Vậy thì theo tôi, nếu nhìn dưới lăng kính của Phật giáo, sự chấp ngã có thể bám vào bất kỳ phần nào của cấu trúc nhân cách: bản năng (Id), hình ảnh về một cái tôi điều hành (Ego), hay lý tưởng đạo đức (Superego). Như vậy cái tôi, bản ngã trong hoàn toàn giống nhau trong các tôn giáo, cũng như không hoàn toàn giống với một số lý thuyết trong Tâm lý học.
+Một quyết định thường là kết quả của cuộc "đàm phán" giữa ba phần này. Vậy thì theo mình, nếu nhìn dưới lăng kính của Phật giáo, sự chấp ngã có thể bám vào bất kỳ phần nào của cấu trúc nhân cách: bản năng (Id), hình ảnh về một cái tôi điều hành (Ego), hay lý tưởng đạo đức (Superego). Như vậy cái tôi, bản ngã trong hoàn toàn giống nhau trong các tôn giáo, cũng như không hoàn toàn giống với một số lý thuyết trong Tâm lý học.
 
 Cụ thể, tâm lý học trả lời câu hỏi con người suy nghĩ, lập kế hoạch hay đưa ra quyết định như nào. Tôn giáo nhắm tới là **giảm sự bám chấp vào một hình ảnh về "tôi"**. Ở đây cái tôi- bản ngã được coi như một cái nhìn bất biến về bản thân mà cố định, không có sự thay đổi, và cho rằng **niềm tin rằng tồn tại một "tôi" cố định, độc lập và bất biến sẽ là nguyên nhân đem tới khổ đau.**
 
