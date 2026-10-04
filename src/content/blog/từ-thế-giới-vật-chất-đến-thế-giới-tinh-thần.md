@@ -1,6 +1,6 @@
 ---
 title: Từ thế giới vật chất đến thế giới tinh thần
-tag: "Khoa học & Các hệ tư tưởng"
+tag: Khoa học & Các hệ tư tưởng
 date: 2026-07-18
 readingMinutes: 5
 excerpt: Nếu Phật Thích Ca xuất thân chỉ là một người ăn mày, Ngài có đắc đạo được không?
@@ -16,6 +16,6 @@ Nếu một người mỗi ngày còn phải lo miếng ăn, chỗ ngủ và s�
 
 Ngày nay, khi phần lớn người trẻ không còn phải lo bữa cơm ngày mai, họ có khoảng trống để bắt đầu đối diện với một câu hỏi khác: "Nếu không phải chỉ để tồn tại, vậy mình sống để làm gì?" 
 
-Vì thế tôi mạn phép cho rằng, đây không chỉ là từng giai đoạn và tiến trình phát triển về tâm lý của một đất nước, đây cũng là quy trình có thể áp dụng cho những cá nhân, chỉ khi họ bước qua giai đoạn làm chủ về vật chất- lúc đó mới có thể bắt đầu tìm kiếm những ánh sáng ở thế giới tinh thần.
+Vì thế mình mạn phép cho rằng, đây không chỉ là từng giai đoạn và tiến trình phát triển về tâm lý của một đất nước, đây cũng là quy trình có thể áp dụng cho những cá nhân, chỉ khi họ bước qua giai đoạn làm chủ về vật chất- lúc đó mới có thể bắt đầu tìm kiếm những ánh sáng ở thế giới tinh thần.
 
 Tuy nhiên, điều đó không có nghĩa nghèo khó thì không thể giác ngộ. Lịch sử Phật giáo ghi nhận nhiều người xuất thân rất thấp vẫn chứng ngộ. Có lẽ vật chất không quyết định sự giác ngộ, nhưng nó có thể ảnh hưởng đến việc **một người có bao nhiêu không gian để bắt đầu hành trình đi tìm nó.**
