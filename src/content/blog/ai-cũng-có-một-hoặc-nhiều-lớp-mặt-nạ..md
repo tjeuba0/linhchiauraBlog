@@ -10,19 +10,17 @@ excerpt: |-
   - Oscar Wilde-
 ---
 
-Trước 30 tuổi, tôi cứ nghĩ mọi quyết định đều là do mình lựa chọn.
+Trước 30 tuổi, mình cứ nghĩ mọi quyết định đều là do mình lựa chọn.
 
-Sau này tôi mới nhận ra, rất nhiều trong số đó chỉ là tiếng vọng của người khác đang sống trong đầu mình.
+Sau này mình mới nhận ra, rất nhiều trong số đó chỉ là tiếng vọng của người khác đang sống trong đầu mình.
 
-Có một thời gian tôi biết mình cần nghỉ việc. Nhưng trong đầu tôi vang lên: 
+Có một thời gian mình biết mình cần nghỉ việc. Nhưng trong đầu mình vang lên: 
 
 - Ổn định đi.
 - Đừng mạo hiểm.  
 - Rồi: lấy gì nuôi thân?
 
-Đó có thể đó là niềm tin tôi đã vô thức tiếp nhận từ người khác... 
-
-Khi bạn 30 tuổi và bạn vẫn chưa lấy chồng, cũng có thể rất nhiều suy nghĩ trong đầu bạn :
+Đó chưa chắc đã là suy nghĩ hay nỗi sợ của mình, mà có thể đó là niềm tin mình đã vô thức tiếp nhận từ người khác...  Khi bạn 30 tuổi và bạn vẫn chưa lấy chồng, cũng có thể rất nhiều suy nghĩ trong đầu bạn :
 
 - Con gái như thế là mất giá không nhỉ? 
 - Hay: Tầm này sẽ không lấy được người tốt?!?
@@ -41,14 +39,12 @@ Khi bạn 30 tuổi và bạn vẫn chưa lấy chồng, cũng có thể rất n
 
 Mà những người kể trên, kì thực họ lại cũng bị ảnh hưởng bởi bố mẹ - gia đình - họ hàng - xã hội .. xung quanh họ nữa, tạo ra một hệ cấu trúc tư tưởng phức tạp ảnh hưởng chồng chéo lẫn nhau và càng ngày càng xa rời tri thức gốc. 
 
-Khi biết được những tiếng nói ngổn ngang trong đầu có thể chưa phải là tri thức căn nguyên, hay những nguyên lý đã được kiểm chứng - thì thiền, chánh niệm, việc chăm sóc cơ thể, học hỏi và dành thời gian ở một mình đều là những cách giúp chúng ta lắng nghe bản thân rõ hơn, có thời gian để đọc thêm sách và tìm kiếm những tri thức cốt lõi, để từ đó bạn sẽ tìm ra câu trả lời mà không bị những "người khác" trong đầu bạn tác động. 
+Khi biết được những tiếng nói ngổn ngang trong đầu chúng ta có thể chưa phải là tri thức căn nguyên, hay những nguyên lý đã được kiểm chứng - thì mình nghĩ việc đầu tiên là dành thời gian ở một mình - rời xa những lời nói vả tư tưởng đã lảng vảng quanh chúng ta suốt gần cả cuộc đời đều. Ở một mình giúp chúng ta lắng nghe bản thân rõ hơn, có thời gian để đọc thêm sách và tìm kiếm những tri thức cốt lõi, để từ đó bạn sẽ có những lập luận để dần không bị những "người khác" trong đầu bạn chi phối. 
 
-Cố gắng tập tách biệt những tiếng nói nhỏ ấy vì nó chưa chắc đã là bạn - và bạn chỉ có thể làm chủ cuộc sống của mình, làm những việc khiến bản thân hạnh phúc- nếu như bạn không còn nghe lời những người khác. 
+Cố gắng tập tách biệt những tiếng nói nhỏ trong đầu bạn - nhưng của người khác, khi nó vang lên  - và bạn chỉ có thể làm chủ cuộc sống của mình, làm những việc khiến bản thân hạnh phúc- nếu như bạn không còn nghe lời người khác. 
 
-Xin được gửi tặng bạn trích dẫn cuốn Hiểu- Tác giả Osho về vấn đề này:
+Xin được gửi tặng bạn một đoạn trích dẫn rất chạm tới mình, khi đọc cuốn **Hiểu**- Tác giả Osho về vấn đề này nhé:
 
 "Hãy im lặng và tìm kiếm bản thân. Nếu bạn không tìm thấy chính mình thì rất khó giải tán đám đông, bởi tất cả những con người khác nhau trong đám đông đó đều đang giả vờ "tôi là chính bạn" và bạn không có cách nào để đồng tình hay phản đối. Vì vậy, đừng gây hấn với đám đông đó, hãy để họ tự đấu đá với nhau, họ khá giỏi việc đó. Trong lúc đó, bạn hãy cố tìm bản thân mình. Và một khi biết mình là ai, bạn chỉ cần yêu cầu những người khác ra khỏi nhà bạn- thật sự đơn giản vậy thôi. Nhưng trước hết, bạn phải tìm thấy chính mình, Một khi bạn ở đó, một khi người chủ ở đó, chủ của ngôi nhà ở đó, tất cả những người đã luôn giả làm chủ nhà sẽ bắt đầu rời đi. Một khi bạn là chính mình, trút bỏ gánh nặng quá khứ, ngừng dây dưa với quá khứ, trở nên nguyên bản, mạnh mẽ như sư tử và ngây thơ như một đứa trẻ - bạn có thể vươn tới những vì sao, hay thậm chí xa hơn các vì sao. 
 
 Tương lai của bạn là vàng son"
-
-Với tôi, sự trưởng thành, độc lập, tự do, hạnh phúc của tất cả chúng ta, đều là vàng son!
