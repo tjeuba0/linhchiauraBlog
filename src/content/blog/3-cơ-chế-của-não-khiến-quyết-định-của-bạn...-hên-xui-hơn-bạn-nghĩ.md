@@ -3,7 +3,7 @@ title: 3 cơ chế của não khiến quyết định của bạn... hên xui h�
 tag: Não bộ & Tâm lý
 date: 2026-07-22
 readingMinutes: 3
-excerpt: Nói thẳng là não bộ khá lười, não bộ sẽ ưu tiên việc sống sót, chứ không phải ưu tiên tính chính xác, vì não bộ muốn tiết kiệm năng lượng. Suy nghĩ nhiều thì tốn năng lượng, vì thế não sẽ chọn bias (thiên kiến) như một đường tắt để phản ứng nhanh với môi trường.
+excerpt: Nói thẳng là não bộ khá lười, não bộ sẽ ưu tiên việc sống sót, chứ không phải ưu tiên tính chính xác.
 ---
 
 Nói thẳng là não bộ khá lười, não bộ sẽ ưu tiên việc sống sót, chứ không phải ưu tiên tính chính xác, vì não bộ muốn tiết kiệm năng lượng. Suy nghĩ nhiều thì tốn năng lượng, vì thế não sẽ chọn bias (thiên kiến) như một đường tắt để phản ứng nhanh với môi trường..  vì thế nên độ chính xác trên mỗi quyết định cũng rất ..hên xui.
@@ -16,4 +16,4 @@ Một số cơ chế của não bộ mà chúng ta cần biết như sau:
 
 **Não ưu tiên cảm xúc nhiều hơn bạn tưởng**, nghiên cứu của Antonio Damasio trong lĩnh vực khoa học thần kinh có tên  "Somatic Marker Hypothesis" cho thấy : những người bị tổn thương vùng não xử lý cảm xúc lại mất khả năng ra quyết định, dù chỉ số IQ và tư duy logic vẫn bình thường. Cảm xúc chính là tín hiệu giúp não đánh giá nhanh "cái này tốt hay xấu cho mình" trước khi lý trí kịp phân tích. Nói cách khác, không có quyết định "thuần lý trí" - mọi lựa chọn đều mang dấu vân tay của cảm xúc trong đó.
 
-Ghi nhớ 3 đặc điểm đó của não bộ sẽ giúp chúng ta nhìn nhận mọi sự việc khách quan hơn, không có một bộ não nào là hoàn hảo cả, và bạn cũng không cần một bộ não hoàn hảo, chỉ cần một bộ não biết mình đang thiên vị điều gì - đó đã là một dạng trưởng thành.
+Ghi nhớ 3 đặc điểm đó của não bộ sẽ giúp chúng ta nhìn nhận mọi sự việc khách quan hơn, không có một bộ não nào là hoàn hảo cả, và bạn cũng không cần một bộ não hoàn hảo, chỉ cần biết não đang có các cơ chế thiên vị - thao túng  riêng của nó, mình nghĩ bạn sẽ dễ thông cảm cho bản thân và người khác hơn.
