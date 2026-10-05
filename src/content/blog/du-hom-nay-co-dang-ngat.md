@@ -3,7 +3,7 @@ title: Dù hôm nay có đắng ngắt, tin mình đi, nó sẽ qua
 tag: Chữa lành - Con người & Các mối quan hệ
 date: 2026-07-05
 readingMinutes: 3
-excerpt: Nếu bạn muốn có được thứ mà mình mong đợi, bạn cũng phải dám chấp nhận tất cả những nguyên liệu xấu xí, đắng ngắt để tạo ra nên nó. Đó là quy luật cân bằng của vũ trụ.
+excerpt: Nếu bạn muốn có được thứ mà mình mong đợi, bạn cũng phải dám chấp nhận tất cả những nguyên liệu xấu xí, đắng ngắt để tạo ra nên nó.
 ---
 
 Trước khi có sức khỏe để tập luyện đa dạng các bộ môn và trở thành một người yêu thể thao, mình từng là đứa đi bộ 3 km đã thở hổn hển, chân mềm nhũn như con chi chi. Lần leo núi Hàm Lợn đầu tiên, thành công duy nhất là không khóc.
@@ -24,9 +24,7 @@ Nếu bạn muốn có được thứ mà mình mong đợi, bạn cũng phải 
 
 Có những lúc cô đơn, mình mới học được cách ở yên với chính mình.
 
-
 Có những lần đau ốm, mình mới hiểu sức khỏe quý đến thế nào và biết cách chăm sóc cơ thể hơn.
-
 
 Có những tổn thương, mình mới học được cách dịu dàng hơn với người khác, bởi mình hiểu cảm giác đó đau như thế nào.
 
