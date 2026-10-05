@@ -3,7 +3,7 @@ title: Bản chất tiêu cực của tiến bộ
 tag: Phát triển bản thân
 date: 2026-09-28
 readingMinutes: 3
-excerpt: Tiến bộ và phát triển không chỉ là niềm vui, trái ngược, nó đi kèm với những điều tưởng chừng rất tiêu cực.
+excerpt: Tiến bộ không chỉ là niềm vui, trái ngược, nó đi kèm với những điều tưởng chừng rất tiêu cực.
 ---
 
 Chúng ta đều biết, điều ai ai cũng chờ đợi ở cuối con đường của một người có mindset phát triển, đó là _niềm vui, sự trù phú, thành công và hạnh phúc_. Đó là lý do con người hướng đến sự phát triển và sách selfhelp thì luôn bán chạy.
