@@ -24,7 +24,7 @@ Não chúng ta có xu hướng viết lại câu chuyện quá khứ để kết
 
 Là khi ta chỉ nhìn thấy **những người/sự vật đã “sống sót”**, mà quên mất những người đã thất bại và biến mất khỏi tầm nhìn.
 
-Mình sẽ tìm lại một ví dụ rất hay để kể lại cho các bạn, đâu đó tôi đã đọc về câu chuyện này nhiều năm trước
+Mình sẽ tìm lại một ví dụ rất hay để kể lại cho các bạn, đâu đó mình đã đọc về câu chuyện này nhiều năm trước:
 
 Wait a minute.
 
