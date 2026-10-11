@@ -1,5 +1,5 @@
 ---
-title: Chạy bộ - chạm sạc tinh thần cho người lớn
+title: Chạy bộ - trạm sạc tinh thần cho người lớn
 tag: Phát triển bản thân
 date: 2026-08-20
 readingMinutes: 5
