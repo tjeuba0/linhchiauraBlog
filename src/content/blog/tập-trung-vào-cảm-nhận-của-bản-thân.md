@@ -6,7 +6,7 @@ readingMinutes: 3
 excerpt: Sống, không stress, phớt lờ những người độc hại, đối xử tốt với bản thân và tận hưởng cuộc sống của mình.
 ---
 
-Chào cô gái của tôi, bạn khỏe không :)
+Chào cô gái của tớ, bạn khỏe không :)
 
 Gửi bạn một nụ cười ấm áp trìu mến, và mình hy vọng, là bạn khỏe, cũng đang tận hưởng trọn vẹn cuộc sống của bạn.
 
