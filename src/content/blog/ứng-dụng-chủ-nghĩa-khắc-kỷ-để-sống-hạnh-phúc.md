@@ -15,7 +15,7 @@ Cột trụ lớn nhất trong chủ nghĩa khắc kỷ được đề ra bởi 
 
 và những đau khổ, bất như ý của con người trên thế giới này đến vì chúng ta đã dành quá nhiều năng lượng, thời gian, tâm trí cho phần thứ 2.
 
-Vậy nếu chúng ta dành thời gian cho những điều không phụ thuộc bởi ta, mà nó trái ý muốn, không diễn ra những gì chúng ta muốn thì cảm xúc chúng ta nhận được sẽ là gì: có thể là cảm giác thất vọng, sự bất an, buồn bã, và những cảm xúc đó sẽ rút đi nguồn năng lượng và những cảm xúc tích cực để chúng ta làm những điều có ích hơn.
+Bởi nếu chúng ta dành thời gian cho những điều không phụ thuộc ta, mà nó không diễn ra những gì chúng ta muốn thì cảm xúc chúng ta nhận được sẽ là gì: có thể là cảm giác thất vọng, sự bất an, buồn bã, và những cảm xúc đó sẽ rút đi nguồn năng lượng và những cảm xúc tích cực để chúng ta làm những điều có ích hơn.
 
 Vậy nếu muốn sống hạnh phúc, hãy chỉ quan tâm đến những điều chúng ta có thể kiểm soát được -  thật may mắn vì những điều chúng ta kiểm soát được cũng rất ít - nên mình có thể đếm được như sau:
 
