@@ -19,8 +19,8 @@ Vậy nếu chúng ta dành thời gian cho những điều không phụ thuộc
 
 Vậy nếu muốn sống hạnh phúc, hãy chỉ quan tâm đến những điều chúng ta có thể kiểm soát được -  thật may mắn vì những điều chúng ta kiểm soát được cũng rất ít - nên mình có thể đếm được như sau:
 
-- quyết định của ta, lựa chọn của ta
-- chọn thái độ của ta với một sự việc
+- đón nhận mọi việc
+- chọn thái độ của ta với sự việc
 - góc nhìn của ta với sự việc đó
 
 Ví dụ: Nếu ta đề xuất những ý tưởng (ta tưởng là) rất tuyệt vời, nhưng ngay lập tức bị sếp gạt đi. Và chúng ta cảm thấy buồn, mất thời gian, động lực để tiếp tục làm những kế hoạch khác, là chúng ta đang tập trung vào "thứ không phụ thuộc vào ta"- tức là ý kiến, cảm nhận, đánh giá của sếp.
@@ -31,4 +31,4 @@ Như lúc đầu mình có nói:
 
 Đừng cố kiểm soát những gì sẽ đến với bạn, vì đó là điều không thể.
 
-Chúng ta chỉ có thể kiểm soát chính mình, và cụ thể ở đây là thái độ, góc nhìn và những lựa chọn - cũng như cố gắng nỗ lực hết mình vì những lựa chọn đó.
+Chúng ta chỉ có thể kiểm soát chính mình, và cụ thể ở đây là sự chấp nhận với những điều không thể tác động - đón nhận chúng một cách thật sự - đối diện với nó bằng một tâm bình thản, khi có được điều đó, thì kì lạ thay thái độ, góc nhìn của chúng ta cũng trở nên tích cực và thông suốt. Một điều nữa để sống hạnh phúc đó là chúng ta có thể kiểm soát những lựa chọn của mình, cố gắng nỗ lực vì những lựa chọn đó và biến chúng trở thành đúng đắn.
