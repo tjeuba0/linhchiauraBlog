@@ -11,7 +11,7 @@ Nghe đến cụm từ CHỦ NGHĨA KHẮC KỶ, có thể nhiều bạn mườn
 Cột trụ lớn nhất trong chủ nghĩa khắc kỷ được đề ra bởi người Thầy Epictetus: tất cả mọi thứ trên thế gian này được chia làm 2 loại:
 
 - _Thứ phụ thuộc ta_
-- _hứ không phụ thuộc vào ta_
+- _Thứ không phụ thuộc vào ta_
 
 và những đau khổ, bất như ý của con người trên thế giới này đến vì chúng ta đã dành quá nhiều năng lượng, thời gian, tâm trí cho phần thứ 2.
 
