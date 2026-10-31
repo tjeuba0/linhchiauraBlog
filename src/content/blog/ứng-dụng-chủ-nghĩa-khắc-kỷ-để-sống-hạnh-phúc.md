@@ -31,4 +31,4 @@ Như lúc đầu mình có nói:
 
 Đừng cố kiểm soát những gì sẽ đến với bạn, vì đó là điều không thể.
 
-Chúng ta chỉ có thể kiểm soát chính mình, và cụ thể ở đây là sự chấp nhận với những điều không thể tác động - đón nhận chúng một cách thật sự - đối diện với nó bằng một tâm bình thản, khi có được điều đó, thì kì lạ thay thái độ, góc nhìn của chúng ta cũng trở nên tích cực và thông suốt. Một điều nữa để sống hạnh phúc đó là chúng ta có thể kiểm soát những lựa chọn của mình, cố gắng nỗ lực vì những lựa chọn đó và biến chúng trở thành đúng đắn.
+Chúng ta chỉ có thể kiểm soát chính mình, và cụ thể ở đây là sự chấp nhận với những điều không thể tác động - đón nhận chúng một cách thật sự - đối diện với nó bằng một tâm bình thản, khi có được điều đó, thì kì lạ thay thái độ, góc nhìn của chúng ta cũng trở nên tích cực và thông suốt. Một điều nữa để sống hạnh phúc đó là chúng ta có thể kiểm soát những lựa chọn của mình, cố gắng nỗ lực vì những lựa chọn đó và biến chúng trở thành đúng đắn. Đó là cách chúng ta chủ động sáng tạo cuộc sống - chứ không phải nằm im và chờ đợi những điều từ bên ngoài đến, như một con thuyền vô hướng bị sóng đánh trôi dạt giữa biển khơi.
