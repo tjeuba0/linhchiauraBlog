@@ -15,7 +15,7 @@ Cột trụ lớn nhất trong chủ nghĩa khắc kỷ được đề ra bởi 
 
 và những đau khổ, bất như ý của con người trên thế giới này đến vì chúng ta đã dành quá nhiều năng lượng, thời gian, tâm trí cho phần thứ 2.
 
-Bởi nếu chúng ta dành thời gian cho những điều không phụ thuộc ta, mà nó không diễn ra những gì chúng ta muốn thì cảm xúc chúng ta nhận được sẽ là gì: có thể là cảm giác thất vọng, sự bất an, buồn bã, và những cảm xúc đó sẽ rút đi nguồn năng lượng và những cảm xúc tích cực để chúng ta làm những điều có ích hơn.
+Bởi nếu chúng ta dành thời gian cho những điều không phụ thuộc ta, mà nó không diễn ra những gì chúng ta muốn, lúc ấy cảm xúc chúng ta nhận được sẽ là gì: khả năng cao là cảm giác thất vọng, bất an, buồn bã. Và những cảm xúc đó sẽ rút đi nguồn năng lượng và những cảm xúc tích cực để chúng ta làm những điều có ích hơn.
 
 Vậy nếu muốn sống hạnh phúc, hãy chỉ quan tâm đến những điều chúng ta có thể kiểm soát được -  thật may mắn vì những điều chúng ta kiểm soát được cũng rất ít - nên mình có thể đếm được như sau:
 
@@ -31,6 +31,6 @@ Như lúc đầu mình có nói:
 
 Đừng cố kiểm soát những gì sẽ đến với bạn, vì đó là điều không thể.
 
-Chúng ta chỉ có thể kiểm soát chính mình, và cụ thể ở đây là sự chấp nhận với những điều không thể tác động - đón nhận chúng một cách thật sự - đối diện với nó bằng một tâm bình thản, khi có được điều đó, thì kì lạ thay thái độ, góc nhìn của chúng ta cũng trở nên tích cực và thông suốt. Một điều nữa để sống hạnh phúc đó là chúng ta có thể kiểm soát những lựa chọn của mình, cố gắng nỗ lực vì những lựa chọn đó và biến chúng trở thành đúng đắn. Đó là cách chúng ta chủ động sáng tạo cuộc sống - chứ không phải nằm im và chờ đợi những điều từ bên ngoài đến, như một con thuyền vô hướng bị sóng đánh trôi dạt giữa biển khơi.
+Chúng ta chỉ có thể kiểm soát chính mình, và cụ thể ở đây là sự chấp nhận với những điều không thể tác động - đón nhận chúng **một cách thật sự** - đối diện với nó bằng một tâm bình thản. Khi có được điều đó, thì kì lạ thay thái độ, góc nhìn của chúng ta cũng trở nên tích cực và thông suốt. Một điều nữa để sống hạnh phúc đó là chúng ta có quyền đưa ra những lựa chọn của mình, cố gắng nỗ lực vì những lựa chọn đó và biến chúng trở thành đúng đắn. Đó là cách chúng ta chủ động sáng tạo cuộc sống - chứ không phải nằm im và chờ đợi những điều từ bên ngoài đến, như một con thuyền vô hướng bị sóng đánh trôi dạt giữa biển khơi.
 
 Hãy là một nhà chèo thuyền cừ khôi và vui vẻ!
