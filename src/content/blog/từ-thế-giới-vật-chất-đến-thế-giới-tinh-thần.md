@@ -14,8 +14,6 @@ Nếu một người mỗi ngày còn phải lo miếng ăn, chỗ ngủ và s�
 
 Ở Việt Nam giai đoạn sau chiến tranh, phần lớn người dân phải dành gần như toàn bộ thời gian và năng lượng cho những nhu cầu cơ bản như cái ăn, chỗ ở và việc làm. Khi phần lớn nguồn lực tinh thần đều hướng vào việc sinh tồn, sẽ còn rất ít khoảng trống để đặt ra những câu hỏi như "Tôi là ai?" hay "Ý nghĩa cuộc sống là gì?". Khi cả ngày chỉ xoay quanh việc kiếm gạo, sửa mái nhà hay nuôi con qua mùa đói, sẽ rất khó để một người dành hàng giờ suy ngẫm về bản ngã hay ý nghĩa cuộc đời.
 
-Ngày nay, khi phần lớn người trẻ không còn phải lo bữa cơm ngày mai, họ có khoảng trống để bắt đầu đối diện với một câu hỏi khác: "Nếu không phải chỉ để tồn tại, vậy mình sống để làm gì?" 
+Ngày nay, khi phần lớn người trẻ không còn phải lo bữa cơm ngày mai, họ có khoảng trống để bắt đầu đối diện với một câu hỏi khác: "Nếu không phải chỉ để tồn tại, vậy mình sống để làm gì?" - sâu xa hơn, bệnh tâm lý, tâm thần bây giờ cũng nhiều hơn trước đây ( J4F- nhưng cũng đáng để suy ngẫm)
 
-Vì thế mình mạn phép cho rằng, đây không chỉ là từng giai đoạn và tiến trình phát triển về tâm lý của một đất nước, đây cũng là quy trình có thể áp dụng cho những cá nhân, chỉ khi họ bước qua giai đoạn làm chủ về vật chất- lúc đó mới có thể bắt đầu tìm kiếm những ánh sáng ở thế giới tinh thần.
-
-Tuy nhiên, điều đó không có nghĩa nghèo khó thì không thể giác ngộ. Lịch sử Phật giáo ghi nhận nhiều người xuất thân rất thấp vẫn chứng ngộ. Có lẽ vật chất không quyết định sự giác ngộ, nhưng nó có thể ảnh hưởng đến việc **một người có bao nhiêu không gian để bắt đầu hành trình đi tìm nó.**
+Vì thế mình mạn phép cho rằng, từ thế giới vật chất đến thế giới tinh thần - không chỉ là từng giai đoạn và tiến trình phát triển về tâm lý của một đất nước, đây cũng là quy trình có thể áp dụng cho những cá nhân, chỉ khi họ bước qua giai đoạn làm chủ về vật chất- lúc đó mới có thể bắt đầu tìm kiếm những ánh sáng ở thế giới tinh thần. Vật chất không quyết định sự giác ngộ, nhưng nó có thể ảnh hưởng đến việc **một người có bao nhiêu không gian để bắt đầu hành trình đi tìm nó.**
