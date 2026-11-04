@@ -38,14 +38,18 @@ Bạn chỉ đang làm một việc mà trước đây mình chưa từng làm. 
 
 Kể cả cảm giác nghi ngờ bản thân của bạn mỗi lần đối diện với điều mới, xử lý chưa thành thạo, cũng là BÌNH THƯỜNG.
 
-Mình cũng từng như vậy. Lần đầu đi làm, mình chưa biết phải nói năng sao cho đúng. Đứng lên nói trước cả công ty rất ngô nghê:" Sếp em mời em đi ăn chè, em vui lắm. Sau đó đi về mọi người kể với em ai được đi ăn chè với sếp ở quán đấy thì đều được cho thôi việc" - cả hội trường cười ồ.
+Mình cũng từng như vậy. Lần đầu đi làm, mình chưa biết phải nói năng sao cho đúng. Đứng lên nói trước cả công ty rất ngô nghê: _"Sếp em mời em đi ăn chè, em vui lắm. Sau đó về kể với mọi người thì mọi người bảo ai được đi ăn chè với sếp ở quán đấy thì đều được cho thôi việc"_ - cả hội trường cười ồ.
 
-Lần đầu lên chức, quản lý một đội nhóm. Mình thiếu sự sâu sắc và hồn nhiên tin vào những điều nhân viên chia sẻ, để chính một ngày bạn ấy quay trở lại và nói rằng :"Tại chị không hỏi kĩ" - Mình nhận ra mình thiếu chín chắn. Và mình cũng từng nghi ngờ chính mình.
+Lần đầu lên chức, quản lý một đội nhóm. Mình thiếu sự sâu sắc và hồn nhiên tin vào những điều nhân viên chia sẻ, để chính một ngày bạn ấy quay trở lại và nói rằng :"Tại chị không hỏi kĩ" - Mình nhận ra mình thiếu chín chắn. Và mình rất hoang mang ở thời điểm đó.
 
-Khi mình quản lý một nhãn hàng, một mình mình bơi ở môi trường mới, không có người cũ hand over, lãnh đạo thì cũng đang thử nghiệm với rất nhiều chiến lược mới. Để khi có biến cố, hậu quả đổ lên mình như thể mình đã tạo tác ra một thảm họa thế chiến thứ 4, không ai đến và nói với mình, không sao vì điều này em chưa hề biết. Mình nhận ra mình cần học thêm rất nhiều. 
+Khi mình quản lý một nhãn hàng, một mình mình bơi ở môi trường mới, không có người cũ hand over, lãnh đạo thì cũng đang thử nghiệm với rất nhiều chiến lược mới. Để khi có biến cố, hậu quả đổ lên mình như thể mình đã tạo tác ra một thảm họa thế chiến thứ 3, không ai đến và nói với mình, không sao vì điều này em chưa hề biết. Mình nhận ra những gì mình biết còn ít ỏi và mình cần học thêm rất nhiều. 
 
 Sau này học tâm lý học, mình mới hiểu rằng, học tập không chỉ là ghi nhớ kiến thức. Học tập là quá trình thay đổi dần cách mình suy nghĩ, phản ứng và hành động thông qua trải nghiệm.   Học tập là sự thay đổi dần hành vi và tâm trí thông qua những trải nghiệm ( Giáo trình tâm lý học và đời sống- NXB: Đại học QGHN). Mỗi lần thử, mỗi lần sai và mỗi lần điều chỉnh, bộ não của mình đang học cách thích nghi tốt hơn với điều mới. Và mình chấp nhận rằng lần đầu thì có thể mình làm chưa thật sự tốt, nên nghiêm túc học tập và cũng cần bao dung với bản thân.
 
 Học tập đem lại nhận thức đúng hơn về bản chất sự vật, hiện tượng, dự báo tốt hơn về môt số sự kiện có thể xảy ra, từ đó giúp nhận định chính xác và hành vi hiệu quả hơn, thích ứng tốt hơn.
 
-Đó là lý do nếu bạn chưa biết phản ứng, xử lý, nhận định, thích ứng với một việc gì đó nếu nó MỚI? Nó không KHÓ, nó chỉ MỚI. Đừng nhầm giữa 'mình chưa biết' và 'mình không thể', bạn yêu nhé.
+Đó là lý do nếu bạn chưa biết phản ứng, xử lý, nhận định, thích ứng với một việc gì đó nếu nó MỚI?
+
+ Nó không KHÓ, nó chỉ MỚI.
+
+Đừng buồn vì có những bài học, chỉ có duy nhất thời gian mới dạy được bạn.
