@@ -16,7 +16,7 @@ Không kể là bạn bao nhiêu tuổi, phía trước chúng mình vẫn còn 
 
 Mà để có được điều đó, thứ quyết định không phải là bối cảnh xung quanh bạn, những người thân cận với bạn có tốt lên không, hay bạn kiếm được nhiều tiền đến đâu, thứ tiên quyết để bạn bắt đầu sống hạnh phúc và tập trung vào chính mình đó là bạn phải có một mindset **đúng đắn** về bản thân trước đã.
 
-Cách đây 3 tiếng, mình đi làm nail ở hàng quen. Lâu ngày không gặp nhưng em thấy mình là tíu tít, vừa "cắt da" em vừa tâm sự rằng em mới chia tay người yêu, cậu bạn cùng năm sinh với mình mà trước em đã kể mấy lần, và hỏi "_khi buồn thì chị thường làm gì hả chị_?"
+Cách đây 3 tiếng, mình đi làm nail ở hàng quen. Lâu ngày không gặp nhưng em thấy mình là tíu tít, vừa "cắt da" em vừa tâm sự rằng em mới chia tay người yêu, cậu bạn cùng năm sinh với mình mà trước em đã kể mấy lần, và hỏi: "_khi buồn thì chị thường làm gì hả chị_?"
 
 Mình cười, nghĩ thầm, ai cũng gặp những chuyện thế này nhỉ. Em ấy hỏi như thể mình là một người không biết buồn vậy, nhưng em nhầm to.
 
