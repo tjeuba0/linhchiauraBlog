@@ -58,7 +58,7 @@ Trong Cloudflare Dashboard, mở **Workers & Pages → linhchiaura → Settings 
 
 | Tên | Loại | Bắt buộc | Giá trị |
 | --- | --- | --- | --- |
-| `SITE_URL` | Variable | Không | Ghi đè origin production mặc định `https://linhchiaura.khoivandev.workers.dev` khi đổi domain |
+| `SITE_URL` | Build variable | Không | Ghi đè origin production mặc định `https://linhchiaura.uk`; cấu hình ở Builds, không phải runtime |
 | `RESEND_API_KEY` | Secret | Có | API key bắt đầu bằng `re_` |
 | `CONTACT_TO_EMAIL` | Variable | Có | Email sẽ nhận lời nhắn, ví dụ `linh@example.com` |
 | `CONTACT_FROM_EMAIL` | Variable | Có | Người gửi thuộc domain Resend đã xác minh, ví dụ `Linhchiaura <hopthu@example.com>` |
@@ -67,7 +67,9 @@ Trong Cloudflare Dashboard, mở **Workers & Pages → linhchiaura → Settings 
 
 Không đưa `RESEND_API_KEY` hay `TURNSTILE_SECRET_KEY` vào biến `PUBLIC_*`, mã frontend hoặc Git.
 
-`SITE_URL` là nguồn tạo canonical, Open Graph, RSS và sitemap. Project đã dùng `https://linhchiaura.khoivandev.workers.dev` làm mặc định; chỉ cần khai báo biến này khi chuyển sang domain khác.
+`SITE_URL` là nguồn tạo canonical, Open Graph, RSS, sitemap và đường dẫn sitemap trong robots.txt. Project dùng `https://linhchiaura.uk` làm mặc định. Trong Cloudflare Worker → Settings → Builds, kiểm tra biến môi trường build: nếu đã có `SITE_URL` trỏ tới domain cũ, đổi thành `https://linhchiaura.uk` hoặc xóa override để dùng mặc định trong code. Phải build và deploy lại; chỉ thay biến runtime không cập nhật URL trong các trang đã prerender.
+
+Khi đưa thay đổi domain lên production: review diff → commit các file liên quan → push → đợi Workers Builds deploy thành công → kiểm tra canonical/og:url trên trang chủ và bài viết, `/rss.xml`, `/sitemap-index.xml`, `/sitemap-0.xml`, `/robots.txt` trên domain mới. Giữ nguyên URL Worker xác thực trong `public/admin/config.yml`, cấu hình Safari cũ và thông tin Resend/Turnstile. Chuyển hướng domain cũ là bước riêng sau khi xác nhận CMS và gửi thư hoạt động trên domain mới.
 
 Turnstile là tùy chọn nhưng phải cấu hình theo cặp: `PUBLIC_TURNSTILE_SITE_KEY` cho build frontend và `TURNSTILE_SECRET_KEY` cho Worker endpoint. Nếu chỉ đặt secret, mọi request thật sẽ bị từ chối.
 

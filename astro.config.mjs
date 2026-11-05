@@ -7,7 +7,8 @@ import sitemap from '@astrojs/sitemap';
 
 import cloudflare from '@astrojs/cloudflare';
 
-const productionSite = 'https://linhchiaura.khoivandev.workers.dev';
+const productionSite = 'https://linhchiaura.uk';
+// Build-time override; changing Worker runtime variables cannot update prerendered URLs.
 const configuredSite = process.env.SITE_URL?.trim() || productionSite;
 
 // https://astro.build/config
