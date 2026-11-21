@@ -30,4 +30,8 @@ Nhưng mình không nghĩ đó đơn thuần là một quyết định một chi
 
 Và đôi khi, điều ta cần buông bỏ không phải là một người, một công việc hay một môi trường bên ngoài. Mà chính là con người cũ của mình. Đấy cũng là một kiểu BUÔNG BỎ.
 
-rước mặt mình là bến thuyền. Mình muốn sang bờ bên kia, vậy thì mình cần một con thuyền để đưa mình đến đó. Nhưng mình muốn hỏi bạn một câu: Khi đã cập bến, liệu bạn có còn muốn vác con thuyền ấy trên vai để tiếp tục cuộc hành trình của mình không?
+Trước mặt mình là bến thuyền. Mình muốn sang bờ bên kia, vậy thì mình cần một con thuyền để đưa mình đến đó. Nhưng mình muốn hỏi bạn một câu: Khi đã cập bến, liệu bạn có còn muốn vác con thuyền ấy trên vai để tiếp tục cuộc hành trình của mình không?
+
+Con thuyền đã đưa bạn sang bờ bên kia. Hãy biết ơn nó, nhưng cũng đừng vì thế mà mang nó trên vai suốt phần đời còn lại. Học cách bình thản với những đổi thay của thế cuộc. Học cách bước ra khỏi những điều không còn phù hợp. Học cách buông xuống những trải nghiệm khi chúng đã hoàn thành vai trò của mình, để tiếp tục khám phá, trưởng thành và tiến về phía trước.
+
+Bởi cuộc sống vốn không phải là hành trình tích lũy thật nhiều thứ để mang theo, mà còn là hành trình học cách nhận ra điều gì thực sự cần thiết để giữ lại, điều gì nên được trân trọng trong ký ức và điều gì đã đến lúc cần đặt xuống. Hãy trân trọng con thuyền, trân trọng cả hành trình đã qua. Nhưng khi đã đến bờ, hãy để đôi vai mình được tự do.
