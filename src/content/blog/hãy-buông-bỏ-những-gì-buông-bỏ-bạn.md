@@ -1,7 +1,7 @@
 ---
 title: Hãy BUÔNG BỎ những gì BUÔNG BỎ bạn
 tag: Chữa lành - Con người & Các mối quan hệ
-date: 2026-11-20
+date: 2026-11-21
 readingMinutes: 3
 excerpt: Khi bạn đã đi qua dòng sông rồi, liệu bạn có còn muốn vác con thuyền trên vai để tiếp tục cuộc hành trình của mình không?
 ---
